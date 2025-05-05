@@ -1,0 +1,1001 @@
+company_size,industry,data_type,deployment_type,iops_requirement,latency_sensitivity,data_growth_rate,availability_sla,security_level,compliance_needs,storage_budget_needed,concurrent_users,geo_distribution,backup_frequency,preferred_protocols,location,workload_type,latency_requirement_ms,deployment_preference,expected_growth_rate,Predicted_Recommended_Storage
+Medium,Education,Unstructured,On-Premise,16977,High,Moderate,99.90%,Medium,GDPR,<10k,10000,Local,Monthly,Fibre Channel,US-West,Archive,5,Customer-managed,30-60%,Object
+Enterprise,Healthcare,Unstructured,Cloud,10284,Moderate,Moderate,99.90%,Low,GDPR,50k-100k,50000,Global,Monthly,NFS,US-East,Transactional,1,Vendor-managed,>60%,File
+Medium,Finance,Unstructured,Cloud,14263,High,Fast,99.99%,Low,SOX,10k-50k,1000,Regional,Daily,Fibre Channel,APAC-South,Analytical,10,Vendor-managed,>60%,Object
+Medium,Finance,Structured,Cloud,282,High,Fast,99.99%,Low,GDPR,>100k,1000,Global,Real-time,iSCSI,US-West,Transactional,10,Vendor-managed,10-30%,Object
+Small,Healthcare,Semi-structured,On-Premise,9976,High,Fast,99.90%,High,GDPR,<10k,1000,Local,Weekly,SMB,US-East,Archive,5,Vendor-managed,>60%,Block
+Medium,Healthcare,Unstructured,On-Premise,2191,Moderate,Moderate,99.00%,Low,GDPR,<10k,10000,Global,Daily,NFS,EU-Central,Analytical,20,Customer-managed,<10%,File
+Small,Education,Unstructured,Hybrid,8768,High,Slow,99.99%,Medium,GDPR,10k-50k,50000,Global,Weekly,NFS,US-East,Transactional,10,Vendor-managed,30-60%,File
+Small,Healthcare,Structured,On-Premise,8808,Moderate,Fast,99.90%,High,SOX,10k-50k,100,Global,Daily,SMB,US-East,Transactional,20,Vendor-managed,>60%,Object
+Medium,Retail,Semi-structured,Cloud,16686,High,Fast,99.00%,High,SOX,>100k,10000,Regional,Weekly,NFS,US-East,Archive,5,Co-managed,10-30%,Tiered
+Enterprise,Healthcare,Structured,Hybrid,912,High,Moderate,99.90%,Medium,PCI-DSS,>100k,10000,Local,Real-time,NFS,US-West,Analytical,20,Co-managed,10-30%,Tiered
+Enterprise,Tech,Semi-structured,Hybrid,13030,Low,Moderate,99.99%,High,HIPAA,10k-50k,50000,Local,Weekly,NFS,APAC-South,Analytical,1,Vendor-managed,<10%,Tiered
+Enterprise,Finance,Semi-structured,Hybrid,12229,High,Slow,99.90%,High,SOX,50k-100k,10,Global,Daily,iSCSI,US-East,Transactional,5,Co-managed,<10%,File
+Enterprise,Tech,Semi-structured,Cloud,13198,High,Fast,99.90%,Medium,PCI-DSS,>100k,1000,Regional,Real-time,Fibre Channel,EU-Central,Archive,5,Customer-managed,<10%,File
+Medium,Tech,Semi-structured,On-Premise,18345,High,Moderate,99.00%,Medium,SOX,<10k,10,Local,Weekly,Fibre Channel,EU-Central,Analytical,1,Customer-managed,>60%,Tiered
+Enterprise,Education,Unstructured,Cloud,15621,Low,Fast,99.00%,Low,HIPAA,50k-100k,50000,Local,Monthly,NFS,APAC-South,Analytical,1,Co-managed,>60%,Block
+Small,Finance,Unstructured,Cloud,1317,High,Fast,99.99%,Medium,SOX,<10k,10000,Local,Real-time,Fibre Channel,US-West,Analytical,1,Vendor-managed,30-60%,Tiered
+Enterprise,Retail,Structured,On-Premise,12399,Low,Moderate,99.00%,Medium,SOX,>100k,1000,Local,Monthly,Fibre Channel,EU-Central,Archive,1,Vendor-managed,<10%,Block
+Enterprise,Education,Unstructured,On-Premise,12973,Low,Fast,99.99%,Medium,SOX,>100k,10000,Local,Monthly,iSCSI,US-West,Archive,1,Co-managed,<10%,Block
+Small,Finance,Semi-structured,On-Premise,12596,High,Slow,99.90%,High,SOX,>100k,10,Local,Real-time,iSCSI,US-East,Archive,20,Vendor-managed,30-60%,Block
+Small,Education,Semi-structured,Cloud,9233,Low,Slow,99.90%,Low,GDPR,50k-100k,1000,Regional,Daily,iSCSI,US-East,Transactional,20,Co-managed,10-30%,Block
+Enterprise,Education,Semi-structured,On-Premise,9327,Low,Slow,99.00%,High,SOX,10k-50k,100,Local,Weekly,NFS,US-East,Analytical,20,Co-managed,30-60%,File
+Small,Retail,Structured,Hybrid,4513,Moderate,Fast,99.99%,High,HIPAA,10k-50k,100,Global,Monthly,iSCSI,APAC-South,Analytical,10,Co-managed,<10%,Object
+Enterprise,Retail,Semi-structured,Cloud,16095,High,Moderate,99.90%,High,GDPR,10k-50k,10000,Global,Weekly,SMB,APAC-South,Transactional,5,Customer-managed,<10%,File
+Small,Tech,Semi-structured,Cloud,19553,High,Slow,99.99%,High,PCI-DSS,50k-100k,10000,Local,Daily,SMB,EU-Central,Transactional,1,Customer-managed,<10%,Object
+Medium,Education,Structured,Cloud,1979,Low,Slow,99.99%,Medium,GDPR,>100k,1000,Regional,Real-time,Fibre Channel,EU-Central,Archive,5,Vendor-managed,<10%,Tiered
+Enterprise,Tech,Structured,On-Premise,8867,Low,Fast,99.99%,High,SOX,10k-50k,10,Local,Daily,SMB,US-East,Archive,1,Vendor-managed,>60%,Object
+Medium,Tech,Semi-structured,On-Premise,17938,Moderate,Fast,99.99%,High,GDPR,50k-100k,10,Local,Weekly,iSCSI,US-East,Archive,10,Customer-managed,10-30%,File
+Enterprise,Healthcare,Structured,Cloud,8154,Moderate,Fast,99.90%,Medium,PCI-DSS,<10k,50000,Regional,Weekly,iSCSI,US-West,Analytical,5,Customer-managed,30-60%,Block
+Enterprise,Education,Semi-structured,On-Premise,8901,Low,Fast,99.99%,Low,GDPR,10k-50k,100,Local,Weekly,iSCSI,APAC-South,Analytical,5,Vendor-managed,<10%,Object
+Medium,Finance,Semi-structured,Cloud,6947,High,Slow,99.90%,Medium,PCI-DSS,>100k,50000,Global,Real-time,Fibre Channel,US-West,Analytical,5,Vendor-managed,30-60%,File
+Small,Retail,Unstructured,Cloud,3890,Low,Moderate,99.90%,High,SOX,50k-100k,1000,Global,Real-time,Fibre Channel,EU-Central,Transactional,1,Vendor-managed,30-60%,File
+Medium,Tech,Structured,Hybrid,15147,Moderate,Moderate,99.90%,Low,PCI-DSS,10k-50k,10000,Local,Weekly,iSCSI,EU-Central,Analytical,5,Customer-managed,>60%,File
+Enterprise,Tech,Unstructured,Cloud,19238,High,Fast,99.99%,High,SOX,<10k,100,Regional,Real-time,Fibre Channel,US-East,Analytical,5,Vendor-managed,10-30%,Tiered
+Small,Retail,Structured,Cloud,2493,High,Fast,99.99%,Medium,GDPR,50k-100k,10,Global,Real-time,SMB,APAC-South,Transactional,1,Customer-managed,30-60%,File
+Small,Healthcare,Semi-structured,Cloud,13203,High,Fast,99.00%,Medium,GDPR,10k-50k,50000,Global,Real-time,NFS,US-East,Archive,5,Vendor-managed,10-30%,Object
+Small,Healthcare,Structured,On-Premise,12281,Low,Moderate,99.00%,Medium,PCI-DSS,10k-50k,1000,Global,Monthly,iSCSI,APAC-South,Analytical,1,Co-managed,>60%,Tiered
+Small,Education,Unstructured,Cloud,6452,High,Fast,99.00%,Low,PCI-DSS,>100k,10,Local,Real-time,iSCSI,US-East,Archive,20,Co-managed,>60%,Block
+Enterprise,Tech,Semi-structured,Cloud,8504,Low,Moderate,99.90%,High,PCI-DSS,>100k,10,Global,Daily,iSCSI,US-West,Archive,1,Vendor-managed,>60%,Object
+Enterprise,Education,Unstructured,Cloud,18184,Low,Fast,99.99%,Low,SOX,<10k,10000,Regional,Real-time,NFS,EU-Central,Analytical,1,Customer-managed,>60%,Block
+Small,Finance,Semi-structured,Hybrid,14966,Moderate,Fast,99.99%,Medium,HIPAA,>100k,100,Local,Weekly,SMB,EU-Central,Analytical,20,Co-managed,<10%,Object
+Small,Finance,Structured,Hybrid,9805,High,Slow,99.00%,Low,SOX,50k-100k,10000,Global,Real-time,NFS,US-East,Analytical,1,Customer-managed,10-30%,Block
+Enterprise,Education,Unstructured,Hybrid,4577,High,Slow,99.00%,High,GDPR,<10k,50000,Regional,Monthly,iSCSI,US-West,Transactional,5,Customer-managed,<10%,Tiered
+Medium,Education,Structured,Cloud,5942,Moderate,Slow,99.99%,Medium,HIPAA,<10k,10000,Global,Daily,SMB,APAC-South,Analytical,20,Customer-managed,<10%,File
+Small,Tech,Unstructured,Hybrid,4723,Low,Slow,99.90%,High,SOX,50k-100k,50000,Regional,Weekly,iSCSI,US-East,Archive,20,Customer-managed,10-30%,Object
+Enterprise,Retail,Semi-structured,On-Premise,4396,Low,Fast,99.99%,High,PCI-DSS,>100k,50000,Global,Real-time,iSCSI,US-West,Archive,20,Customer-managed,30-60%,Tiered
+Small,Healthcare,Structured,On-Premise,6699,Low,Moderate,99.99%,Low,HIPAA,10k-50k,50000,Global,Real-time,SMB,APAC-South,Transactional,5,Co-managed,10-30%,File
+Medium,Finance,Semi-structured,Hybrid,14587,Low,Slow,99.00%,Low,HIPAA,50k-100k,100,Regional,Weekly,iSCSI,APAC-South,Archive,20,Vendor-managed,<10%,Block
+Enterprise,Retail,Structured,On-Premise,15977,High,Moderate,99.00%,Medium,HIPAA,50k-100k,10000,Local,Monthly,SMB,EU-Central,Archive,20,Vendor-managed,10-30%,File
+Medium,Healthcare,Semi-structured,Cloud,3874,Low,Moderate,99.90%,High,PCI-DSS,50k-100k,50000,Local,Weekly,Fibre Channel,US-West,Analytical,20,Customer-managed,>60%,Object
+Small,Retail,Semi-structured,Cloud,4269,High,Fast,99.90%,High,SOX,50k-100k,100,Regional,Monthly,Fibre Channel,EU-Central,Transactional,5,Customer-managed,<10%,Object
+Medium,Healthcare,Unstructured,Cloud,4983,Moderate,Moderate,99.99%,High,PCI-DSS,10k-50k,10000,Global,Daily,iSCSI,US-West,Archive,10,Vendor-managed,30-60%,Object
+Medium,Education,Structured,Cloud,4715,Low,Slow,99.99%,High,PCI-DSS,<10k,1000,Regional,Weekly,NFS,APAC-South,Analytical,10,Co-managed,>60%,Object
+Small,Tech,Unstructured,Cloud,10897,Moderate,Fast,99.99%,Medium,SOX,<10k,50000,Global,Monthly,iSCSI,US-West,Transactional,20,Co-managed,>60%,Block
+Enterprise,Healthcare,Semi-structured,Hybrid,15540,High,Slow,99.00%,High,PCI-DSS,10k-50k,100,Regional,Weekly,Fibre Channel,US-West,Analytical,5,Customer-managed,10-30%,Block
+Enterprise,Finance,Unstructured,Hybrid,9659,Low,Moderate,99.00%,Low,GDPR,10k-50k,10,Regional,Monthly,SMB,US-East,Transactional,5,Co-managed,>60%,Tiered
+Enterprise,Finance,Structured,Cloud,3820,Moderate,Slow,99.99%,High,PCI-DSS,<10k,10000,Global,Real-time,iSCSI,APAC-South,Analytical,10,Customer-managed,<10%,Object
+Enterprise,Tech,Unstructured,On-Premise,2229,Low,Slow,99.90%,Low,SOX,50k-100k,100,Local,Real-time,NFS,APAC-South,Archive,10,Co-managed,30-60%,File
+Small,Finance,Semi-structured,Cloud,18201,Low,Fast,99.00%,High,SOX,10k-50k,100,Regional,Weekly,SMB,US-West,Transactional,5,Co-managed,>60%,Block
+Medium,Finance,Semi-structured,Cloud,2791,Moderate,Moderate,99.99%,High,SOX,<10k,50000,Local,Monthly,NFS,US-West,Analytical,10,Co-managed,30-60%,Block
+Medium,Healthcare,Structured,Hybrid,13001,Moderate,Moderate,99.90%,High,GDPR,10k-50k,100,Local,Real-time,SMB,EU-Central,Archive,10,Customer-managed,>60%,Object
+Medium,Tech,Semi-structured,Hybrid,12692,High,Moderate,99.00%,Medium,HIPAA,10k-50k,10,Local,Weekly,Fibre Channel,US-West,Archive,1,Customer-managed,10-30%,File
+Enterprise,Retail,Unstructured,Cloud,7258,High,Fast,99.99%,Medium,SOX,50k-100k,1000,Regional,Weekly,NFS,APAC-South,Transactional,5,Customer-managed,30-60%,Object
+Medium,Education,Unstructured,Hybrid,9233,Moderate,Slow,99.00%,Low,GDPR,<10k,100,Global,Daily,Fibre Channel,EU-Central,Analytical,5,Co-managed,>60%,Object
+Small,Healthcare,Unstructured,Cloud,18155,Low,Moderate,99.90%,Medium,SOX,10k-50k,50000,Regional,Monthly,NFS,EU-Central,Transactional,5,Customer-managed,>60%,Block
+Enterprise,Education,Semi-structured,On-Premise,12664,Low,Fast,99.90%,Low,GDPR,50k-100k,10000,Local,Daily,iSCSI,US-West,Analytical,1,Vendor-managed,10-30%,Tiered
+Small,Education,Unstructured,Cloud,8999,Moderate,Moderate,99.99%,High,HIPAA,50k-100k,10,Regional,Daily,Fibre Channel,APAC-South,Transactional,20,Vendor-managed,10-30%,Object
+Medium,Tech,Structured,On-Premise,3349,Moderate,Fast,99.90%,Low,PCI-DSS,10k-50k,10,Global,Real-time,iSCSI,APAC-South,Transactional,10,Co-managed,10-30%,Block
+Medium,Tech,Semi-structured,Hybrid,10300,Low,Fast,99.00%,Low,PCI-DSS,10k-50k,50000,Regional,Real-time,iSCSI,APAC-South,Transactional,10,Co-managed,>60%,Block
+Medium,Education,Structured,Hybrid,11876,High,Slow,99.99%,Low,HIPAA,10k-50k,10000,Local,Monthly,Fibre Channel,US-East,Archive,10,Customer-managed,10-30%,File
+Enterprise,Tech,Unstructured,On-Premise,11754,Moderate,Fast,99.99%,Low,GDPR,50k-100k,50000,Global,Real-time,NFS,US-East,Analytical,5,Customer-managed,10-30%,Tiered
+Small,Education,Unstructured,Cloud,12958,Low,Slow,99.99%,Low,HIPAA,>100k,10000,Local,Monthly,SMB,EU-Central,Analytical,10,Vendor-managed,<10%,Tiered
+Enterprise,Finance,Unstructured,Cloud,18704,Low,Slow,99.99%,Low,HIPAA,10k-50k,100,Local,Real-time,Fibre Channel,US-East,Analytical,5,Co-managed,>60%,File
+Enterprise,Tech,Unstructured,On-Premise,12316,Moderate,Fast,99.99%,High,GDPR,>100k,1000,Local,Monthly,SMB,EU-Central,Transactional,10,Customer-managed,>60%,Tiered
+Enterprise,Finance,Semi-structured,On-Premise,2403,Low,Moderate,99.99%,High,PCI-DSS,<10k,10000,Global,Monthly,iSCSI,US-West,Analytical,1,Customer-managed,>60%,Tiered
+Medium,Tech,Structured,Cloud,1912,Moderate,Moderate,99.99%,Medium,HIPAA,>100k,50000,Local,Real-time,Fibre Channel,US-East,Transactional,1,Co-managed,30-60%,Tiered
+Small,Finance,Semi-structured,Hybrid,5975,Low,Fast,99.90%,Medium,SOX,<10k,100,Global,Weekly,SMB,APAC-South,Analytical,10,Vendor-managed,>60%,Object
+Small,Healthcare,Structured,Cloud,18090,Low,Slow,99.99%,Medium,PCI-DSS,50k-100k,1000,Regional,Weekly,iSCSI,US-West,Analytical,20,Co-managed,>60%,File
+Small,Finance,Semi-structured,Hybrid,460,Low,Moderate,99.00%,Low,GDPR,50k-100k,1000,Local,Daily,SMB,APAC-South,Archive,1,Vendor-managed,>60%,Object
+Small,Retail,Structured,Hybrid,4146,Moderate,Slow,99.99%,Low,SOX,50k-100k,10,Local,Monthly,Fibre Channel,US-East,Transactional,5,Vendor-managed,>60%,File
+Small,Tech,Unstructured,Hybrid,8090,High,Fast,99.99%,High,HIPAA,10k-50k,10,Global,Monthly,SMB,US-West,Transactional,10,Customer-managed,10-30%,Tiered
+Enterprise,Tech,Semi-structured,Cloud,16910,Moderate,Moderate,99.90%,High,SOX,<10k,10,Global,Daily,iSCSI,EU-Central,Archive,1,Co-managed,10-30%,Block
+Enterprise,Retail,Semi-structured,On-Premise,11280,Moderate,Moderate,99.90%,Low,HIPAA,10k-50k,10,Regional,Weekly,iSCSI,APAC-South,Transactional,1,Customer-managed,10-30%,File
+Enterprise,Education,Unstructured,Hybrid,4152,Moderate,Moderate,99.00%,Low,PCI-DSS,<10k,1000,Regional,Daily,iSCSI,EU-Central,Analytical,1,Vendor-managed,<10%,File
+Enterprise,Healthcare,Semi-structured,Hybrid,19022,Low,Slow,99.00%,Medium,PCI-DSS,>100k,10,Regional,Real-time,Fibre Channel,US-East,Analytical,10,Vendor-managed,>60%,File
+Enterprise,Education,Semi-structured,On-Premise,759,High,Slow,99.99%,Low,GDPR,10k-50k,50000,Local,Daily,SMB,EU-Central,Analytical,1,Customer-managed,<10%,File
+Enterprise,Retail,Semi-structured,Hybrid,4678,Low,Fast,99.99%,Low,HIPAA,10k-50k,100,Local,Real-time,NFS,US-West,Transactional,10,Co-managed,>60%,Object
+Enterprise,Education,Unstructured,Cloud,1517,Moderate,Slow,99.00%,High,GDPR,50k-100k,50000,Local,Daily,SMB,US-East,Archive,10,Co-managed,10-30%,Object
+Medium,Education,Structured,Cloud,605,Low,Slow,99.99%,Medium,HIPAA,>100k,1000,Global,Real-time,NFS,US-East,Archive,5,Co-managed,>60%,Tiered
+Medium,Retail,Structured,Cloud,5240,Low,Fast,99.99%,Low,PCI-DSS,10k-50k,100,Regional,Weekly,iSCSI,US-East,Transactional,5,Co-managed,<10%,File
+Small,Tech,Semi-structured,Cloud,9852,Moderate,Slow,99.90%,Medium,HIPAA,10k-50k,50000,Local,Real-time,Fibre Channel,EU-Central,Archive,10,Vendor-managed,30-60%,File
+Medium,Healthcare,Structured,Hybrid,10456,Moderate,Slow,99.99%,High,SOX,<10k,50000,Global,Monthly,NFS,US-East,Analytical,5,Customer-managed,>60%,File
+Enterprise,Education,Structured,On-Premise,11713,High,Fast,99.99%,Medium,HIPAA,<10k,50000,Regional,Real-time,iSCSI,EU-Central,Transactional,10,Co-managed,>60%,Object
+Small,Finance,Structured,On-Premise,19479,High,Fast,99.99%,High,GDPR,<10k,10000,Local,Daily,NFS,APAC-South,Transactional,1,Co-managed,10-30%,Block
+Small,Retail,Semi-structured,Hybrid,16887,High,Moderate,99.99%,High,PCI-DSS,>100k,10,Regional,Monthly,SMB,EU-Central,Archive,5,Vendor-managed,<10%,Object
+Small,Finance,Semi-structured,On-Premise,2955,Low,Slow,99.99%,High,SOX,<10k,10,Regional,Weekly,Fibre Channel,APAC-South,Transactional,20,Customer-managed,<10%,File
+Small,Retail,Structured,Cloud,18490,High,Slow,99.90%,Medium,PCI-DSS,<10k,10,Global,Weekly,iSCSI,US-West,Archive,1,Co-managed,>60%,Block
+Medium,Finance,Structured,On-Premise,4396,High,Fast,99.90%,High,HIPAA,>100k,10000,Global,Daily,SMB,US-West,Archive,5,Vendor-managed,30-60%,File
+Medium,Education,Structured,Cloud,2385,Low,Slow,99.00%,Low,HIPAA,10k-50k,100,Local,Monthly,Fibre Channel,US-East,Transactional,5,Co-managed,10-30%,File
+Small,Education,Unstructured,Cloud,16183,Moderate,Slow,99.90%,Medium,SOX,<10k,10,Local,Daily,SMB,US-East,Transactional,1,Co-managed,10-30%,Object
+Enterprise,Tech,Unstructured,Hybrid,4864,Low,Slow,99.00%,Medium,HIPAA,10k-50k,50000,Regional,Weekly,iSCSI,APAC-South,Transactional,5,Vendor-managed,>60%,Block
+Medium,Healthcare,Semi-structured,On-Premise,14429,Low,Fast,99.00%,Medium,HIPAA,>100k,1000,Global,Daily,NFS,US-West,Archive,20,Vendor-managed,30-60%,File
+Medium,Finance,Structured,Hybrid,13241,Low,Fast,99.99%,Low,HIPAA,>100k,100,Global,Weekly,SMB,APAC-South,Analytical,10,Vendor-managed,30-60%,Object
+Medium,Retail,Unstructured,Hybrid,13155,High,Fast,99.00%,Low,SOX,50k-100k,10,Local,Daily,Fibre Channel,APAC-South,Analytical,5,Vendor-managed,>60%,Block
+Small,Healthcare,Unstructured,On-Premise,786,High,Fast,99.99%,High,HIPAA,>100k,50000,Regional,Monthly,Fibre Channel,APAC-South,Archive,20,Co-managed,<10%,File
+Small,Tech,Unstructured,On-Premise,7059,Low,Slow,99.90%,High,HIPAA,>100k,10,Local,Daily,NFS,EU-Central,Archive,1,Co-managed,30-60%,File
+Enterprise,Retail,Unstructured,On-Premise,12977,Moderate,Slow,99.00%,Low,GDPR,<10k,1000,Local,Daily,NFS,US-East,Transactional,20,Customer-managed,10-30%,Object
+Enterprise,Tech,Semi-structured,Hybrid,2165,Low,Fast,99.00%,Low,GDPR,>100k,10,Regional,Weekly,iSCSI,APAC-South,Archive,10,Customer-managed,>60%,Tiered
+Medium,Finance,Semi-structured,On-Premise,16873,Low,Moderate,99.00%,Low,PCI-DSS,>100k,50000,Local,Weekly,iSCSI,APAC-South,Archive,1,Co-managed,<10%,Tiered
+Small,Tech,Unstructured,On-Premise,10351,High,Slow,99.99%,High,GDPR,<10k,1000,Local,Real-time,SMB,APAC-South,Analytical,20,Customer-managed,<10%,Block
+Enterprise,Retail,Unstructured,On-Premise,18171,Moderate,Slow,99.99%,High,HIPAA,>100k,100,Global,Monthly,NFS,US-East,Archive,5,Customer-managed,30-60%,File
+Enterprise,Healthcare,Semi-structured,On-Premise,10818,Low,Moderate,99.99%,Medium,SOX,<10k,1000,Global,Daily,NFS,EU-Central,Archive,5,Vendor-managed,>60%,Block
+Small,Education,Structured,Cloud,3016,High,Moderate,99.00%,Medium,GDPR,<10k,10000,Global,Real-time,iSCSI,APAC-South,Transactional,20,Co-managed,<10%,Tiered
+Medium,Tech,Unstructured,On-Premise,211,Moderate,Moderate,99.90%,Low,PCI-DSS,50k-100k,50000,Regional,Monthly,NFS,US-West,Analytical,5,Co-managed,30-60%,Block
+Medium,Finance,Semi-structured,On-Premise,15733,High,Moderate,99.00%,Medium,SOX,10k-50k,100,Regional,Monthly,SMB,EU-Central,Archive,1,Customer-managed,10-30%,Tiered
+Medium,Finance,Unstructured,Cloud,13376,Low,Slow,99.00%,High,PCI-DSS,10k-50k,10,Global,Real-time,SMB,APAC-South,Archive,10,Co-managed,>60%,File
+Small,Healthcare,Semi-structured,Hybrid,10118,Moderate,Moderate,99.90%,Low,PCI-DSS,>100k,100,Local,Monthly,NFS,US-East,Archive,5,Vendor-managed,10-30%,Object
+Enterprise,Education,Semi-structured,On-Premise,3372,Low,Moderate,99.00%,Medium,HIPAA,50k-100k,10,Regional,Weekly,SMB,US-East,Archive,10,Customer-managed,>60%,Tiered
+Medium,Education,Structured,Hybrid,15984,High,Moderate,99.00%,Medium,HIPAA,>100k,10000,Regional,Real-time,iSCSI,EU-Central,Archive,5,Customer-managed,<10%,Tiered
+Medium,Tech,Structured,On-Premise,17943,Low,Slow,99.90%,Medium,SOX,10k-50k,100,Local,Weekly,iSCSI,APAC-South,Analytical,1,Customer-managed,10-30%,Block
+Enterprise,Education,Structured,Hybrid,1436,Low,Moderate,99.99%,Low,HIPAA,>100k,10000,Global,Real-time,SMB,US-East,Transactional,10,Co-managed,30-60%,Block
+Medium,Healthcare,Structured,Cloud,19745,Low,Moderate,99.00%,High,SOX,<10k,100,Global,Real-time,NFS,US-East,Analytical,20,Customer-managed,>60%,Block
+Medium,Tech,Unstructured,Cloud,596,Moderate,Slow,99.00%,Low,HIPAA,50k-100k,10000,Global,Weekly,SMB,US-East,Analytical,1,Customer-managed,<10%,Block
+Small,Finance,Structured,On-Premise,8398,High,Moderate,99.99%,High,HIPAA,<10k,100,Local,Daily,NFS,US-East,Analytical,20,Co-managed,>60%,Object
+Enterprise,Education,Structured,Cloud,8349,Moderate,Fast,99.99%,Low,PCI-DSS,50k-100k,100,Global,Monthly,SMB,EU-Central,Analytical,5,Customer-managed,>60%,Block
+Enterprise,Retail,Unstructured,Hybrid,9152,Moderate,Moderate,99.99%,High,SOX,<10k,1000,Regional,Monthly,Fibre Channel,EU-Central,Analytical,20,Co-managed,>60%,Tiered
+Medium,Tech,Unstructured,On-Premise,6376,Moderate,Slow,99.99%,Low,HIPAA,50k-100k,10000,Local,Real-time,iSCSI,US-East,Transactional,1,Co-managed,10-30%,Tiered
+Medium,Healthcare,Unstructured,Cloud,16827,High,Fast,99.90%,High,GDPR,>100k,10,Global,Weekly,NFS,US-West,Analytical,1,Customer-managed,10-30%,Block
+Enterprise,Retail,Semi-structured,On-Premise,15890,Low,Slow,99.90%,Low,GDPR,>100k,1000,Local,Daily,NFS,EU-Central,Analytical,1,Customer-managed,<10%,Tiered
+Small,Healthcare,Structured,Cloud,10142,High,Fast,99.90%,High,HIPAA,>100k,10000,Regional,Weekly,Fibre Channel,EU-Central,Transactional,20,Co-managed,30-60%,Block
+Small,Finance,Unstructured,Cloud,5431,High,Fast,99.99%,High,HIPAA,50k-100k,10000,Local,Daily,Fibre Channel,US-East,Analytical,10,Customer-managed,<10%,Object
+Small,Tech,Structured,On-Premise,163,High,Slow,99.90%,Low,GDPR,10k-50k,10,Local,Weekly,NFS,US-East,Archive,5,Customer-managed,10-30%,Object
+Small,Finance,Unstructured,Hybrid,11421,Moderate,Moderate,99.99%,Low,GDPR,50k-100k,10000,Regional,Weekly,SMB,EU-Central,Archive,20,Co-managed,30-60%,Object
+Medium,Finance,Semi-structured,On-Premise,13789,Moderate,Slow,99.90%,Low,SOX,<10k,100,Regional,Monthly,iSCSI,APAC-South,Archive,10,Co-managed,30-60%,File
+Small,Retail,Structured,Hybrid,12794,High,Fast,99.99%,Medium,PCI-DSS,<10k,10000,Local,Real-time,iSCSI,US-East,Archive,20,Co-managed,<10%,Object
+Enterprise,Finance,Unstructured,Hybrid,15340,High,Fast,99.90%,High,PCI-DSS,50k-100k,10,Regional,Daily,NFS,APAC-South,Archive,1,Customer-managed,<10%,File
+Medium,Finance,Semi-structured,Hybrid,8808,Moderate,Slow,99.99%,Low,HIPAA,>100k,10,Regional,Weekly,iSCSI,APAC-South,Archive,20,Co-managed,>60%,File
+Enterprise,Finance,Unstructured,Cloud,11375,Low,Moderate,99.99%,High,PCI-DSS,10k-50k,1000,Local,Real-time,SMB,US-West,Transactional,5,Customer-managed,<10%,Tiered
+Medium,Tech,Structured,Hybrid,7208,Moderate,Moderate,99.90%,High,HIPAA,>100k,1000,Regional,Real-time,SMB,EU-Central,Transactional,10,Customer-managed,<10%,Object
+Medium,Tech,Semi-structured,On-Premise,1992,High,Fast,99.90%,Medium,HIPAA,>100k,10,Local,Weekly,NFS,US-West,Transactional,1,Customer-managed,10-30%,Block
+Small,Education,Unstructured,On-Premise,12038,Low,Moderate,99.00%,Low,PCI-DSS,>100k,10,Regional,Daily,SMB,US-West,Transactional,1,Vendor-managed,10-30%,Block
+Small,Tech,Semi-structured,On-Premise,12645,Moderate,Slow,99.99%,Medium,SOX,<10k,10,Global,Daily,NFS,US-East,Analytical,5,Vendor-managed,30-60%,File
+Medium,Tech,Structured,Cloud,14252,High,Slow,99.99%,Low,PCI-DSS,<10k,100,Local,Monthly,Fibre Channel,US-East,Transactional,20,Vendor-managed,<10%,File
+Medium,Healthcare,Unstructured,Cloud,12683,Low,Slow,99.90%,Medium,SOX,10k-50k,10,Local,Monthly,SMB,US-East,Transactional,1,Vendor-managed,<10%,Tiered
+Enterprise,Finance,Structured,Cloud,7265,High,Slow,99.90%,Medium,SOX,50k-100k,50000,Global,Weekly,SMB,US-East,Archive,5,Vendor-managed,<10%,Object
+Enterprise,Education,Structured,Hybrid,12059,Low,Moderate,99.00%,Medium,GDPR,>100k,10,Regional,Weekly,Fibre Channel,US-West,Archive,10,Vendor-managed,30-60%,Object
+Enterprise,Tech,Unstructured,Cloud,18073,Moderate,Moderate,99.00%,Medium,GDPR,10k-50k,10000,Global,Real-time,iSCSI,US-East,Analytical,1,Customer-managed,<10%,Block
+Enterprise,Healthcare,Semi-structured,Hybrid,5929,High,Fast,99.90%,High,SOX,10k-50k,1000,Local,Daily,NFS,APAC-South,Archive,1,Vendor-managed,10-30%,Tiered
+Small,Tech,Semi-structured,Hybrid,14592,High,Moderate,99.99%,Medium,SOX,<10k,50000,Regional,Weekly,iSCSI,US-West,Archive,1,Vendor-managed,>60%,Block
+Small,Tech,Unstructured,Cloud,9025,High,Slow,99.90%,Low,HIPAA,<10k,1000,Local,Daily,iSCSI,US-East,Analytical,5,Customer-managed,<10%,Object
+Medium,Healthcare,Semi-structured,Hybrid,12667,Moderate,Moderate,99.00%,Low,GDPR,<10k,1000,Local,Weekly,Fibre Channel,US-East,Analytical,10,Customer-managed,>60%,Block
+Medium,Healthcare,Unstructured,Hybrid,10796,Moderate,Moderate,99.00%,Medium,GDPR,50k-100k,10000,Regional,Monthly,SMB,EU-Central,Transactional,10,Customer-managed,10-30%,Block
+Enterprise,Education,Structured,Hybrid,8268,High,Slow,99.90%,High,SOX,<10k,1000,Global,Monthly,NFS,US-East,Transactional,5,Co-managed,10-30%,Block
+Medium,Tech,Semi-structured,Cloud,16784,High,Moderate,99.00%,Low,HIPAA,10k-50k,100,Global,Weekly,Fibre Channel,US-East,Analytical,5,Vendor-managed,>60%,Object
+Small,Tech,Structured,Cloud,9621,Moderate,Moderate,99.90%,Medium,GDPR,50k-100k,10,Local,Weekly,NFS,US-East,Analytical,20,Vendor-managed,<10%,Tiered
+Enterprise,Retail,Unstructured,Cloud,11501,Low,Slow,99.99%,Medium,PCI-DSS,<10k,10000,Global,Daily,NFS,US-East,Transactional,1,Vendor-managed,30-60%,Object
+Small,Tech,Structured,Cloud,4868,High,Fast,99.90%,Medium,SOX,50k-100k,50000,Regional,Monthly,iSCSI,APAC-South,Analytical,5,Customer-managed,<10%,Tiered
+Small,Retail,Semi-structured,Cloud,13702,Moderate,Fast,99.00%,Medium,HIPAA,50k-100k,10000,Local,Daily,Fibre Channel,APAC-South,Transactional,20,Co-managed,10-30%,Object
+Enterprise,Healthcare,Unstructured,Cloud,5123,Low,Slow,99.99%,Low,SOX,50k-100k,50000,Local,Weekly,SMB,APAC-South,Analytical,10,Vendor-managed,30-60%,Tiered
+Enterprise,Retail,Unstructured,On-Premise,11457,High,Fast,99.99%,Medium,PCI-DSS,50k-100k,1000,Global,Daily,SMB,US-West,Analytical,10,Vendor-managed,>60%,Tiered
+Small,Education,Unstructured,Cloud,13437,Moderate,Moderate,99.99%,Medium,SOX,<10k,10,Global,Weekly,NFS,US-West,Transactional,10,Customer-managed,10-30%,Object
+Medium,Education,Unstructured,Hybrid,16519,Low,Slow,99.00%,Low,GDPR,<10k,1000,Global,Real-time,Fibre Channel,US-West,Transactional,5,Customer-managed,>60%,Block
+Medium,Healthcare,Semi-structured,On-Premise,8711,High,Slow,99.99%,Low,SOX,50k-100k,10000,Regional,Weekly,Fibre Channel,APAC-South,Transactional,1,Vendor-managed,<10%,Object
+Small,Finance,Structured,On-Premise,7108,High,Fast,99.00%,Low,GDPR,>100k,100,Regional,Monthly,NFS,US-West,Archive,20,Customer-managed,<10%,Object
+Small,Retail,Structured,Hybrid,19501,Moderate,Fast,99.99%,Low,HIPAA,50k-100k,50000,Regional,Daily,Fibre Channel,APAC-South,Transactional,20,Customer-managed,30-60%,Block
+Enterprise,Healthcare,Unstructured,Hybrid,2980,High,Fast,99.00%,Medium,PCI-DSS,>100k,1000,Regional,Daily,iSCSI,US-West,Analytical,20,Vendor-managed,30-60%,Tiered
+Small,Healthcare,Semi-structured,On-Premise,5588,High,Slow,99.00%,Medium,PCI-DSS,>100k,10000,Regional,Weekly,Fibre Channel,US-East,Transactional,10,Customer-managed,>60%,Tiered
+Small,Finance,Unstructured,On-Premise,12838,High,Slow,99.00%,Low,PCI-DSS,>100k,10000,Global,Daily,Fibre Channel,US-East,Archive,10,Co-managed,>60%,File
+Small,Retail,Semi-structured,Cloud,9167,High,Moderate,99.90%,Medium,HIPAA,50k-100k,100,Regional,Daily,NFS,APAC-South,Archive,20,Vendor-managed,<10%,Tiered
+Small,Retail,Unstructured,On-Premise,19028,High,Moderate,99.90%,High,GDPR,10k-50k,10000,Global,Monthly,SMB,APAC-South,Transactional,5,Co-managed,>60%,File
+Enterprise,Healthcare,Structured,Cloud,19180,High,Slow,99.90%,High,HIPAA,>100k,50000,Regional,Weekly,SMB,APAC-South,Transactional,20,Vendor-managed,10-30%,Object
+Small,Finance,Semi-structured,Hybrid,18390,Moderate,Slow,99.90%,Medium,PCI-DSS,50k-100k,100,Local,Daily,NFS,US-East,Analytical,5,Vendor-managed,>60%,File
+Medium,Retail,Unstructured,Cloud,19079,High,Slow,99.90%,Medium,GDPR,<10k,100,Regional,Daily,iSCSI,APAC-South,Transactional,1,Co-managed,30-60%,Object
+Enterprise,Education,Structured,On-Premise,101,Moderate,Moderate,99.00%,High,HIPAA,>100k,10,Regional,Daily,SMB,US-East,Archive,10,Customer-managed,30-60%,Block
+Enterprise,Finance,Unstructured,Cloud,1957,Low,Moderate,99.90%,Low,PCI-DSS,>100k,50000,Global,Real-time,SMB,EU-Central,Archive,10,Vendor-managed,30-60%,Block
+Small,Finance,Structured,Cloud,2375,Moderate,Fast,99.99%,Medium,PCI-DSS,<10k,10000,Local,Weekly,NFS,EU-Central,Transactional,20,Vendor-managed,<10%,Object
+Small,Retail,Unstructured,On-Premise,4499,Low,Moderate,99.99%,Low,SOX,10k-50k,10000,Global,Weekly,Fibre Channel,APAC-South,Analytical,1,Co-managed,10-30%,Tiered
+Small,Tech,Semi-structured,Cloud,7419,High,Slow,99.99%,Medium,SOX,>100k,10,Regional,Real-time,NFS,EU-Central,Transactional,5,Vendor-managed,>60%,Object
+Medium,Finance,Semi-structured,On-Premise,18327,Moderate,Fast,99.99%,Medium,SOX,<10k,100,Regional,Real-time,NFS,US-East,Analytical,20,Customer-managed,10-30%,Block
+Medium,Education,Structured,Hybrid,9147,High,Slow,99.90%,High,HIPAA,50k-100k,100,Local,Monthly,Fibre Channel,US-East,Analytical,5,Vendor-managed,30-60%,Tiered
+Small,Healthcare,Semi-structured,On-Premise,3719,High,Slow,99.90%,Medium,GDPR,<10k,10000,Regional,Real-time,iSCSI,EU-Central,Transactional,20,Customer-managed,>60%,Tiered
+Enterprise,Retail,Semi-structured,On-Premise,10302,High,Fast,99.90%,Medium,GDPR,>100k,10000,Global,Monthly,SMB,APAC-South,Analytical,20,Co-managed,10-30%,File
+Small,Retail,Semi-structured,Hybrid,5205,Moderate,Fast,99.90%,Medium,SOX,10k-50k,10000,Local,Real-time,SMB,US-West,Archive,20,Co-managed,10-30%,Block
+Small,Healthcare,Unstructured,On-Premise,6523,Moderate,Moderate,99.90%,Medium,GDPR,50k-100k,50000,Local,Weekly,NFS,EU-Central,Transactional,10,Customer-managed,30-60%,File
+Small,Finance,Unstructured,On-Premise,14221,Low,Moderate,99.00%,Low,HIPAA,<10k,100,Local,Daily,iSCSI,EU-Central,Analytical,5,Customer-managed,<10%,File
+Small,Finance,Structured,Cloud,1354,Low,Slow,99.00%,Low,PCI-DSS,>100k,10000,Regional,Real-time,iSCSI,US-East,Analytical,1,Customer-managed,>60%,Block
+Medium,Finance,Semi-structured,Hybrid,786,Low,Slow,99.00%,Medium,SOX,10k-50k,1000,Regional,Real-time,NFS,US-East,Transactional,10,Vendor-managed,10-30%,File
+Small,Tech,Semi-structured,Hybrid,13156,High,Fast,99.00%,Medium,GDPR,10k-50k,50000,Local,Real-time,SMB,APAC-South,Analytical,20,Vendor-managed,<10%,Object
+Enterprise,Healthcare,Unstructured,Hybrid,17491,Low,Fast,99.90%,Low,SOX,10k-50k,10,Global,Daily,iSCSI,EU-Central,Transactional,1,Co-managed,10-30%,File
+Small,Tech,Unstructured,On-Premise,9760,Moderate,Slow,99.99%,High,PCI-DSS,>100k,100,Global,Daily,iSCSI,US-West,Transactional,1,Customer-managed,10-30%,File
+Small,Retail,Unstructured,Cloud,1473,High,Fast,99.99%,Medium,HIPAA,50k-100k,10000,Local,Real-time,iSCSI,US-East,Archive,10,Customer-managed,30-60%,File
+Medium,Finance,Unstructured,Cloud,5081,Moderate,Slow,99.90%,Medium,SOX,<10k,1000,Global,Real-time,Fibre Channel,EU-Central,Archive,20,Vendor-managed,<10%,Object
+Enterprise,Finance,Structured,Cloud,787,Moderate,Slow,99.00%,High,SOX,>100k,1000,Local,Monthly,iSCSI,EU-Central,Transactional,5,Vendor-managed,10-30%,Object
+Small,Healthcare,Structured,Cloud,10338,Moderate,Slow,99.90%,Medium,HIPAA,<10k,10000,Local,Monthly,Fibre Channel,US-East,Transactional,20,Co-managed,30-60%,Object
+Enterprise,Healthcare,Structured,Hybrid,17900,Moderate,Moderate,99.00%,Medium,SOX,<10k,100,Global,Monthly,Fibre Channel,US-East,Transactional,10,Vendor-managed,30-60%,Tiered
+Enterprise,Tech,Unstructured,Hybrid,16979,Low,Slow,99.99%,Low,GDPR,50k-100k,10,Local,Daily,Fibre Channel,US-East,Transactional,10,Vendor-managed,30-60%,Object
+Medium,Education,Unstructured,Cloud,10298,High,Fast,99.90%,High,HIPAA,10k-50k,1000,Regional,Daily,NFS,APAC-South,Archive,20,Co-managed,<10%,Block
+Medium,Tech,Structured,Cloud,10693,Moderate,Fast,99.99%,Low,GDPR,50k-100k,1000,Local,Daily,SMB,EU-Central,Transactional,5,Customer-managed,10-30%,Block
+Small,Tech,Unstructured,Cloud,16059,Low,Moderate,99.00%,High,SOX,10k-50k,10,Global,Monthly,Fibre Channel,APAC-South,Analytical,1,Vendor-managed,<10%,Block
+Small,Finance,Structured,Hybrid,10766,Low,Moderate,99.90%,Medium,HIPAA,10k-50k,10,Global,Weekly,SMB,US-West,Analytical,10,Vendor-managed,10-30%,Object
+Medium,Healthcare,Unstructured,On-Premise,9324,High,Moderate,99.00%,High,GDPR,10k-50k,100,Global,Monthly,iSCSI,APAC-South,Archive,10,Vendor-managed,10-30%,Object
+Small,Tech,Structured,Hybrid,15194,Moderate,Slow,99.90%,Low,GDPR,10k-50k,50000,Regional,Weekly,NFS,US-West,Analytical,20,Co-managed,<10%,File
+Enterprise,Education,Unstructured,Cloud,16809,Low,Fast,99.90%,Medium,HIPAA,<10k,50000,Local,Daily,NFS,US-East,Analytical,10,Vendor-managed,30-60%,Object
+Small,Retail,Semi-structured,Cloud,340,High,Fast,99.00%,Medium,GDPR,>100k,1000,Local,Weekly,Fibre Channel,US-West,Transactional,5,Customer-managed,10-30%,File
+Small,Tech,Unstructured,On-Premise,15028,Moderate,Slow,99.00%,High,SOX,>100k,50000,Global,Daily,NFS,EU-Central,Archive,20,Co-managed,<10%,Tiered
+Small,Finance,Unstructured,Hybrid,8505,High,Slow,99.00%,Low,PCI-DSS,50k-100k,100,Local,Monthly,iSCSI,US-West,Transactional,5,Customer-managed,>60%,Tiered
+Medium,Education,Semi-structured,Cloud,18729,Moderate,Fast,99.99%,Low,HIPAA,>100k,10000,Global,Weekly,iSCSI,US-West,Transactional,5,Customer-managed,<10%,Object
+Medium,Healthcare,Structured,Hybrid,6950,High,Fast,99.90%,High,GDPR,>100k,10,Local,Weekly,NFS,US-East,Archive,1,Customer-managed,<10%,Tiered
+Medium,Tech,Unstructured,Hybrid,1880,High,Slow,99.00%,Medium,GDPR,<10k,10,Regional,Real-time,Fibre Channel,US-West,Transactional,5,Customer-managed,>60%,Block
+Enterprise,Healthcare,Semi-structured,Hybrid,1831,High,Fast,99.90%,High,SOX,50k-100k,50000,Regional,Real-time,SMB,US-West,Transactional,1,Vendor-managed,30-60%,Block
+Medium,Tech,Semi-structured,Cloud,377,Moderate,Moderate,99.90%,Low,HIPAA,<10k,50000,Local,Daily,NFS,US-East,Analytical,20,Co-managed,10-30%,Block
+Medium,Education,Semi-structured,Cloud,16631,Low,Moderate,99.00%,Medium,GDPR,<10k,100,Regional,Monthly,Fibre Channel,APAC-South,Analytical,20,Customer-managed,30-60%,Object
+Enterprise,Retail,Structured,Cloud,11342,Moderate,Moderate,99.90%,Medium,SOX,10k-50k,1000,Local,Monthly,NFS,APAC-South,Archive,1,Vendor-managed,>60%,Block
+Small,Retail,Structured,Cloud,10768,Moderate,Fast,99.00%,High,HIPAA,50k-100k,10,Local,Monthly,SMB,US-West,Analytical,5,Vendor-managed,10-30%,File
+Enterprise,Retail,Semi-structured,On-Premise,15904,Moderate,Fast,99.90%,Low,HIPAA,>100k,50000,Global,Daily,SMB,APAC-South,Analytical,1,Customer-managed,30-60%,Block
+Enterprise,Healthcare,Structured,Cloud,16135,Moderate,Moderate,99.00%,Low,PCI-DSS,50k-100k,100,Local,Monthly,NFS,US-West,Analytical,10,Co-managed,<10%,Block
+Small,Retail,Semi-structured,Cloud,6479,High,Moderate,99.90%,Low,GDPR,>100k,10,Regional,Monthly,Fibre Channel,EU-Central,Analytical,10,Customer-managed,10-30%,Object
+Small,Healthcare,Semi-structured,Cloud,13219,Low,Moderate,99.00%,High,GDPR,50k-100k,10,Regional,Weekly,NFS,APAC-South,Analytical,20,Co-managed,<10%,Tiered
+Medium,Finance,Semi-structured,Hybrid,2293,Low,Fast,99.00%,Medium,GDPR,50k-100k,10000,Local,Monthly,SMB,APAC-South,Transactional,20,Customer-managed,30-60%,Object
+Enterprise,Education,Semi-structured,On-Premise,11491,Moderate,Fast,99.00%,High,HIPAA,10k-50k,10,Regional,Weekly,NFS,EU-Central,Transactional,10,Customer-managed,>60%,Object
+Medium,Healthcare,Semi-structured,Cloud,15038,High,Slow,99.00%,Medium,PCI-DSS,50k-100k,1000,Regional,Real-time,iSCSI,US-East,Analytical,5,Co-managed,<10%,Tiered
+Medium,Tech,Unstructured,Cloud,19692,Moderate,Slow,99.00%,Low,SOX,<10k,100,Global,Weekly,NFS,APAC-South,Archive,10,Co-managed,<10%,Tiered
+Small,Healthcare,Structured,Hybrid,15747,Moderate,Moderate,99.99%,Low,SOX,<10k,100,Local,Monthly,iSCSI,EU-Central,Archive,5,Vendor-managed,10-30%,Block
+Small,Retail,Structured,Cloud,10558,High,Moderate,99.99%,High,PCI-DSS,>100k,10,Local,Real-time,NFS,APAC-South,Transactional,10,Vendor-managed,<10%,File
+Enterprise,Retail,Structured,Cloud,5934,Moderate,Moderate,99.99%,Low,HIPAA,<10k,50000,Global,Weekly,NFS,US-East,Transactional,20,Co-managed,30-60%,Block
+Enterprise,Finance,Semi-structured,On-Premise,8511,Low,Slow,99.99%,Low,GDPR,<10k,10000,Regional,Weekly,NFS,EU-Central,Archive,10,Vendor-managed,30-60%,Tiered
+Medium,Finance,Semi-structured,Cloud,6515,Moderate,Fast,99.99%,Medium,GDPR,<10k,10,Global,Weekly,SMB,US-West,Transactional,20,Co-managed,10-30%,Object
+Enterprise,Retail,Structured,Cloud,16912,Moderate,Slow,99.00%,Medium,HIPAA,50k-100k,1000,Local,Weekly,SMB,US-West,Analytical,20,Customer-managed,>60%,File
+Small,Education,Semi-structured,Cloud,14920,Moderate,Moderate,99.99%,Medium,SOX,<10k,10,Regional,Weekly,Fibre Channel,APAC-South,Transactional,10,Co-managed,30-60%,Block
+Medium,Tech,Structured,Cloud,11431,High,Fast,99.90%,High,SOX,>100k,10,Local,Monthly,iSCSI,APAC-South,Archive,1,Customer-managed,>60%,Object
+Enterprise,Healthcare,Unstructured,On-Premise,2453,High,Slow,99.99%,Medium,PCI-DSS,>100k,10,Local,Weekly,iSCSI,US-East,Transactional,5,Customer-managed,30-60%,File
+Medium,Retail,Semi-structured,Cloud,5916,Moderate,Slow,99.99%,Medium,PCI-DSS,50k-100k,100,Regional,Weekly,iSCSI,US-East,Archive,1,Co-managed,30-60%,Block
+Medium,Tech,Unstructured,On-Premise,8385,High,Moderate,99.99%,Medium,PCI-DSS,10k-50k,10,Global,Real-time,SMB,EU-Central,Archive,5,Customer-managed,10-30%,Block
+Enterprise,Education,Unstructured,Hybrid,3634,High,Fast,99.00%,High,HIPAA,>100k,1000,Local,Monthly,SMB,EU-Central,Analytical,20,Co-managed,10-30%,File
+Medium,Education,Semi-structured,Cloud,17410,Low,Slow,99.99%,Medium,PCI-DSS,>100k,10,Global,Daily,SMB,US-East,Archive,10,Co-managed,>60%,File
+Small,Education,Unstructured,Cloud,4595,Low,Slow,99.99%,Low,SOX,50k-100k,10,Local,Daily,NFS,APAC-South,Archive,10,Customer-managed,30-60%,Tiered
+Medium,Tech,Structured,Hybrid,7476,High,Fast,99.00%,Low,GDPR,>100k,50000,Regional,Monthly,iSCSI,APAC-South,Archive,5,Customer-managed,30-60%,Tiered
+Small,Finance,Semi-structured,Hybrid,4827,High,Fast,99.00%,Low,SOX,10k-50k,50000,Global,Weekly,iSCSI,US-West,Transactional,5,Co-managed,10-30%,Tiered
+Small,Education,Structured,On-Premise,16767,Moderate,Fast,99.00%,Medium,GDPR,>100k,50000,Regional,Monthly,SMB,US-East,Archive,5,Customer-managed,>60%,Block
+Enterprise,Finance,Structured,Cloud,4413,Moderate,Slow,99.00%,Low,PCI-DSS,10k-50k,10000,Regional,Monthly,Fibre Channel,US-West,Transactional,10,Co-managed,<10%,Object
+Small,Finance,Semi-structured,Hybrid,16974,Moderate,Moderate,99.00%,Low,SOX,50k-100k,1000,Local,Real-time,SMB,US-West,Transactional,20,Co-managed,>60%,Object
+Enterprise,Education,Structured,Cloud,6190,High,Slow,99.00%,High,GDPR,50k-100k,50000,Regional,Daily,NFS,APAC-South,Analytical,5,Customer-managed,30-60%,Object
+Small,Education,Structured,Cloud,11606,Low,Slow,99.00%,Medium,HIPAA,<10k,10000,Global,Monthly,NFS,US-West,Analytical,20,Customer-managed,30-60%,Tiered
+Enterprise,Tech,Unstructured,On-Premise,5580,Moderate,Fast,99.00%,Medium,GDPR,10k-50k,100,Regional,Daily,SMB,EU-Central,Analytical,1,Customer-managed,30-60%,File
+Small,Tech,Structured,On-Premise,1066,Moderate,Slow,99.90%,High,PCI-DSS,50k-100k,50000,Regional,Real-time,iSCSI,US-East,Analytical,5,Customer-managed,30-60%,Tiered
+Enterprise,Finance,Structured,Hybrid,3223,High,Moderate,99.90%,Medium,SOX,>100k,10000,Global,Weekly,Fibre Channel,APAC-South,Analytical,20,Co-managed,10-30%,Tiered
+Enterprise,Tech,Unstructured,On-Premise,16990,Low,Moderate,99.90%,Low,PCI-DSS,10k-50k,10000,Global,Monthly,NFS,US-West,Archive,20,Customer-managed,<10%,File
+Small,Tech,Semi-structured,Hybrid,18691,Low,Fast,99.90%,Medium,SOX,50k-100k,100,Local,Real-time,NFS,US-East,Archive,10,Customer-managed,30-60%,File
+Enterprise,Healthcare,Unstructured,Cloud,2468,High,Fast,99.99%,Medium,GDPR,>100k,50000,Local,Weekly,iSCSI,US-East,Transactional,1,Co-managed,>60%,Tiered
+Enterprise,Education,Semi-structured,Hybrid,10474,Low,Moderate,99.90%,High,GDPR,10k-50k,50000,Local,Monthly,SMB,APAC-South,Archive,1,Customer-managed,30-60%,Tiered
+Medium,Tech,Structured,On-Premise,5514,High,Slow,99.00%,High,HIPAA,50k-100k,10000,Regional,Monthly,iSCSI,US-East,Analytical,10,Vendor-managed,>60%,Block
+Medium,Education,Structured,Cloud,14505,Moderate,Moderate,99.90%,Medium,PCI-DSS,50k-100k,10,Regional,Weekly,iSCSI,US-East,Analytical,20,Vendor-managed,10-30%,File
+Medium,Tech,Unstructured,On-Premise,6463,Moderate,Moderate,99.90%,High,PCI-DSS,50k-100k,10,Global,Daily,iSCSI,US-East,Archive,5,Customer-managed,<10%,Block
+Small,Finance,Semi-structured,On-Premise,16804,High,Fast,99.90%,High,PCI-DSS,10k-50k,10000,Regional,Daily,SMB,US-West,Transactional,1,Customer-managed,10-30%,File
+Small,Tech,Structured,Hybrid,10511,Low,Fast,99.99%,High,SOX,<10k,50000,Regional,Daily,iSCSI,US-West,Analytical,5,Co-managed,10-30%,File
+Enterprise,Education,Structured,Cloud,6247,High,Moderate,99.99%,Medium,GDPR,50k-100k,10,Local,Weekly,SMB,APAC-South,Archive,20,Customer-managed,10-30%,Object
+Medium,Retail,Unstructured,On-Premise,3741,Moderate,Slow,99.90%,Low,PCI-DSS,50k-100k,100,Regional,Weekly,NFS,US-East,Analytical,5,Vendor-managed,>60%,Tiered
+Enterprise,Education,Structured,On-Premise,19701,Low,Moderate,99.99%,Medium,PCI-DSS,>100k,50000,Global,Real-time,NFS,US-West,Transactional,10,Co-managed,30-60%,Tiered
+Small,Tech,Unstructured,Cloud,18779,Low,Moderate,99.99%,High,PCI-DSS,10k-50k,1000,Local,Daily,iSCSI,APAC-South,Analytical,5,Customer-managed,<10%,File
+Enterprise,Healthcare,Unstructured,Hybrid,2538,High,Fast,99.00%,High,GDPR,50k-100k,10,Regional,Real-time,Fibre Channel,EU-Central,Analytical,20,Customer-managed,30-60%,Block
+Medium,Education,Semi-structured,Hybrid,3233,High,Moderate,99.99%,High,HIPAA,<10k,10000,Global,Weekly,SMB,US-West,Archive,1,Co-managed,<10%,Block
+Medium,Healthcare,Unstructured,On-Premise,18063,Low,Moderate,99.90%,High,HIPAA,10k-50k,10000,Local,Real-time,NFS,US-West,Archive,10,Customer-managed,>60%,File
+Enterprise,Healthcare,Unstructured,Hybrid,17988,Low,Moderate,99.90%,Low,HIPAA,<10k,50000,Local,Weekly,iSCSI,US-East,Transactional,10,Vendor-managed,30-60%,Tiered
+Enterprise,Tech,Structured,Cloud,17762,Low,Fast,99.00%,High,SOX,>100k,1000,Local,Weekly,SMB,EU-Central,Archive,5,Co-managed,>60%,File
+Enterprise,Finance,Unstructured,On-Premise,8860,Low,Fast,99.90%,Medium,GDPR,10k-50k,1000,Regional,Monthly,Fibre Channel,APAC-South,Analytical,20,Vendor-managed,30-60%,Tiered
+Medium,Healthcare,Structured,Cloud,13142,High,Fast,99.90%,High,SOX,<10k,10,Regional,Daily,Fibre Channel,US-East,Transactional,20,Co-managed,10-30%,Tiered
+Small,Education,Structured,Cloud,13852,High,Moderate,99.90%,Medium,HIPAA,10k-50k,1000,Local,Weekly,NFS,APAC-South,Analytical,10,Customer-managed,>60%,Tiered
+Small,Tech,Structured,Hybrid,18027,Moderate,Fast,99.00%,Low,GDPR,50k-100k,10000,Global,Monthly,SMB,US-East,Transactional,5,Vendor-managed,>60%,File
+Enterprise,Healthcare,Semi-structured,Hybrid,18716,High,Moderate,99.99%,Medium,HIPAA,<10k,10,Regional,Real-time,Fibre Channel,US-West,Transactional,5,Co-managed,30-60%,File
+Medium,Education,Semi-structured,Cloud,12948,Low,Slow,99.90%,High,GDPR,10k-50k,10,Global,Real-time,NFS,US-West,Transactional,5,Customer-managed,>60%,Object
+Enterprise,Retail,Structured,Cloud,6198,Low,Slow,99.00%,Low,GDPR,>100k,10000,Global,Real-time,NFS,US-West,Analytical,1,Vendor-managed,30-60%,Tiered
+Enterprise,Education,Unstructured,Hybrid,15456,Low,Fast,99.99%,Low,GDPR,>100k,10,Local,Daily,SMB,APAC-South,Transactional,1,Co-managed,30-60%,File
+Enterprise,Education,Semi-structured,On-Premise,12001,High,Fast,99.00%,Medium,SOX,50k-100k,1000,Local,Monthly,iSCSI,US-West,Transactional,5,Customer-managed,<10%,Block
+Small,Healthcare,Semi-structured,On-Premise,6663,High,Moderate,99.90%,High,GDPR,10k-50k,100,Global,Daily,SMB,EU-Central,Archive,10,Customer-managed,<10%,Object
+Enterprise,Healthcare,Unstructured,Cloud,12207,Moderate,Slow,99.99%,Medium,HIPAA,10k-50k,50000,Global,Real-time,NFS,APAC-South,Transactional,10,Co-managed,30-60%,File
+Small,Education,Structured,Cloud,17988,Moderate,Slow,99.00%,High,PCI-DSS,10k-50k,10,Local,Daily,SMB,APAC-South,Analytical,20,Vendor-managed,>60%,Object
+Small,Education,Unstructured,Hybrid,5093,High,Moderate,99.00%,Medium,HIPAA,<10k,100,Global,Weekly,iSCSI,APAC-South,Analytical,5,Customer-managed,<10%,Tiered
+Enterprise,Finance,Structured,On-Premise,19047,High,Slow,99.99%,Medium,HIPAA,50k-100k,50000,Global,Real-time,Fibre Channel,US-East,Transactional,20,Vendor-managed,30-60%,Tiered
+Small,Education,Unstructured,Hybrid,9536,Low,Moderate,99.00%,High,PCI-DSS,50k-100k,1000,Global,Daily,iSCSI,APAC-South,Archive,10,Co-managed,10-30%,Object
+Enterprise,Tech,Unstructured,Hybrid,14171,High,Fast,99.99%,High,GDPR,10k-50k,10000,Local,Weekly,iSCSI,US-West,Archive,1,Customer-managed,10-30%,Block
+Enterprise,Healthcare,Structured,Cloud,10456,High,Fast,99.99%,Low,SOX,50k-100k,10000,Local,Weekly,Fibre Channel,APAC-South,Archive,10,Co-managed,30-60%,Object
+Small,Education,Structured,On-Premise,13102,High,Moderate,99.90%,Medium,GDPR,<10k,50000,Global,Real-time,Fibre Channel,US-East,Archive,5,Customer-managed,10-30%,Object
+Enterprise,Finance,Semi-structured,On-Premise,10609,Low,Moderate,99.90%,Medium,HIPAA,>100k,50000,Regional,Daily,NFS,US-West,Archive,10,Vendor-managed,30-60%,Block
+Enterprise,Education,Structured,Cloud,19030,Moderate,Slow,99.00%,Low,SOX,>100k,100,Regional,Daily,iSCSI,EU-Central,Archive,20,Customer-managed,<10%,Tiered
+Enterprise,Finance,Structured,Cloud,13894,High,Fast,99.00%,High,HIPAA,50k-100k,50000,Global,Daily,SMB,APAC-South,Transactional,5,Vendor-managed,>60%,Object
+Medium,Retail,Unstructured,Cloud,7983,High,Fast,99.99%,High,GDPR,50k-100k,10,Global,Daily,NFS,US-West,Analytical,1,Co-managed,<10%,Block
+Small,Healthcare,Unstructured,Cloud,6365,High,Slow,99.00%,High,HIPAA,50k-100k,10,Regional,Daily,SMB,EU-Central,Transactional,1,Customer-managed,<10%,Object
+Small,Retail,Unstructured,Cloud,5172,High,Fast,99.90%,Low,GDPR,10k-50k,50000,Global,Daily,SMB,EU-Central,Transactional,20,Customer-managed,>60%,Tiered
+Medium,Retail,Unstructured,On-Premise,3918,Moderate,Fast,99.90%,High,GDPR,>100k,10,Local,Real-time,SMB,EU-Central,Transactional,10,Customer-managed,<10%,Tiered
+Medium,Tech,Structured,On-Premise,9604,Moderate,Moderate,99.00%,Low,GDPR,>100k,50000,Local,Daily,iSCSI,US-East,Analytical,20,Vendor-managed,30-60%,Tiered
+Small,Finance,Structured,Hybrid,11590,High,Moderate,99.00%,Medium,PCI-DSS,>100k,1000,Regional,Weekly,NFS,APAC-South,Analytical,5,Vendor-managed,>60%,Tiered
+Medium,Retail,Semi-structured,Cloud,10997,Low,Slow,99.99%,High,GDPR,10k-50k,50000,Global,Weekly,SMB,APAC-South,Archive,20,Co-managed,10-30%,File
+Enterprise,Healthcare,Semi-structured,Hybrid,7218,High,Moderate,99.90%,High,GDPR,10k-50k,10000,Global,Real-time,SMB,US-West,Transactional,20,Co-managed,>60%,Object
+Enterprise,Finance,Structured,On-Premise,4018,Low,Moderate,99.99%,High,HIPAA,<10k,100,Local,Monthly,iSCSI,EU-Central,Transactional,20,Vendor-managed,10-30%,Object
+Medium,Education,Unstructured,On-Premise,18172,Low,Slow,99.90%,High,GDPR,10k-50k,1000,Global,Real-time,NFS,US-West,Transactional,1,Customer-managed,>60%,Object
+Enterprise,Healthcare,Structured,On-Premise,9259,High,Fast,99.99%,Medium,GDPR,50k-100k,50000,Local,Monthly,iSCSI,EU-Central,Analytical,5,Vendor-managed,<10%,Tiered
+Medium,Healthcare,Semi-structured,Hybrid,9660,High,Slow,99.99%,Medium,SOX,10k-50k,1000,Global,Weekly,Fibre Channel,US-West,Analytical,10,Customer-managed,>60%,Tiered
+Small,Healthcare,Structured,Hybrid,2302,Low,Fast,99.99%,High,PCI-DSS,10k-50k,1000,Global,Weekly,SMB,US-West,Transactional,10,Co-managed,30-60%,Object
+Enterprise,Tech,Unstructured,Hybrid,2052,Low,Moderate,99.99%,High,GDPR,<10k,10,Global,Real-time,Fibre Channel,EU-Central,Analytical,1,Customer-managed,<10%,File
+Medium,Tech,Unstructured,Cloud,17392,Moderate,Slow,99.00%,High,SOX,50k-100k,100,Regional,Weekly,iSCSI,EU-Central,Transactional,1,Vendor-managed,30-60%,Block
+Small,Tech,Semi-structured,On-Premise,18953,Low,Moderate,99.99%,High,GDPR,50k-100k,50000,Global,Monthly,NFS,US-East,Transactional,1,Co-managed,>60%,File
+Small,Tech,Unstructured,Hybrid,2266,Moderate,Fast,99.90%,Low,GDPR,>100k,10000,Global,Monthly,iSCSI,EU-Central,Transactional,1,Co-managed,<10%,Object
+Medium,Education,Structured,On-Premise,12624,Low,Slow,99.99%,Low,HIPAA,10k-50k,50000,Global,Weekly,NFS,EU-Central,Transactional,20,Vendor-managed,<10%,File
+Small,Finance,Semi-structured,Hybrid,17056,High,Slow,99.00%,Low,PCI-DSS,50k-100k,1000,Global,Monthly,NFS,US-East,Transactional,20,Customer-managed,10-30%,Block
+Medium,Finance,Structured,Cloud,16724,Moderate,Slow,99.90%,Low,PCI-DSS,50k-100k,1000,Local,Daily,iSCSI,US-East,Transactional,1,Vendor-managed,>60%,Block
+Medium,Finance,Unstructured,On-Premise,11952,High,Fast,99.90%,Medium,PCI-DSS,<10k,1000,Global,Daily,NFS,US-East,Transactional,1,Vendor-managed,30-60%,Tiered
+Medium,Healthcare,Unstructured,Hybrid,13550,High,Fast,99.90%,Medium,SOX,10k-50k,10,Regional,Daily,Fibre Channel,APAC-South,Analytical,5,Co-managed,<10%,Block
+Enterprise,Tech,Structured,Cloud,8659,High,Slow,99.90%,Low,PCI-DSS,>100k,1000,Local,Real-time,SMB,US-East,Archive,10,Co-managed,30-60%,Object
+Medium,Retail,Structured,Cloud,4167,Moderate,Slow,99.90%,Medium,SOX,10k-50k,50000,Local,Monthly,SMB,APAC-South,Archive,5,Vendor-managed,10-30%,Object
+Medium,Retail,Semi-structured,Hybrid,19646,Moderate,Fast,99.99%,Medium,SOX,<10k,50000,Regional,Daily,Fibre Channel,EU-Central,Archive,20,Vendor-managed,30-60%,Tiered
+Enterprise,Retail,Structured,Cloud,3407,Moderate,Moderate,99.99%,High,PCI-DSS,>100k,50000,Regional,Monthly,Fibre Channel,EU-Central,Transactional,10,Customer-managed,<10%,Block
+Small,Finance,Semi-structured,Hybrid,9213,Moderate,Moderate,99.00%,High,HIPAA,50k-100k,50000,Global,Monthly,SMB,APAC-South,Archive,1,Customer-managed,<10%,Tiered
+Enterprise,Tech,Semi-structured,Hybrid,9089,High,Fast,99.99%,Medium,GDPR,50k-100k,100,Regional,Weekly,NFS,APAC-South,Analytical,5,Vendor-managed,30-60%,Tiered
+Small,Education,Structured,Cloud,3427,High,Slow,99.00%,Low,GDPR,10k-50k,10000,Global,Monthly,iSCSI,US-West,Transactional,5,Co-managed,10-30%,Object
+Medium,Tech,Semi-structured,On-Premise,6117,High,Slow,99.00%,Medium,PCI-DSS,<10k,10,Global,Monthly,Fibre Channel,APAC-South,Analytical,5,Vendor-managed,<10%,Tiered
+Enterprise,Finance,Unstructured,Cloud,12603,Low,Moderate,99.90%,Medium,PCI-DSS,10k-50k,100,Local,Monthly,Fibre Channel,US-West,Archive,5,Customer-managed,<10%,Object
+Enterprise,Retail,Structured,Cloud,10841,Moderate,Moderate,99.00%,Low,GDPR,10k-50k,1000,Global,Daily,SMB,US-East,Archive,5,Co-managed,10-30%,Object
+Medium,Retail,Unstructured,Cloud,9102,Low,Slow,99.00%,Low,PCI-DSS,<10k,1000,Global,Weekly,SMB,US-West,Archive,10,Co-managed,>60%,File
+Small,Tech,Unstructured,Hybrid,10419,Low,Moderate,99.00%,Medium,HIPAA,50k-100k,1000,Global,Real-time,NFS,US-East,Archive,1,Vendor-managed,>60%,Block
+Enterprise,Healthcare,Semi-structured,Hybrid,1791,Low,Fast,99.99%,Low,SOX,50k-100k,10000,Local,Monthly,NFS,US-East,Transactional,5,Vendor-managed,>60%,File
+Medium,Tech,Semi-structured,Cloud,2430,Moderate,Slow,99.99%,Medium,HIPAA,50k-100k,50000,Local,Real-time,SMB,EU-Central,Archive,1,Vendor-managed,>60%,File
+Medium,Tech,Structured,Cloud,15029,Moderate,Slow,99.99%,Medium,HIPAA,>100k,10,Global,Monthly,Fibre Channel,APAC-South,Transactional,1,Customer-managed,>60%,Tiered
+Enterprise,Education,Unstructured,Hybrid,10556,High,Moderate,99.00%,Medium,PCI-DSS,10k-50k,10,Regional,Weekly,Fibre Channel,EU-Central,Transactional,1,Customer-managed,>60%,File
+Medium,Retail,Unstructured,On-Premise,14736,Moderate,Moderate,99.99%,High,SOX,10k-50k,10,Regional,Real-time,SMB,APAC-South,Archive,20,Customer-managed,>60%,Object
+Enterprise,Finance,Structured,On-Premise,17117,Moderate,Moderate,99.99%,Medium,HIPAA,>100k,10,Global,Weekly,Fibre Channel,EU-Central,Transactional,1,Customer-managed,30-60%,Object
+Medium,Healthcare,Unstructured,Cloud,4581,Low,Fast,99.00%,Medium,SOX,>100k,10000,Local,Daily,NFS,US-East,Analytical,10,Customer-managed,>60%,Tiered
+Medium,Healthcare,Semi-structured,Cloud,1766,Moderate,Moderate,99.90%,High,PCI-DSS,<10k,1000,Global,Daily,Fibre Channel,US-West,Analytical,5,Vendor-managed,10-30%,File
+Enterprise,Education,Unstructured,On-Premise,6364,High,Slow,99.90%,Medium,PCI-DSS,<10k,50000,Regional,Daily,NFS,US-East,Transactional,5,Customer-managed,>60%,Block
+Small,Retail,Structured,On-Premise,9806,High,Moderate,99.99%,Low,HIPAA,<10k,1000,Global,Monthly,SMB,EU-Central,Transactional,1,Customer-managed,30-60%,File
+Small,Education,Structured,On-Premise,19345,Moderate,Moderate,99.90%,High,HIPAA,<10k,50000,Global,Weekly,Fibre Channel,EU-Central,Archive,5,Co-managed,>60%,Tiered
+Enterprise,Education,Unstructured,Hybrid,17650,Moderate,Slow,99.00%,Low,HIPAA,10k-50k,10000,Local,Daily,Fibre Channel,APAC-South,Transactional,20,Vendor-managed,10-30%,File
+Enterprise,Finance,Semi-structured,Cloud,10959,Moderate,Moderate,99.90%,High,PCI-DSS,50k-100k,10000,Local,Monthly,iSCSI,APAC-South,Transactional,10,Co-managed,30-60%,Block
+Small,Finance,Unstructured,Cloud,1584,Low,Fast,99.90%,Low,PCI-DSS,50k-100k,100,Local,Monthly,SMB,APAC-South,Archive,1,Customer-managed,10-30%,File
+Enterprise,Finance,Structured,Hybrid,7050,Low,Slow,99.00%,Medium,GDPR,>100k,10,Global,Daily,Fibre Channel,APAC-South,Transactional,1,Customer-managed,>60%,Object
+Small,Healthcare,Structured,Hybrid,17399,Moderate,Moderate,99.00%,High,HIPAA,50k-100k,10,Regional,Real-time,Fibre Channel,APAC-South,Transactional,5,Vendor-managed,<10%,Object
+Enterprise,Healthcare,Structured,On-Premise,650,Low,Moderate,99.99%,Low,PCI-DSS,>100k,10,Local,Daily,iSCSI,US-West,Archive,10,Vendor-managed,<10%,Object
+Enterprise,Healthcare,Semi-structured,Hybrid,601,Low,Slow,99.00%,Low,SOX,50k-100k,50000,Global,Weekly,Fibre Channel,US-West,Analytical,10,Co-managed,30-60%,Block
+Small,Healthcare,Unstructured,Hybrid,16614,Moderate,Slow,99.99%,High,HIPAA,50k-100k,1000,Regional,Weekly,iSCSI,US-East,Analytical,5,Customer-managed,<10%,Object
+Enterprise,Finance,Structured,Hybrid,4094,Low,Fast,99.00%,Low,HIPAA,10k-50k,100,Local,Real-time,Fibre Channel,EU-Central,Transactional,20,Vendor-managed,30-60%,Tiered
+Enterprise,Tech,Structured,On-Premise,2721,Moderate,Moderate,99.99%,Low,PCI-DSS,10k-50k,1000,Global,Real-time,iSCSI,APAC-South,Analytical,1,Customer-managed,<10%,Block
+Small,Finance,Semi-structured,Cloud,16268,High,Moderate,99.90%,Medium,GDPR,>100k,10,Local,Monthly,iSCSI,US-West,Analytical,10,Customer-managed,30-60%,Object
+Small,Tech,Semi-structured,Cloud,1013,Low,Moderate,99.99%,Low,PCI-DSS,50k-100k,10,Local,Weekly,NFS,EU-Central,Analytical,1,Vendor-managed,>60%,Object
+Small,Retail,Unstructured,On-Premise,457,Low,Moderate,99.90%,Low,GDPR,<10k,10000,Local,Real-time,iSCSI,APAC-South,Transactional,1,Customer-managed,30-60%,Object
+Medium,Finance,Structured,Cloud,12996,Low,Moderate,99.90%,High,SOX,50k-100k,10000,Regional,Weekly,NFS,APAC-South,Transactional,1,Vendor-managed,30-60%,Block
+Medium,Retail,Structured,Hybrid,12619,High,Fast,99.99%,Low,HIPAA,50k-100k,10000,Global,Weekly,NFS,APAC-South,Archive,10,Vendor-managed,>60%,Block
+Small,Retail,Unstructured,On-Premise,7505,Moderate,Fast,99.90%,Medium,HIPAA,<10k,10000,Local,Weekly,NFS,APAC-South,Archive,5,Vendor-managed,>60%,Tiered
+Enterprise,Retail,Semi-structured,Cloud,19395,High,Moderate,99.99%,High,PCI-DSS,<10k,50000,Local,Real-time,SMB,US-East,Analytical,20,Customer-managed,<10%,File
+Small,Education,Unstructured,Cloud,6233,Moderate,Fast,99.00%,High,HIPAA,>100k,10000,Local,Daily,NFS,APAC-South,Archive,5,Vendor-managed,30-60%,Block
+Small,Education,Structured,Cloud,1396,Low,Moderate,99.00%,High,PCI-DSS,>100k,10,Local,Daily,Fibre Channel,EU-Central,Transactional,5,Vendor-managed,<10%,File
+Small,Tech,Semi-structured,On-Premise,10749,Moderate,Slow,99.00%,High,PCI-DSS,>100k,100,Regional,Monthly,iSCSI,US-East,Archive,5,Customer-managed,30-60%,Tiered
+Medium,Finance,Unstructured,Cloud,200,High,Fast,99.00%,Low,HIPAA,<10k,1000,Local,Daily,Fibre Channel,US-East,Archive,20,Co-managed,30-60%,Tiered
+Enterprise,Healthcare,Semi-structured,Cloud,17129,Low,Slow,99.00%,Medium,HIPAA,<10k,50000,Regional,Weekly,Fibre Channel,APAC-South,Analytical,1,Co-managed,30-60%,File
+Enterprise,Healthcare,Semi-structured,Hybrid,6220,Moderate,Fast,99.99%,Medium,PCI-DSS,>100k,100,Local,Monthly,iSCSI,US-East,Archive,20,Co-managed,10-30%,Object
+Enterprise,Retail,Semi-structured,On-Premise,11607,High,Fast,99.00%,Low,PCI-DSS,>100k,10000,Local,Daily,SMB,US-West,Archive,20,Customer-managed,30-60%,Object
+Enterprise,Finance,Unstructured,Hybrid,8641,Low,Moderate,99.00%,Low,SOX,<10k,10,Local,Weekly,SMB,US-West,Analytical,20,Customer-managed,10-30%,Block
+Medium,Finance,Unstructured,Hybrid,19139,Moderate,Moderate,99.00%,Medium,PCI-DSS,>100k,100,Global,Monthly,iSCSI,US-West,Transactional,10,Customer-managed,>60%,Tiered
+Medium,Finance,Semi-structured,Cloud,324,Low,Slow,99.99%,Medium,PCI-DSS,10k-50k,10000,Regional,Real-time,iSCSI,US-East,Archive,5,Co-managed,>60%,Tiered
+Medium,Finance,Semi-structured,Hybrid,19562,Low,Slow,99.90%,Low,GDPR,<10k,50000,Global,Monthly,NFS,EU-Central,Analytical,10,Vendor-managed,<10%,Object
+Medium,Retail,Semi-structured,Hybrid,8449,Moderate,Fast,99.90%,High,SOX,<10k,10,Global,Daily,SMB,APAC-South,Analytical,20,Vendor-managed,30-60%,Tiered
+Enterprise,Finance,Semi-structured,Cloud,7473,High,Fast,99.00%,Low,GDPR,>100k,10000,Local,Monthly,iSCSI,EU-Central,Analytical,20,Customer-managed,<10%,Tiered
+Medium,Education,Unstructured,Hybrid,4190,Moderate,Slow,99.99%,Medium,GDPR,<10k,50000,Regional,Monthly,Fibre Channel,EU-Central,Archive,10,Customer-managed,30-60%,Block
+Medium,Education,Structured,On-Premise,13690,Moderate,Fast,99.90%,Low,HIPAA,10k-50k,10000,Local,Weekly,SMB,EU-Central,Transactional,20,Co-managed,10-30%,Object
+Enterprise,Healthcare,Semi-structured,Cloud,19100,Low,Moderate,99.99%,Medium,HIPAA,>100k,10000,Global,Monthly,Fibre Channel,US-West,Archive,20,Co-managed,10-30%,Object
+Enterprise,Finance,Semi-structured,Cloud,19485,High,Slow,99.99%,High,SOX,50k-100k,10,Global,Monthly,iSCSI,US-West,Analytical,20,Co-managed,30-60%,Object
+Medium,Tech,Unstructured,Hybrid,19248,Low,Moderate,99.00%,High,SOX,50k-100k,50000,Regional,Real-time,SMB,EU-Central,Analytical,5,Customer-managed,<10%,Block
+Small,Finance,Semi-structured,On-Premise,2445,Moderate,Moderate,99.90%,Medium,SOX,50k-100k,50000,Global,Real-time,iSCSI,EU-Central,Transactional,20,Vendor-managed,10-30%,Block
+Small,Finance,Unstructured,Hybrid,6635,Moderate,Fast,99.00%,Medium,SOX,<10k,1000,Global,Monthly,Fibre Channel,EU-Central,Analytical,1,Vendor-managed,30-60%,Block
+Small,Education,Structured,Cloud,19459,Moderate,Fast,99.00%,Medium,PCI-DSS,10k-50k,50000,Global,Real-time,SMB,EU-Central,Archive,20,Vendor-managed,30-60%,File
+Enterprise,Education,Semi-structured,Hybrid,12899,Moderate,Slow,99.00%,Medium,SOX,10k-50k,50000,Global,Monthly,iSCSI,US-West,Transactional,10,Vendor-managed,<10%,Tiered
+Medium,Retail,Structured,Cloud,16727,Moderate,Slow,99.00%,High,GDPR,>100k,10,Local,Monthly,NFS,APAC-South,Archive,1,Vendor-managed,10-30%,Object
+Small,Healthcare,Semi-structured,Hybrid,6790,Low,Fast,99.00%,Low,GDPR,50k-100k,1000,Global,Weekly,iSCSI,US-West,Archive,10,Vendor-managed,30-60%,Block
+Small,Tech,Semi-structured,On-Premise,2900,Low,Fast,99.00%,Medium,PCI-DSS,>100k,10,Regional,Weekly,iSCSI,US-East,Transactional,1,Vendor-managed,10-30%,Tiered
+Small,Tech,Unstructured,On-Premise,250,Moderate,Moderate,99.99%,High,PCI-DSS,10k-50k,10,Global,Weekly,NFS,EU-Central,Transactional,5,Co-managed,>60%,File
+Small,Finance,Unstructured,On-Premise,1527,Moderate,Moderate,99.00%,High,HIPAA,50k-100k,10,Regional,Daily,NFS,APAC-South,Transactional,20,Co-managed,<10%,Block
+Small,Education,Semi-structured,Hybrid,5990,Low,Fast,99.99%,Medium,HIPAA,<10k,10000,Local,Monthly,NFS,APAC-South,Analytical,20,Vendor-managed,<10%,Tiered
+Medium,Healthcare,Structured,Cloud,15635,High,Slow,99.99%,Medium,SOX,>100k,10,Regional,Daily,SMB,US-West,Analytical,20,Vendor-managed,30-60%,Tiered
+Medium,Retail,Unstructured,Cloud,13440,Moderate,Moderate,99.90%,High,GDPR,<10k,50000,Global,Monthly,Fibre Channel,APAC-South,Analytical,20,Co-managed,30-60%,Object
+Medium,Education,Unstructured,Cloud,857,Low,Fast,99.00%,Low,SOX,50k-100k,50000,Local,Real-time,SMB,US-East,Archive,20,Co-managed,<10%,Tiered
+Enterprise,Finance,Unstructured,On-Premise,2283,Low,Moderate,99.00%,Low,PCI-DSS,>100k,100,Global,Weekly,NFS,APAC-South,Transactional,10,Vendor-managed,30-60%,Block
+Enterprise,Retail,Structured,Hybrid,6894,Moderate,Moderate,99.90%,High,HIPAA,<10k,100,Local,Monthly,SMB,US-East,Transactional,10,Customer-managed,30-60%,Object
+Enterprise,Education,Semi-structured,On-Premise,18123,High,Moderate,99.00%,High,PCI-DSS,10k-50k,100,Global,Weekly,NFS,US-East,Analytical,20,Customer-managed,<10%,Tiered
+Enterprise,Tech,Unstructured,Hybrid,9611,Low,Slow,99.00%,High,SOX,50k-100k,1000,Global,Monthly,NFS,US-East,Archive,10,Customer-managed,30-60%,Object
+Small,Healthcare,Semi-structured,On-Premise,17180,High,Fast,99.99%,High,GDPR,50k-100k,1000,Global,Weekly,NFS,US-East,Analytical,10,Vendor-managed,10-30%,Object
+Medium,Tech,Unstructured,Hybrid,9296,High,Moderate,99.00%,High,PCI-DSS,<10k,50000,Global,Monthly,SMB,US-East,Transactional,20,Customer-managed,30-60%,Block
+Medium,Finance,Unstructured,On-Premise,6143,High,Fast,99.00%,Low,GDPR,<10k,50000,Global,Monthly,NFS,US-East,Archive,5,Customer-managed,10-30%,Tiered
+Enterprise,Healthcare,Structured,On-Premise,16210,Moderate,Moderate,99.99%,Medium,PCI-DSS,50k-100k,10000,Local,Daily,iSCSI,US-West,Analytical,20,Co-managed,>60%,File
+Small,Tech,Semi-structured,On-Premise,18859,Low,Fast,99.00%,Medium,GDPR,50k-100k,10,Local,Monthly,NFS,US-East,Transactional,10,Co-managed,<10%,Block
+Small,Education,Semi-structured,On-Premise,5373,High,Moderate,99.90%,Medium,GDPR,<10k,50000,Regional,Monthly,iSCSI,US-East,Transactional,5,Customer-managed,10-30%,Block
+Enterprise,Education,Unstructured,Cloud,17410,Low,Slow,99.90%,Medium,SOX,>100k,10,Regional,Weekly,SMB,EU-Central,Transactional,1,Co-managed,<10%,Object
+Medium,Tech,Structured,On-Premise,3457,Moderate,Moderate,99.99%,Low,SOX,<10k,100,Global,Weekly,Fibre Channel,US-East,Analytical,1,Vendor-managed,<10%,Block
+Medium,Tech,Structured,Hybrid,1241,Moderate,Moderate,99.90%,Low,SOX,50k-100k,100,Local,Monthly,SMB,US-East,Transactional,5,Vendor-managed,<10%,Block
+Medium,Tech,Structured,On-Premise,7011,Moderate,Moderate,99.90%,Medium,PCI-DSS,<10k,10,Regional,Real-time,SMB,US-West,Archive,20,Customer-managed,30-60%,Object
+Small,Tech,Unstructured,On-Premise,12787,Moderate,Fast,99.00%,High,GDPR,10k-50k,10,Regional,Monthly,NFS,US-West,Transactional,1,Customer-managed,30-60%,Tiered
+Enterprise,Healthcare,Structured,Hybrid,13182,Low,Fast,99.00%,Medium,PCI-DSS,>100k,10,Global,Monthly,SMB,EU-Central,Transactional,5,Customer-managed,>60%,Block
+Small,Education,Semi-structured,Hybrid,15501,High,Moderate,99.99%,Low,SOX,<10k,10,Local,Real-time,Fibre Channel,US-West,Analytical,1,Co-managed,10-30%,File
+Medium,Healthcare,Semi-structured,Hybrid,4299,High,Slow,99.90%,Medium,HIPAA,<10k,10000,Local,Daily,iSCSI,US-East,Transactional,5,Co-managed,>60%,Tiered
+Medium,Education,Unstructured,Cloud,1723,High,Fast,99.00%,High,SOX,10k-50k,100,Regional,Daily,NFS,US-West,Analytical,5,Customer-managed,30-60%,Object
+Medium,Healthcare,Semi-structured,On-Premise,16997,High,Moderate,99.00%,Low,PCI-DSS,>100k,10000,Global,Monthly,SMB,US-East,Transactional,1,Customer-managed,10-30%,Block
+Small,Finance,Unstructured,Cloud,3145,Moderate,Slow,99.00%,Low,HIPAA,10k-50k,10,Regional,Weekly,SMB,EU-Central,Transactional,10,Customer-managed,>60%,File
+Medium,Retail,Structured,Hybrid,4998,Low,Fast,99.99%,Low,PCI-DSS,10k-50k,10,Global,Real-time,iSCSI,US-East,Archive,1,Vendor-managed,>60%,Object
+Medium,Healthcare,Structured,Hybrid,12287,High,Fast,99.00%,High,GDPR,50k-100k,10,Global,Weekly,NFS,US-East,Archive,5,Co-managed,>60%,Block
+Small,Education,Unstructured,Hybrid,10327,Moderate,Slow,99.00%,High,HIPAA,>100k,10000,Local,Monthly,Fibre Channel,EU-Central,Archive,20,Vendor-managed,>60%,Block
+Enterprise,Healthcare,Unstructured,On-Premise,1771,Moderate,Moderate,99.90%,Medium,HIPAA,>100k,50000,Local,Daily,NFS,APAC-South,Analytical,10,Customer-managed,<10%,Tiered
+Small,Healthcare,Semi-structured,Hybrid,7157,High,Slow,99.00%,Medium,SOX,<10k,1000,Global,Real-time,Fibre Channel,EU-Central,Transactional,10,Vendor-managed,<10%,Tiered
+Small,Retail,Semi-structured,Cloud,4168,Low,Slow,99.99%,Medium,PCI-DSS,50k-100k,1000,Global,Real-time,iSCSI,US-East,Analytical,1,Co-managed,<10%,Tiered
+Enterprise,Retail,Structured,Hybrid,17451,Moderate,Slow,99.99%,Medium,GDPR,10k-50k,10000,Local,Daily,NFS,APAC-South,Transactional,10,Vendor-managed,10-30%,Block
+Enterprise,Tech,Semi-structured,Hybrid,19528,Moderate,Slow,99.00%,Low,SOX,10k-50k,10,Local,Weekly,iSCSI,US-West,Transactional,20,Customer-managed,<10%,Tiered
+Small,Tech,Structured,Hybrid,12220,High,Fast,99.00%,High,PCI-DSS,<10k,1000,Local,Weekly,NFS,APAC-South,Analytical,1,Co-managed,10-30%,Object
+Medium,Education,Unstructured,On-Premise,17859,Moderate,Moderate,99.00%,High,SOX,50k-100k,10,Regional,Weekly,SMB,APAC-South,Transactional,20,Co-managed,30-60%,Object
+Small,Retail,Semi-structured,On-Premise,7589,Low,Fast,99.99%,Low,PCI-DSS,50k-100k,50000,Regional,Weekly,iSCSI,APAC-South,Transactional,10,Vendor-managed,10-30%,Object
+Medium,Finance,Semi-structured,Hybrid,9897,High,Fast,99.00%,High,GDPR,10k-50k,50000,Regional,Daily,Fibre Channel,US-East,Transactional,5,Vendor-managed,30-60%,Block
+Small,Education,Unstructured,On-Premise,8674,Low,Slow,99.99%,Low,SOX,10k-50k,1000,Local,Weekly,Fibre Channel,EU-Central,Archive,1,Vendor-managed,10-30%,Object
+Medium,Healthcare,Structured,On-Premise,6394,High,Fast,99.90%,High,HIPAA,>100k,10000,Global,Monthly,SMB,APAC-South,Analytical,10,Customer-managed,<10%,File
+Medium,Retail,Semi-structured,Hybrid,2002,Moderate,Moderate,99.90%,High,GDPR,<10k,1000,Regional,Daily,SMB,US-West,Transactional,5,Vendor-managed,>60%,Tiered
+Enterprise,Healthcare,Semi-structured,Hybrid,1935,Moderate,Moderate,99.99%,Medium,SOX,10k-50k,50000,Local,Daily,NFS,US-West,Analytical,5,Co-managed,10-30%,Object
+Enterprise,Tech,Structured,Hybrid,5372,Moderate,Moderate,99.90%,Medium,SOX,>100k,100,Regional,Weekly,iSCSI,US-East,Archive,10,Vendor-managed,<10%,File
+Small,Tech,Structured,On-Premise,4338,Low,Moderate,99.99%,Low,SOX,>100k,10,Local,Real-time,NFS,EU-Central,Transactional,10,Co-managed,30-60%,Block
+Enterprise,Retail,Semi-structured,Cloud,7876,Low,Fast,99.00%,High,GDPR,>100k,10,Local,Daily,NFS,APAC-South,Archive,1,Co-managed,30-60%,Block
+Small,Tech,Structured,Cloud,19532,Low,Slow,99.99%,Low,GDPR,50k-100k,10,Regional,Weekly,SMB,APAC-South,Transactional,5,Co-managed,10-30%,Block
+Small,Tech,Semi-structured,Hybrid,11837,Low,Moderate,99.90%,Low,SOX,10k-50k,100,Regional,Daily,SMB,US-East,Archive,10,Vendor-managed,<10%,Block
+Medium,Finance,Structured,Cloud,13810,Low,Fast,99.99%,High,SOX,10k-50k,10000,Local,Daily,iSCSI,US-West,Archive,10,Vendor-managed,10-30%,Block
+Small,Finance,Structured,Hybrid,7885,Low,Fast,99.90%,High,HIPAA,50k-100k,100,Local,Weekly,SMB,EU-Central,Analytical,10,Co-managed,>60%,Tiered
+Small,Retail,Unstructured,Hybrid,2502,Low,Slow,99.90%,High,SOX,<10k,100,Regional,Monthly,Fibre Channel,EU-Central,Analytical,5,Customer-managed,10-30%,Tiered
+Small,Tech,Structured,On-Premise,14342,Low,Fast,99.00%,Medium,SOX,10k-50k,10000,Regional,Daily,iSCSI,EU-Central,Transactional,20,Co-managed,10-30%,Tiered
+Small,Finance,Unstructured,Hybrid,18086,Low,Moderate,99.00%,Medium,HIPAA,<10k,10000,Global,Monthly,SMB,APAC-South,Analytical,20,Customer-managed,>60%,File
+Enterprise,Finance,Structured,Cloud,13579,Moderate,Fast,99.90%,High,PCI-DSS,>100k,100,Global,Weekly,iSCSI,APAC-South,Transactional,20,Vendor-managed,10-30%,Tiered
+Small,Finance,Structured,On-Premise,9315,Low,Moderate,99.00%,Low,HIPAA,>100k,50000,Global,Weekly,iSCSI,APAC-South,Archive,10,Customer-managed,30-60%,File
+Small,Healthcare,Semi-structured,Hybrid,4387,High,Slow,99.99%,Low,GDPR,>100k,100,Local,Weekly,NFS,EU-Central,Archive,1,Vendor-managed,30-60%,Tiered
+Small,Retail,Structured,Cloud,13713,High,Slow,99.90%,High,PCI-DSS,>100k,10000,Global,Weekly,iSCSI,US-East,Archive,20,Vendor-managed,<10%,File
+Small,Healthcare,Semi-structured,On-Premise,8931,High,Fast,99.99%,Low,PCI-DSS,>100k,50000,Regional,Daily,NFS,EU-Central,Archive,10,Vendor-managed,>60%,Tiered
+Small,Education,Semi-structured,On-Premise,10020,High,Slow,99.99%,Medium,HIPAA,<10k,100,Global,Monthly,SMB,US-East,Archive,10,Customer-managed,<10%,Tiered
+Small,Retail,Semi-structured,Cloud,5790,Low,Fast,99.99%,Medium,PCI-DSS,10k-50k,100,Regional,Daily,SMB,US-East,Analytical,1,Vendor-managed,10-30%,File
+Small,Healthcare,Semi-structured,Hybrid,9538,Moderate,Slow,99.00%,Medium,GDPR,50k-100k,10,Global,Daily,iSCSI,US-East,Transactional,5,Co-managed,>60%,Tiered
+Medium,Retail,Unstructured,Cloud,15328,High,Fast,99.90%,Medium,PCI-DSS,10k-50k,50000,Local,Real-time,SMB,EU-Central,Transactional,5,Vendor-managed,10-30%,Block
+Medium,Retail,Unstructured,On-Premise,17664,High,Fast,99.99%,Medium,HIPAA,10k-50k,1000,Regional,Real-time,Fibre Channel,US-East,Transactional,1,Co-managed,30-60%,Block
+Medium,Retail,Unstructured,Hybrid,370,Moderate,Fast,99.00%,Low,HIPAA,<10k,100,Regional,Weekly,Fibre Channel,US-East,Analytical,5,Vendor-managed,<10%,Block
+Small,Education,Semi-structured,On-Premise,3163,Moderate,Fast,99.99%,Low,SOX,50k-100k,50000,Global,Monthly,iSCSI,APAC-South,Transactional,5,Vendor-managed,30-60%,Object
+Enterprise,Education,Semi-structured,Hybrid,7551,High,Fast,99.00%,Low,HIPAA,10k-50k,10,Local,Daily,Fibre Channel,APAC-South,Transactional,10,Customer-managed,<10%,Tiered
+Medium,Healthcare,Semi-structured,On-Premise,8859,Moderate,Fast,99.00%,Medium,GDPR,10k-50k,10000,Local,Weekly,iSCSI,EU-Central,Analytical,20,Co-managed,30-60%,File
+Enterprise,Finance,Structured,Cloud,5189,Moderate,Fast,99.00%,High,SOX,>100k,100,Regional,Daily,iSCSI,US-East,Archive,1,Vendor-managed,10-30%,File
+Small,Tech,Semi-structured,On-Premise,1658,Moderate,Slow,99.00%,Medium,GDPR,50k-100k,1000,Regional,Real-time,NFS,EU-Central,Archive,1,Vendor-managed,10-30%,Tiered
+Medium,Finance,Structured,Cloud,9800,Low,Moderate,99.00%,Medium,SOX,>100k,1000,Global,Weekly,NFS,EU-Central,Analytical,20,Vendor-managed,10-30%,File
+Medium,Retail,Structured,On-Premise,14743,Moderate,Slow,99.99%,High,PCI-DSS,<10k,50000,Regional,Weekly,Fibre Channel,US-East,Analytical,20,Customer-managed,>60%,Tiered
+Medium,Finance,Unstructured,Cloud,7685,Moderate,Slow,99.99%,High,PCI-DSS,<10k,10000,Regional,Daily,SMB,US-East,Archive,10,Co-managed,>60%,Tiered
+Small,Tech,Semi-structured,Hybrid,3070,Low,Fast,99.99%,High,HIPAA,10k-50k,100,Regional,Weekly,iSCSI,APAC-South,Archive,1,Vendor-managed,>60%,Tiered
+Medium,Healthcare,Semi-structured,On-Premise,9027,Moderate,Moderate,99.99%,Low,GDPR,50k-100k,50000,Local,Weekly,Fibre Channel,US-East,Archive,20,Customer-managed,10-30%,File
+Enterprise,Tech,Unstructured,Hybrid,11907,Moderate,Slow,99.90%,Low,SOX,10k-50k,10000,Local,Monthly,iSCSI,US-East,Transactional,10,Co-managed,30-60%,Block
+Enterprise,Finance,Structured,Cloud,4778,Moderate,Fast,99.90%,Low,SOX,10k-50k,10000,Regional,Real-time,iSCSI,APAC-South,Analytical,5,Co-managed,30-60%,Object
+Medium,Education,Unstructured,Hybrid,19444,High,Moderate,99.90%,Low,PCI-DSS,>100k,10,Local,Daily,iSCSI,US-West,Archive,10,Customer-managed,>60%,Tiered
+Small,Retail,Structured,Cloud,11078,Low,Slow,99.90%,Low,GDPR,50k-100k,10000,Regional,Monthly,NFS,US-East,Analytical,5,Co-managed,30-60%,Block
+Medium,Retail,Structured,On-Premise,15168,Moderate,Slow,99.99%,Low,PCI-DSS,10k-50k,10,Regional,Real-time,SMB,US-East,Transactional,5,Vendor-managed,<10%,Block
+Enterprise,Education,Structured,Hybrid,10798,Moderate,Moderate,99.90%,Medium,PCI-DSS,>100k,100,Local,Monthly,NFS,US-West,Transactional,1,Vendor-managed,30-60%,Tiered
+Medium,Retail,Unstructured,Cloud,17418,High,Moderate,99.00%,High,SOX,50k-100k,1000,Regional,Monthly,iSCSI,US-East,Archive,5,Vendor-managed,30-60%,Block
+Enterprise,Tech,Semi-structured,Cloud,1173,Moderate,Moderate,99.00%,Low,SOX,>100k,10000,Local,Real-time,Fibre Channel,APAC-South,Transactional,20,Customer-managed,<10%,File
+Enterprise,Tech,Semi-structured,Cloud,2454,Low,Slow,99.90%,Medium,HIPAA,>100k,100,Global,Monthly,iSCSI,US-West,Archive,5,Co-managed,>60%,Object
+Small,Education,Unstructured,On-Premise,6836,High,Moderate,99.99%,Low,GDPR,>100k,100,Regional,Weekly,NFS,APAC-South,Transactional,20,Customer-managed,<10%,Object
+Medium,Education,Unstructured,On-Premise,1194,Low,Slow,99.99%,Low,PCI-DSS,>100k,100,Local,Real-time,Fibre Channel,US-West,Transactional,20,Vendor-managed,<10%,Tiered
+Enterprise,Education,Unstructured,Cloud,11240,Low,Slow,99.00%,High,PCI-DSS,<10k,50000,Local,Daily,Fibre Channel,APAC-South,Transactional,1,Customer-managed,>60%,Object
+Medium,Healthcare,Semi-structured,Hybrid,12052,Moderate,Fast,99.00%,Low,GDPR,<10k,10000,Global,Monthly,iSCSI,US-East,Transactional,20,Customer-managed,30-60%,File
+Small,Tech,Structured,Hybrid,11128,Low,Moderate,99.90%,High,SOX,<10k,100,Regional,Real-time,iSCSI,US-East,Analytical,20,Vendor-managed,30-60%,Block
+Enterprise,Tech,Semi-structured,Cloud,9592,Moderate,Slow,99.90%,Medium,GDPR,10k-50k,1000,Global,Real-time,NFS,US-West,Analytical,10,Customer-managed,30-60%,File
+Medium,Retail,Structured,Hybrid,7586,Moderate,Fast,99.99%,Low,GDPR,<10k,1000,Local,Real-time,iSCSI,US-East,Transactional,20,Vendor-managed,10-30%,Tiered
+Enterprise,Retail,Structured,Hybrid,4087,Low,Slow,99.00%,Low,PCI-DSS,<10k,100,Global,Monthly,NFS,APAC-South,Archive,5,Co-managed,>60%,Object
+Medium,Tech,Unstructured,Cloud,6088,Low,Slow,99.99%,High,HIPAA,>100k,100,Local,Weekly,Fibre Channel,US-West,Archive,5,Vendor-managed,<10%,File
+Medium,Finance,Semi-structured,Cloud,7140,Low,Slow,99.99%,Low,SOX,<10k,10,Global,Monthly,Fibre Channel,US-West,Analytical,20,Co-managed,10-30%,Tiered
+Enterprise,Education,Semi-structured,On-Premise,1086,Low,Moderate,99.90%,Medium,HIPAA,50k-100k,1000,Regional,Real-time,Fibre Channel,APAC-South,Transactional,10,Vendor-managed,30-60%,File
+Medium,Retail,Structured,On-Premise,16457,Low,Slow,99.00%,Low,PCI-DSS,<10k,50000,Local,Daily,iSCSI,US-East,Transactional,20,Vendor-managed,10-30%,Block
+Enterprise,Finance,Semi-structured,On-Premise,5938,Moderate,Moderate,99.00%,Medium,PCI-DSS,10k-50k,100,Regional,Weekly,NFS,US-East,Transactional,20,Co-managed,>60%,File
+Medium,Tech,Structured,Cloud,7070,Moderate,Fast,99.90%,High,GDPR,>100k,10000,Global,Monthly,NFS,US-East,Archive,20,Customer-managed,10-30%,Block
+Small,Education,Semi-structured,Cloud,3113,Moderate,Slow,99.90%,Low,GDPR,>100k,100,Local,Real-time,SMB,APAC-South,Transactional,20,Customer-managed,30-60%,Block
+Enterprise,Finance,Structured,On-Premise,2444,Low,Slow,99.99%,Medium,PCI-DSS,10k-50k,100,Regional,Monthly,NFS,EU-Central,Transactional,5,Vendor-managed,10-30%,Block
+Medium,Retail,Unstructured,Cloud,18580,Low,Slow,99.90%,Low,HIPAA,<10k,100,Global,Daily,Fibre Channel,US-East,Analytical,10,Vendor-managed,30-60%,File
+Enterprise,Tech,Structured,On-Premise,11284,Low,Fast,99.99%,Medium,SOX,10k-50k,10000,Global,Real-time,iSCSI,EU-Central,Analytical,5,Customer-managed,30-60%,File
+Enterprise,Healthcare,Semi-structured,On-Premise,12791,Moderate,Slow,99.99%,Medium,PCI-DSS,10k-50k,10,Global,Real-time,Fibre Channel,US-East,Analytical,20,Customer-managed,<10%,Object
+Medium,Tech,Unstructured,Cloud,13162,High,Moderate,99.90%,Low,HIPAA,50k-100k,10000,Local,Weekly,SMB,US-West,Archive,1,Vendor-managed,30-60%,Block
+Medium,Finance,Unstructured,Cloud,12741,Moderate,Moderate,99.99%,Medium,GDPR,<10k,50000,Global,Real-time,SMB,US-West,Analytical,20,Customer-managed,10-30%,Block
+Enterprise,Education,Unstructured,Cloud,12516,Moderate,Fast,99.90%,Medium,SOX,>100k,50000,Regional,Monthly,NFS,EU-Central,Transactional,5,Customer-managed,10-30%,Block
+Medium,Tech,Structured,Hybrid,16817,High,Moderate,99.99%,Low,PCI-DSS,10k-50k,50000,Global,Real-time,SMB,APAC-South,Transactional,5,Vendor-managed,>60%,Block
+Medium,Tech,Structured,Hybrid,1785,Low,Moderate,99.99%,Low,SOX,<10k,10000,Regional,Real-time,SMB,EU-Central,Analytical,5,Co-managed,>60%,Tiered
+Medium,Retail,Semi-structured,Cloud,19424,High,Moderate,99.90%,Medium,PCI-DSS,10k-50k,10,Regional,Monthly,SMB,US-West,Archive,1,Customer-managed,30-60%,Object
+Medium,Healthcare,Unstructured,On-Premise,7184,Moderate,Slow,99.90%,Medium,GDPR,50k-100k,10,Global,Monthly,SMB,US-West,Transactional,10,Vendor-managed,<10%,Tiered
+Medium,Retail,Structured,Cloud,19165,High,Moderate,99.90%,High,SOX,10k-50k,50000,Local,Monthly,NFS,US-East,Transactional,5,Co-managed,30-60%,Tiered
+Small,Retail,Semi-structured,Cloud,11319,High,Fast,99.99%,Medium,SOX,10k-50k,10000,Local,Daily,Fibre Channel,EU-Central,Transactional,10,Co-managed,30-60%,Object
+Small,Tech,Semi-structured,On-Premise,16101,High,Slow,99.99%,High,PCI-DSS,10k-50k,100,Local,Real-time,NFS,US-East,Archive,10,Co-managed,>60%,Tiered
+Small,Finance,Semi-structured,Hybrid,7805,Low,Slow,99.90%,Low,HIPAA,<10k,100,Local,Real-time,iSCSI,EU-Central,Analytical,20,Co-managed,30-60%,Block
+Enterprise,Healthcare,Structured,Hybrid,9399,Low,Fast,99.99%,High,SOX,10k-50k,10,Local,Real-time,iSCSI,EU-Central,Analytical,5,Co-managed,>60%,File
+Medium,Tech,Unstructured,Hybrid,17009,Low,Slow,99.99%,Medium,GDPR,<10k,1000,Local,Real-time,NFS,US-West,Analytical,10,Vendor-managed,30-60%,Object
+Enterprise,Education,Unstructured,On-Premise,12262,Low,Fast,99.90%,High,SOX,<10k,10,Regional,Real-time,iSCSI,US-West,Analytical,5,Customer-managed,30-60%,Block
+Small,Healthcare,Semi-structured,Cloud,13545,Moderate,Moderate,99.90%,High,HIPAA,10k-50k,10000,Local,Monthly,NFS,US-East,Analytical,1,Co-managed,10-30%,Tiered
+Small,Retail,Unstructured,On-Premise,16934,Moderate,Slow,99.00%,Low,GDPR,>100k,10000,Regional,Monthly,SMB,APAC-South,Analytical,5,Co-managed,30-60%,Tiered
+Small,Education,Semi-structured,Cloud,16460,Moderate,Fast,99.90%,High,HIPAA,<10k,100,Local,Real-time,SMB,EU-Central,Analytical,5,Co-managed,30-60%,File
+Medium,Education,Semi-structured,Cloud,2416,Moderate,Fast,99.00%,Low,GDPR,>100k,10,Local,Daily,iSCSI,US-East,Transactional,1,Customer-managed,<10%,Tiered
+Medium,Healthcare,Structured,On-Premise,12758,Moderate,Moderate,99.99%,High,PCI-DSS,<10k,100,Global,Monthly,Fibre Channel,US-East,Archive,10,Vendor-managed,<10%,Object
+Small,Healthcare,Structured,Hybrid,10715,High,Fast,99.90%,Low,HIPAA,10k-50k,1000,Global,Real-time,iSCSI,US-East,Archive,10,Vendor-managed,>60%,File
+Medium,Education,Unstructured,Hybrid,18626,Low,Moderate,99.90%,High,HIPAA,>100k,50000,Global,Daily,NFS,EU-Central,Transactional,1,Co-managed,30-60%,Object
+Small,Retail,Semi-structured,Hybrid,12916,High,Slow,99.00%,Medium,SOX,>100k,100,Local,Monthly,SMB,APAC-South,Analytical,10,Customer-managed,30-60%,Tiered
+Enterprise,Education,Semi-structured,Hybrid,10551,Low,Fast,99.00%,High,PCI-DSS,<10k,10,Local,Daily,NFS,EU-Central,Analytical,20,Co-managed,30-60%,Tiered
+Enterprise,Retail,Semi-structured,On-Premise,9432,Moderate,Fast,99.00%,Low,PCI-DSS,10k-50k,100,Local,Daily,SMB,US-East,Analytical,5,Vendor-managed,30-60%,Tiered
+Small,Retail,Semi-structured,Cloud,1234,Moderate,Slow,99.99%,High,HIPAA,<10k,100,Global,Real-time,Fibre Channel,US-East,Archive,1,Customer-managed,30-60%,Block
+Enterprise,Healthcare,Semi-structured,Hybrid,6502,High,Moderate,99.00%,High,SOX,<10k,10000,Global,Monthly,SMB,US-East,Archive,1,Co-managed,<10%,Object
+Enterprise,Education,Unstructured,Hybrid,1567,Low,Fast,99.90%,Low,PCI-DSS,50k-100k,10,Local,Monthly,NFS,US-East,Archive,20,Vendor-managed,10-30%,File
+Medium,Education,Semi-structured,On-Premise,13619,High,Fast,99.99%,High,HIPAA,>100k,10000,Regional,Daily,Fibre Channel,EU-Central,Transactional,5,Customer-managed,10-30%,File
+Medium,Retail,Semi-structured,Hybrid,16739,Low,Fast,99.00%,High,PCI-DSS,>100k,100,Global,Real-time,NFS,APAC-South,Analytical,20,Co-managed,<10%,Block
+Medium,Tech,Structured,Cloud,1096,Moderate,Slow,99.00%,Low,GDPR,10k-50k,100,Local,Real-time,NFS,US-East,Analytical,5,Vendor-managed,<10%,Block
+Enterprise,Finance,Unstructured,Hybrid,9789,Low,Fast,99.90%,High,SOX,50k-100k,50000,Local,Real-time,NFS,APAC-South,Analytical,20,Vendor-managed,>60%,Block
+Medium,Tech,Unstructured,Cloud,18276,Low,Moderate,99.99%,Low,GDPR,50k-100k,10000,Local,Weekly,SMB,US-West,Archive,1,Co-managed,>60%,Object
+Medium,Tech,Semi-structured,Hybrid,1383,Low,Fast,99.00%,Medium,SOX,>100k,50000,Regional,Real-time,SMB,APAC-South,Analytical,5,Vendor-managed,30-60%,Object
+Small,Healthcare,Semi-structured,Hybrid,516,Moderate,Fast,99.99%,Medium,HIPAA,>100k,100,Regional,Monthly,SMB,US-West,Analytical,1,Customer-managed,30-60%,Object
+Enterprise,Finance,Structured,Hybrid,1040,Low,Slow,99.90%,Low,PCI-DSS,>100k,1000,Local,Weekly,Fibre Channel,US-West,Archive,5,Co-managed,<10%,Tiered
+Small,Education,Structured,Hybrid,9690,Low,Slow,99.00%,Low,PCI-DSS,10k-50k,10,Regional,Daily,iSCSI,US-West,Transactional,1,Customer-managed,30-60%,Block
+Small,Finance,Unstructured,On-Premise,19158,High,Fast,99.99%,Medium,PCI-DSS,50k-100k,100,Global,Real-time,SMB,EU-Central,Analytical,20,Vendor-managed,10-30%,Object
+Small,Retail,Semi-structured,Cloud,19540,Low,Fast,99.99%,High,PCI-DSS,10k-50k,1000,Regional,Real-time,SMB,APAC-South,Analytical,10,Customer-managed,<10%,Tiered
+Enterprise,Finance,Unstructured,On-Premise,10714,Moderate,Moderate,99.99%,High,PCI-DSS,50k-100k,100,Global,Monthly,iSCSI,US-West,Analytical,20,Co-managed,30-60%,File
+Enterprise,Finance,Semi-structured,On-Premise,4723,High,Moderate,99.90%,Low,GDPR,10k-50k,10,Regional,Daily,iSCSI,US-East,Analytical,5,Customer-managed,10-30%,File
+Small,Education,Unstructured,On-Premise,6851,High,Moderate,99.99%,Low,GDPR,>100k,10000,Global,Weekly,iSCSI,EU-Central,Transactional,1,Co-managed,10-30%,Object
+Enterprise,Retail,Unstructured,Hybrid,3201,High,Slow,99.99%,Medium,HIPAA,10k-50k,10000,Regional,Real-time,NFS,APAC-South,Transactional,1,Co-managed,30-60%,Tiered
+Small,Retail,Structured,Hybrid,18211,Moderate,Moderate,99.00%,Low,GDPR,<10k,100,Regional,Daily,SMB,US-East,Analytical,5,Vendor-managed,<10%,File
+Small,Finance,Structured,On-Premise,10181,Low,Fast,99.90%,Low,SOX,<10k,100,Regional,Monthly,SMB,US-East,Analytical,1,Co-managed,<10%,Block
+Medium,Education,Unstructured,On-Premise,19410,Low,Fast,99.90%,Medium,HIPAA,10k-50k,10000,Regional,Real-time,NFS,US-East,Analytical,5,Customer-managed,>60%,Object
+Enterprise,Healthcare,Unstructured,Hybrid,18139,Moderate,Slow,99.90%,Medium,SOX,>100k,50000,Regional,Weekly,NFS,US-West,Analytical,20,Customer-managed,<10%,File
+Medium,Education,Unstructured,Hybrid,1927,Low,Moderate,99.90%,High,PCI-DSS,>100k,10000,Local,Daily,iSCSI,US-East,Transactional,1,Co-managed,<10%,Object
+Small,Retail,Semi-structured,Cloud,13346,High,Fast,99.90%,High,GDPR,<10k,1000,Global,Real-time,SMB,US-West,Archive,10,Vendor-managed,10-30%,Object
+Medium,Tech,Unstructured,Hybrid,5429,Moderate,Fast,99.00%,High,GDPR,<10k,10000,Global,Daily,iSCSI,US-West,Archive,5,Vendor-managed,10-30%,Tiered
+Enterprise,Healthcare,Unstructured,Cloud,19671,Moderate,Fast,99.90%,High,GDPR,10k-50k,100,Global,Monthly,NFS,US-East,Analytical,20,Vendor-managed,<10%,Tiered
+Enterprise,Healthcare,Structured,Cloud,7409,Low,Fast,99.90%,High,SOX,>100k,1000,Regional,Weekly,SMB,APAC-South,Archive,1,Vendor-managed,10-30%,Object
+Small,Finance,Semi-structured,Cloud,12448,High,Slow,99.99%,Low,SOX,>100k,10,Global,Monthly,Fibre Channel,US-West,Transactional,1,Customer-managed,>60%,File
+Small,Finance,Unstructured,Hybrid,7536,High,Fast,99.99%,Medium,GDPR,50k-100k,50000,Regional,Real-time,iSCSI,US-West,Transactional,5,Customer-managed,<10%,Block
+Small,Finance,Unstructured,On-Premise,3675,Moderate,Moderate,99.00%,High,GDPR,10k-50k,10,Global,Weekly,NFS,APAC-South,Transactional,5,Vendor-managed,>60%,Object
+Medium,Healthcare,Unstructured,Cloud,9377,Low,Fast,99.99%,Medium,GDPR,10k-50k,10000,Regional,Weekly,iSCSI,EU-Central,Analytical,10,Customer-managed,>60%,Tiered
+Small,Tech,Semi-structured,Cloud,18377,High,Moderate,99.00%,Medium,GDPR,<10k,50000,Local,Weekly,iSCSI,US-East,Analytical,5,Co-managed,>60%,Tiered
+Small,Finance,Structured,On-Premise,2124,Moderate,Fast,99.99%,High,HIPAA,50k-100k,1000,Global,Weekly,iSCSI,EU-Central,Analytical,20,Customer-managed,30-60%,Object
+Enterprise,Finance,Unstructured,Hybrid,1001,Moderate,Fast,99.00%,High,PCI-DSS,<10k,10000,Local,Monthly,iSCSI,EU-Central,Archive,5,Vendor-managed,>60%,Object
+Medium,Retail,Unstructured,On-Premise,5836,High,Moderate,99.90%,Low,HIPAA,50k-100k,1000,Regional,Real-time,SMB,EU-Central,Analytical,10,Co-managed,30-60%,File
+Enterprise,Finance,Semi-structured,On-Premise,10352,Low,Slow,99.99%,High,GDPR,<10k,50000,Local,Weekly,NFS,EU-Central,Transactional,1,Vendor-managed,10-30%,Object
+Enterprise,Retail,Structured,Cloud,9373,High,Fast,99.00%,Medium,PCI-DSS,10k-50k,1000,Regional,Real-time,Fibre Channel,APAC-South,Transactional,5,Customer-managed,30-60%,Tiered
+Enterprise,Healthcare,Semi-structured,Cloud,8084,High,Fast,99.99%,Low,PCI-DSS,>100k,10000,Local,Real-time,SMB,EU-Central,Archive,5,Co-managed,10-30%,Block
+Small,Healthcare,Structured,Cloud,1690,Low,Moderate,99.99%,Medium,GDPR,50k-100k,100,Global,Real-time,iSCSI,US-East,Transactional,5,Customer-managed,10-30%,Tiered
+Medium,Healthcare,Structured,On-Premise,7405,Low,Fast,99.00%,Medium,PCI-DSS,>100k,1000,Local,Daily,Fibre Channel,APAC-South,Analytical,10,Co-managed,10-30%,Block
+Enterprise,Healthcare,Semi-structured,On-Premise,19264,Moderate,Fast,99.99%,High,PCI-DSS,>100k,1000,Regional,Real-time,Fibre Channel,US-East,Archive,1,Co-managed,>60%,Object
+Medium,Finance,Semi-structured,Cloud,19176,Low,Fast,99.90%,Low,GDPR,>100k,1000,Regional,Daily,SMB,APAC-South,Analytical,10,Customer-managed,>60%,Block
+Small,Education,Structured,Cloud,3717,Low,Slow,99.99%,Medium,HIPAA,<10k,1000,Local,Weekly,Fibre Channel,APAC-South,Transactional,5,Customer-managed,<10%,Object
+Enterprise,Finance,Unstructured,On-Premise,8064,Moderate,Slow,99.00%,Low,PCI-DSS,<10k,10,Regional,Monthly,NFS,APAC-South,Analytical,10,Customer-managed,30-60%,File
+Enterprise,Finance,Unstructured,Cloud,798,Moderate,Moderate,99.99%,Medium,SOX,>100k,1000,Regional,Monthly,Fibre Channel,US-West,Archive,5,Customer-managed,<10%,Object
+Enterprise,Education,Structured,On-Premise,14824,High,Moderate,99.90%,Low,HIPAA,>100k,1000,Local,Daily,Fibre Channel,US-East,Transactional,10,Customer-managed,>60%,File
+Medium,Retail,Semi-structured,Cloud,18966,Low,Fast,99.90%,Medium,PCI-DSS,>100k,50000,Regional,Weekly,NFS,EU-Central,Transactional,5,Co-managed,30-60%,Block
+Enterprise,Retail,Structured,On-Premise,9834,Moderate,Slow,99.90%,High,PCI-DSS,50k-100k,100,Global,Daily,NFS,US-East,Transactional,10,Co-managed,10-30%,File
+Enterprise,Retail,Unstructured,Hybrid,6515,Low,Slow,99.00%,Medium,GDPR,>100k,10000,Local,Daily,NFS,US-East,Transactional,1,Customer-managed,10-30%,Block
+Enterprise,Healthcare,Semi-structured,Hybrid,17321,High,Slow,99.90%,High,PCI-DSS,<10k,10000,Local,Daily,Fibre Channel,US-West,Archive,5,Vendor-managed,<10%,File
+Medium,Tech,Semi-structured,Cloud,2892,High,Moderate,99.90%,High,GDPR,10k-50k,10,Local,Weekly,iSCSI,EU-Central,Analytical,10,Co-managed,>60%,Tiered
+Small,Healthcare,Unstructured,Cloud,18053,High,Moderate,99.00%,High,PCI-DSS,>100k,10000,Global,Daily,NFS,US-East,Transactional,1,Customer-managed,<10%,File
+Enterprise,Healthcare,Semi-structured,Hybrid,2536,Moderate,Fast,99.00%,High,SOX,10k-50k,100,Local,Real-time,iSCSI,EU-Central,Transactional,5,Customer-managed,>60%,Tiered
+Enterprise,Healthcare,Semi-structured,On-Premise,12491,Low,Moderate,99.99%,Low,GDPR,>100k,10,Global,Real-time,Fibre Channel,US-West,Transactional,5,Customer-managed,30-60%,Object
+Medium,Retail,Structured,Cloud,12806,High,Fast,99.99%,Low,GDPR,>100k,1000,Regional,Daily,iSCSI,APAC-South,Archive,10,Customer-managed,30-60%,Object
+Enterprise,Education,Structured,Cloud,18651,High,Fast,99.00%,Medium,PCI-DSS,10k-50k,10,Local,Real-time,SMB,US-East,Archive,1,Co-managed,10-30%,Object
+Small,Retail,Semi-structured,Hybrid,11193,High,Moderate,99.90%,Low,GDPR,>100k,10000,Local,Daily,NFS,US-West,Analytical,10,Customer-managed,<10%,Block
+Small,Retail,Structured,Cloud,4891,Low,Moderate,99.00%,Medium,SOX,>100k,50000,Local,Monthly,iSCSI,US-West,Transactional,1,Co-managed,>60%,Block
+Small,Finance,Unstructured,Cloud,11929,Low,Slow,99.90%,High,GDPR,>100k,50000,Global,Real-time,iSCSI,US-West,Archive,20,Customer-managed,<10%,Tiered
+Small,Healthcare,Structured,Cloud,5152,High,Fast,99.00%,Medium,SOX,10k-50k,50000,Regional,Monthly,iSCSI,APAC-South,Analytical,20,Customer-managed,10-30%,Object
+Medium,Tech,Semi-structured,Cloud,7056,High,Slow,99.90%,High,HIPAA,>100k,10,Global,Weekly,Fibre Channel,EU-Central,Transactional,5,Co-managed,>60%,File
+Small,Retail,Structured,Cloud,14217,Low,Fast,99.99%,Medium,SOX,10k-50k,50000,Global,Daily,Fibre Channel,EU-Central,Archive,10,Co-managed,30-60%,Tiered
+Enterprise,Education,Structured,Hybrid,13974,Moderate,Slow,99.00%,Low,HIPAA,>100k,50000,Local,Monthly,Fibre Channel,US-East,Transactional,20,Customer-managed,>60%,Block
+Medium,Retail,Unstructured,Hybrid,6426,High,Fast,99.00%,Low,SOX,<10k,50000,Regional,Daily,NFS,US-West,Transactional,5,Vendor-managed,<10%,Block
+Medium,Tech,Semi-structured,On-Premise,10005,Moderate,Fast,99.90%,High,PCI-DSS,>100k,10000,Regional,Weekly,Fibre Channel,APAC-South,Archive,5,Vendor-managed,>60%,Object
+Small,Retail,Semi-structured,Cloud,18594,Moderate,Slow,99.99%,Medium,GDPR,<10k,100,Regional,Weekly,Fibre Channel,EU-Central,Transactional,5,Customer-managed,30-60%,Block
+Medium,Retail,Semi-structured,Cloud,17837,High,Fast,99.00%,Low,SOX,>100k,50000,Global,Monthly,iSCSI,US-East,Archive,10,Vendor-managed,<10%,Block
+Enterprise,Healthcare,Semi-structured,Cloud,8294,Low,Slow,99.00%,Low,PCI-DSS,50k-100k,10000,Global,Weekly,NFS,US-East,Archive,1,Customer-managed,10-30%,Tiered
+Medium,Retail,Unstructured,Hybrid,4653,Moderate,Fast,99.90%,Low,HIPAA,10k-50k,1000,Global,Daily,NFS,EU-Central,Archive,1,Customer-managed,10-30%,Object
+Enterprise,Education,Structured,On-Premise,15405,High,Fast,99.90%,Low,PCI-DSS,50k-100k,1000,Regional,Real-time,SMB,US-West,Archive,1,Co-managed,10-30%,Object
+Small,Retail,Unstructured,Hybrid,19939,High,Fast,99.90%,High,PCI-DSS,>100k,50000,Regional,Real-time,Fibre Channel,US-East,Archive,1,Vendor-managed,>60%,Tiered
+Enterprise,Education,Unstructured,Cloud,10179,High,Moderate,99.90%,Low,SOX,10k-50k,50000,Local,Weekly,NFS,EU-Central,Analytical,20,Co-managed,>60%,Tiered
+Small,Finance,Unstructured,Cloud,13159,High,Moderate,99.90%,Low,GDPR,>100k,10,Regional,Daily,iSCSI,US-West,Analytical,5,Customer-managed,10-30%,Tiered
+Medium,Tech,Structured,On-Premise,18508,High,Moderate,99.90%,Medium,PCI-DSS,50k-100k,1000,Regional,Monthly,NFS,EU-Central,Archive,20,Co-managed,30-60%,File
+Small,Education,Semi-structured,Hybrid,19594,High,Fast,99.00%,Medium,SOX,50k-100k,10,Local,Monthly,iSCSI,EU-Central,Analytical,1,Customer-managed,>60%,File
+Medium,Finance,Semi-structured,Hybrid,17303,Moderate,Slow,99.99%,Low,PCI-DSS,>100k,10,Regional,Daily,Fibre Channel,US-West,Analytical,20,Co-managed,<10%,Block
+Small,Retail,Unstructured,On-Premise,6042,Low,Moderate,99.90%,Medium,HIPAA,50k-100k,50000,Regional,Daily,SMB,US-West,Analytical,5,Customer-managed,30-60%,File
+Medium,Finance,Unstructured,Cloud,3460,Moderate,Fast,99.00%,High,PCI-DSS,>100k,10,Regional,Daily,Fibre Channel,EU-Central,Archive,10,Customer-managed,>60%,Block
+Medium,Tech,Structured,Cloud,5549,High,Fast,99.99%,Low,SOX,50k-100k,100,Regional,Weekly,iSCSI,EU-Central,Analytical,1,Co-managed,<10%,File
+Small,Education,Unstructured,On-Premise,15176,Moderate,Fast,99.99%,Medium,GDPR,10k-50k,10,Local,Real-time,iSCSI,US-East,Analytical,20,Vendor-managed,<10%,Tiered
+Medium,Tech,Unstructured,Cloud,17093,Moderate,Fast,99.99%,Medium,SOX,50k-100k,50000,Global,Weekly,Fibre Channel,EU-Central,Archive,10,Co-managed,30-60%,File
+Enterprise,Tech,Structured,Cloud,9934,High,Fast,99.90%,Medium,GDPR,10k-50k,1000,Regional,Daily,Fibre Channel,US-West,Archive,10,Customer-managed,>60%,Block
+Small,Tech,Unstructured,Hybrid,14698,High,Slow,99.99%,Low,SOX,<10k,10000,Local,Real-time,NFS,US-West,Archive,20,Vendor-managed,10-30%,Tiered
+Medium,Finance,Unstructured,On-Premise,16279,Moderate,Slow,99.99%,Low,PCI-DSS,10k-50k,100,Global,Daily,Fibre Channel,APAC-South,Transactional,10,Vendor-managed,<10%,Tiered
+Medium,Finance,Structured,Cloud,1627,Low,Fast,99.00%,Medium,PCI-DSS,>100k,1000,Local,Daily,SMB,US-East,Transactional,20,Customer-managed,10-30%,Object
+Enterprise,Retail,Structured,Hybrid,2099,Low,Moderate,99.00%,High,GDPR,50k-100k,1000,Local,Real-time,iSCSI,US-East,Analytical,10,Vendor-managed,>60%,File
+Medium,Education,Unstructured,Cloud,16008,Moderate,Slow,99.90%,Medium,PCI-DSS,>100k,1000,Global,Weekly,NFS,EU-Central,Analytical,1,Co-managed,>60%,File
+Enterprise,Healthcare,Unstructured,Cloud,9149,High,Fast,99.90%,Low,HIPAA,50k-100k,100,Regional,Weekly,SMB,US-West,Analytical,5,Vendor-managed,30-60%,Tiered
+Enterprise,Retail,Semi-structured,On-Premise,6255,Low,Slow,99.90%,High,PCI-DSS,10k-50k,100,Regional,Monthly,Fibre Channel,EU-Central,Analytical,5,Customer-managed,10-30%,Object
+Small,Tech,Unstructured,Hybrid,14878,Moderate,Slow,99.99%,Medium,PCI-DSS,50k-100k,1000,Regional,Monthly,iSCSI,APAC-South,Archive,5,Customer-managed,<10%,Block
+Small,Tech,Structured,Hybrid,10370,Low,Slow,99.00%,Medium,PCI-DSS,<10k,10000,Regional,Daily,NFS,US-East,Transactional,5,Customer-managed,30-60%,File
+Small,Finance,Unstructured,Cloud,13209,Moderate,Moderate,99.90%,Low,PCI-DSS,>100k,100,Global,Monthly,SMB,EU-Central,Transactional,5,Customer-managed,10-30%,Tiered
+Small,Healthcare,Unstructured,On-Premise,16714,Moderate,Moderate,99.99%,Medium,PCI-DSS,10k-50k,100,Local,Weekly,SMB,APAC-South,Analytical,20,Co-managed,30-60%,Object
+Medium,Retail,Unstructured,Cloud,18092,High,Fast,99.99%,High,PCI-DSS,>100k,50000,Regional,Daily,Fibre Channel,APAC-South,Archive,1,Co-managed,30-60%,Block
+Enterprise,Education,Semi-structured,Hybrid,9028,High,Slow,99.90%,Low,SOX,50k-100k,50000,Regional,Weekly,SMB,EU-Central,Transactional,20,Customer-managed,30-60%,File
+Small,Education,Semi-structured,Hybrid,13638,Low,Fast,99.99%,Medium,HIPAA,50k-100k,10,Local,Monthly,iSCSI,US-East,Transactional,5,Vendor-managed,<10%,Tiered
+Enterprise,Education,Semi-structured,Hybrid,19539,High,Slow,99.90%,Medium,HIPAA,50k-100k,100,Regional,Monthly,iSCSI,EU-Central,Archive,10,Co-managed,10-30%,Object
+Enterprise,Tech,Semi-structured,Hybrid,6385,Low,Slow,99.90%,High,PCI-DSS,50k-100k,10,Regional,Daily,Fibre Channel,US-East,Analytical,10,Vendor-managed,30-60%,Block
+Enterprise,Education,Structured,On-Premise,12840,Low,Fast,99.00%,Medium,HIPAA,<10k,50000,Local,Weekly,iSCSI,US-East,Transactional,20,Co-managed,<10%,Object
+Enterprise,Retail,Semi-structured,Cloud,19896,Low,Fast,99.90%,Low,GDPR,10k-50k,10,Regional,Real-time,SMB,US-West,Transactional,1,Vendor-managed,>60%,Block
+Small,Tech,Semi-structured,Cloud,15076,High,Fast,99.00%,High,SOX,50k-100k,100,Regional,Weekly,NFS,US-West,Transactional,5,Vendor-managed,30-60%,File
+Enterprise,Retail,Unstructured,Cloud,16406,Moderate,Slow,99.00%,High,SOX,50k-100k,10000,Global,Monthly,NFS,APAC-South,Transactional,10,Co-managed,30-60%,Block
+Small,Education,Semi-structured,On-Premise,8095,Moderate,Fast,99.99%,Low,GDPR,>100k,100,Regional,Weekly,Fibre Channel,EU-Central,Archive,20,Co-managed,30-60%,Object
+Medium,Tech,Unstructured,On-Premise,9878,Moderate,Fast,99.99%,Medium,GDPR,<10k,50000,Local,Weekly,iSCSI,APAC-South,Archive,5,Co-managed,10-30%,Block
+Small,Tech,Structured,On-Premise,778,Low,Moderate,99.99%,Medium,GDPR,50k-100k,1000,Local,Real-time,NFS,EU-Central,Analytical,10,Vendor-managed,>60%,Object
+Enterprise,Tech,Semi-structured,Hybrid,5003,Low,Fast,99.00%,Low,HIPAA,>100k,1000,Local,Monthly,iSCSI,US-West,Analytical,10,Customer-managed,10-30%,Tiered
+Small,Education,Unstructured,Hybrid,15184,Low,Fast,99.00%,Low,HIPAA,50k-100k,100,Local,Monthly,Fibre Channel,APAC-South,Archive,20,Vendor-managed,>60%,Object
+Medium,Finance,Structured,On-Premise,10923,High,Fast,99.99%,Low,HIPAA,<10k,100,Local,Weekly,Fibre Channel,US-East,Archive,1,Customer-managed,<10%,Block
+Medium,Retail,Unstructured,Cloud,10642,Moderate,Fast,99.99%,High,SOX,10k-50k,10000,Regional,Daily,Fibre Channel,EU-Central,Archive,20,Customer-managed,10-30%,Block
+Small,Retail,Semi-structured,Hybrid,13201,High,Slow,99.99%,Medium,HIPAA,10k-50k,1000,Global,Daily,Fibre Channel,EU-Central,Archive,5,Co-managed,30-60%,Tiered
+Medium,Healthcare,Structured,Hybrid,11700,Moderate,Fast,99.99%,Low,HIPAA,<10k,100,Regional,Monthly,SMB,APAC-South,Analytical,10,Vendor-managed,30-60%,Object
+Medium,Education,Semi-structured,Cloud,17100,Moderate,Moderate,99.00%,Medium,SOX,50k-100k,1000,Global,Weekly,iSCSI,EU-Central,Analytical,1,Co-managed,>60%,Block
+Medium,Finance,Semi-structured,Cloud,19408,Moderate,Moderate,99.00%,Medium,PCI-DSS,50k-100k,50000,Local,Real-time,SMB,US-East,Archive,20,Co-managed,30-60%,Tiered
+Medium,Tech,Unstructured,Cloud,16228,Moderate,Fast,99.00%,Medium,SOX,50k-100k,10,Global,Daily,iSCSI,APAC-South,Analytical,10,Customer-managed,>60%,File
+Medium,Education,Structured,On-Premise,11028,Moderate,Moderate,99.99%,Medium,SOX,50k-100k,100,Regional,Daily,SMB,EU-Central,Archive,5,Customer-managed,30-60%,Block
+Medium,Retail,Semi-structured,On-Premise,437,Low,Moderate,99.90%,Low,HIPAA,50k-100k,50000,Regional,Daily,Fibre Channel,EU-Central,Transactional,20,Vendor-managed,>60%,Object
+Small,Education,Structured,Cloud,3280,High,Slow,99.00%,Medium,SOX,10k-50k,1000,Regional,Monthly,Fibre Channel,US-East,Archive,1,Co-managed,30-60%,File
+Medium,Healthcare,Structured,Cloud,10270,Moderate,Fast,99.00%,Medium,GDPR,10k-50k,50000,Regional,Real-time,iSCSI,EU-Central,Analytical,1,Customer-managed,30-60%,Tiered
+Enterprise,Retail,Structured,Cloud,17697,Low,Fast,99.99%,High,GDPR,10k-50k,50000,Global,Real-time,iSCSI,US-West,Analytical,10,Vendor-managed,>60%,Tiered
+Enterprise,Finance,Unstructured,Cloud,11648,High,Moderate,99.99%,Low,PCI-DSS,<10k,1000,Global,Real-time,iSCSI,US-West,Analytical,20,Customer-managed,<10%,Tiered
+Enterprise,Education,Unstructured,On-Premise,2935,Moderate,Fast,99.99%,Medium,GDPR,<10k,50000,Global,Daily,NFS,APAC-South,Transactional,1,Vendor-managed,>60%,Tiered
+Medium,Tech,Semi-structured,Hybrid,5267,Moderate,Moderate,99.99%,Medium,PCI-DSS,50k-100k,10,Local,Weekly,NFS,US-East,Transactional,20,Co-managed,30-60%,File
+Small,Healthcare,Structured,On-Premise,18796,High,Fast,99.90%,High,SOX,>100k,1000,Regional,Monthly,iSCSI,US-West,Transactional,10,Co-managed,10-30%,Block
+Enterprise,Education,Semi-structured,Cloud,4978,Moderate,Fast,99.99%,Medium,HIPAA,<10k,100,Local,Monthly,Fibre Channel,US-East,Analytical,1,Customer-managed,>60%,Tiered
+Medium,Tech,Unstructured,Cloud,17896,Moderate,Moderate,99.90%,Medium,SOX,10k-50k,50000,Regional,Monthly,Fibre Channel,APAC-South,Analytical,10,Vendor-managed,30-60%,Block
+Medium,Tech,Semi-structured,On-Premise,11121,Low,Slow,99.90%,High,SOX,<10k,1000,Global,Weekly,iSCSI,US-West,Transactional,5,Co-managed,30-60%,File
+Medium,Retail,Semi-structured,On-Premise,3989,Moderate,Slow,99.99%,Low,HIPAA,>100k,100,Global,Monthly,SMB,US-East,Transactional,20,Co-managed,10-30%,Tiered
+Enterprise,Healthcare,Structured,On-Premise,3678,High,Moderate,99.00%,High,HIPAA,>100k,50000,Global,Weekly,SMB,APAC-South,Archive,10,Co-managed,<10%,File
+Enterprise,Education,Structured,Cloud,16309,Moderate,Slow,99.00%,Low,PCI-DSS,<10k,50000,Regional,Monthly,iSCSI,EU-Central,Transactional,10,Co-managed,10-30%,Block
+Enterprise,Finance,Semi-structured,Cloud,18903,Moderate,Fast,99.99%,High,SOX,10k-50k,1000,Local,Real-time,iSCSI,US-West,Analytical,10,Vendor-managed,>60%,Block
+Enterprise,Finance,Unstructured,On-Premise,15337,Moderate,Moderate,99.99%,Low,SOX,<10k,10000,Local,Real-time,SMB,EU-Central,Archive,20,Vendor-managed,10-30%,Block
+Small,Education,Semi-structured,On-Premise,5389,Moderate,Moderate,99.00%,Low,PCI-DSS,<10k,1000,Local,Daily,iSCSI,APAC-South,Analytical,20,Customer-managed,10-30%,File
+Small,Finance,Semi-structured,On-Premise,6226,Low,Moderate,99.99%,Low,GDPR,10k-50k,10,Local,Daily,Fibre Channel,US-East,Transactional,20,Vendor-managed,10-30%,Tiered
+Small,Retail,Unstructured,On-Premise,19698,High,Fast,99.90%,Medium,GDPR,>100k,50000,Global,Monthly,Fibre Channel,US-West,Archive,20,Vendor-managed,10-30%,Object
+Medium,Healthcare,Semi-structured,Hybrid,4050,High,Fast,99.99%,Medium,SOX,<10k,100,Local,Daily,SMB,EU-Central,Analytical,5,Co-managed,30-60%,Tiered
+Enterprise,Tech,Semi-structured,Cloud,6061,Moderate,Slow,99.90%,Medium,GDPR,10k-50k,10,Regional,Weekly,NFS,APAC-South,Analytical,5,Co-managed,>60%,Tiered
+Enterprise,Education,Unstructured,Cloud,15249,Low,Fast,99.90%,Low,PCI-DSS,>100k,10000,Regional,Monthly,Fibre Channel,US-East,Analytical,10,Customer-managed,10-30%,Tiered
+Small,Education,Structured,On-Premise,3654,Low,Moderate,99.99%,High,HIPAA,50k-100k,10,Regional,Daily,iSCSI,APAC-South,Transactional,10,Vendor-managed,30-60%,Object
+Enterprise,Tech,Structured,Hybrid,5110,High,Slow,99.99%,High,GDPR,10k-50k,1000,Regional,Monthly,SMB,US-East,Analytical,20,Customer-managed,>60%,Block
+Small,Tech,Structured,Hybrid,14164,Low,Fast,99.99%,Medium,SOX,10k-50k,10000,Global,Daily,SMB,US-West,Archive,10,Co-managed,>60%,File
+Medium,Finance,Structured,Cloud,11058,High,Fast,99.99%,High,HIPAA,50k-100k,100,Regional,Real-time,NFS,US-West,Analytical,5,Customer-managed,>60%,Tiered
+Small,Education,Unstructured,Cloud,3123,High,Fast,99.99%,Medium,GDPR,50k-100k,10000,Global,Weekly,NFS,APAC-South,Analytical,5,Co-managed,<10%,Tiered
+Small,Finance,Unstructured,Hybrid,1453,High,Fast,99.99%,Medium,SOX,10k-50k,50000,Regional,Real-time,SMB,APAC-South,Archive,1,Co-managed,30-60%,Block
+Medium,Tech,Semi-structured,On-Premise,17152,Low,Slow,99.00%,High,HIPAA,50k-100k,10,Regional,Weekly,Fibre Channel,US-West,Archive,1,Vendor-managed,<10%,Tiered
+Medium,Retail,Structured,Cloud,15124,High,Fast,99.90%,Low,HIPAA,<10k,10000,Global,Real-time,NFS,EU-Central,Analytical,20,Vendor-managed,>60%,Tiered
+Small,Tech,Semi-structured,On-Premise,10358,Low,Moderate,99.90%,Medium,PCI-DSS,>100k,1000,Regional,Monthly,SMB,APAC-South,Transactional,5,Customer-managed,30-60%,File
+Small,Retail,Unstructured,Hybrid,10161,Moderate,Fast,99.90%,High,HIPAA,50k-100k,10000,Regional,Monthly,SMB,US-East,Analytical,5,Vendor-managed,30-60%,Tiered
+Medium,Education,Semi-structured,Hybrid,4843,Moderate,Fast,99.99%,Low,HIPAA,<10k,10,Local,Real-time,iSCSI,APAC-South,Archive,1,Customer-managed,10-30%,Object
+Medium,Finance,Semi-structured,Cloud,4016,Low,Moderate,99.99%,Medium,HIPAA,>100k,1000,Local,Monthly,SMB,EU-Central,Analytical,1,Customer-managed,30-60%,Tiered
+Enterprise,Healthcare,Semi-structured,On-Premise,606,High,Fast,99.99%,High,SOX,<10k,50000,Local,Monthly,SMB,EU-Central,Analytical,5,Customer-managed,10-30%,Block
+Medium,Healthcare,Unstructured,On-Premise,16901,High,Fast,99.90%,High,GDPR,50k-100k,100,Global,Daily,NFS,US-East,Analytical,1,Vendor-managed,30-60%,Tiered
+Medium,Finance,Structured,Cloud,1961,Moderate,Fast,99.00%,High,PCI-DSS,10k-50k,10,Local,Real-time,NFS,US-East,Transactional,5,Customer-managed,10-30%,Tiered
+Small,Tech,Structured,On-Premise,4410,Low,Fast,99.90%,Low,HIPAA,<10k,100,Global,Real-time,SMB,US-West,Archive,1,Vendor-managed,10-30%,Object
+Small,Retail,Semi-structured,On-Premise,16661,High,Moderate,99.00%,High,SOX,<10k,10,Regional,Monthly,iSCSI,US-West,Analytical,20,Vendor-managed,10-30%,Block
+Enterprise,Finance,Semi-structured,On-Premise,571,Moderate,Fast,99.99%,Low,SOX,50k-100k,50000,Global,Weekly,NFS,EU-Central,Archive,10,Customer-managed,30-60%,Block
+Enterprise,Education,Unstructured,On-Premise,8870,Low,Fast,99.99%,Low,GDPR,10k-50k,100,Global,Real-time,iSCSI,APAC-South,Archive,20,Customer-managed,30-60%,Object
+Medium,Tech,Structured,On-Premise,1648,Low,Moderate,99.00%,Low,PCI-DSS,<10k,50000,Regional,Daily,Fibre Channel,US-West,Transactional,1,Vendor-managed,>60%,Object
+Enterprise,Education,Unstructured,Cloud,14068,Low,Fast,99.90%,Medium,PCI-DSS,10k-50k,10,Regional,Weekly,SMB,APAC-South,Archive,5,Customer-managed,10-30%,File
+Enterprise,Retail,Semi-structured,Hybrid,11008,Low,Slow,99.99%,Medium,GDPR,50k-100k,50000,Global,Monthly,NFS,EU-Central,Archive,20,Vendor-managed,30-60%,Tiered
+Enterprise,Retail,Structured,Cloud,8232,High,Slow,99.90%,Medium,PCI-DSS,>100k,1000,Regional,Weekly,NFS,EU-Central,Analytical,1,Vendor-managed,>60%,File
+Small,Healthcare,Unstructured,Cloud,10412,High,Fast,99.99%,High,HIPAA,<10k,1000,Regional,Weekly,SMB,US-West,Archive,10,Vendor-managed,30-60%,Block
+Medium,Healthcare,Unstructured,On-Premise,4923,Low,Fast,99.90%,Low,HIPAA,10k-50k,1000,Regional,Real-time,Fibre Channel,US-East,Analytical,20,Vendor-managed,>60%,Block
+Medium,Healthcare,Unstructured,Hybrid,2817,Low,Slow,99.99%,Low,PCI-DSS,<10k,100,Global,Monthly,SMB,US-West,Archive,20,Vendor-managed,>60%,File
+Enterprise,Finance,Unstructured,Cloud,13136,Moderate,Slow,99.90%,High,SOX,10k-50k,50000,Local,Real-time,iSCSI,APAC-South,Transactional,20,Customer-managed,30-60%,Block
+Small,Tech,Unstructured,Cloud,8418,High,Moderate,99.00%,High,GDPR,50k-100k,10,Global,Monthly,Fibre Channel,APAC-South,Transactional,5,Co-managed,10-30%,Tiered
+Small,Healthcare,Semi-structured,Cloud,4620,Low,Moderate,99.90%,High,GDPR,<10k,10000,Global,Monthly,NFS,US-East,Archive,5,Vendor-managed,10-30%,Object
+Medium,Finance,Unstructured,On-Premise,9021,Low,Fast,99.99%,Medium,SOX,>100k,50000,Global,Weekly,SMB,US-West,Analytical,20,Customer-managed,<10%,Tiered
+Small,Retail,Unstructured,Cloud,12009,Moderate,Moderate,99.90%,Low,SOX,<10k,100,Local,Monthly,iSCSI,US-East,Analytical,5,Co-managed,10-30%,Block
+Small,Retail,Semi-structured,Hybrid,15336,Moderate,Moderate,99.99%,High,PCI-DSS,10k-50k,1000,Local,Monthly,iSCSI,US-East,Archive,10,Co-managed,30-60%,Tiered
+Enterprise,Education,Structured,Hybrid,1891,Low,Fast,99.90%,High,SOX,10k-50k,100,Regional,Daily,SMB,EU-Central,Transactional,1,Customer-managed,>60%,Block
+Enterprise,Education,Unstructured,Hybrid,1579,Low,Slow,99.99%,Low,SOX,<10k,10,Local,Monthly,NFS,US-East,Analytical,5,Customer-managed,30-60%,Block
+Medium,Finance,Semi-structured,On-Premise,8730,Moderate,Fast,99.99%,Low,SOX,50k-100k,10,Regional,Real-time,Fibre Channel,APAC-South,Analytical,10,Co-managed,10-30%,File
+Small,Finance,Structured,On-Premise,14958,Low,Slow,99.90%,Low,SOX,10k-50k,50000,Regional,Monthly,SMB,US-West,Analytical,5,Customer-managed,10-30%,Block
+Medium,Tech,Unstructured,Hybrid,9254,Moderate,Fast,99.90%,High,GDPR,>100k,10,Local,Real-time,iSCSI,US-East,Transactional,10,Vendor-managed,>60%,Tiered
+Small,Finance,Unstructured,Cloud,7812,Moderate,Moderate,99.90%,High,GDPR,>100k,1000,Global,Real-time,SMB,EU-Central,Archive,20,Customer-managed,>60%,Block
+Small,Finance,Structured,On-Premise,18002,Moderate,Fast,99.90%,Medium,GDPR,>100k,10000,Local,Weekly,NFS,US-East,Archive,5,Customer-managed,10-30%,Object
+Enterprise,Education,Unstructured,Hybrid,17560,High,Moderate,99.99%,Medium,PCI-DSS,<10k,100,Global,Real-time,SMB,EU-Central,Transactional,5,Customer-managed,10-30%,Tiered
+Medium,Tech,Unstructured,Hybrid,16321,High,Fast,99.90%,Medium,SOX,50k-100k,50000,Local,Monthly,iSCSI,US-East,Transactional,5,Customer-managed,10-30%,File
+Enterprise,Healthcare,Unstructured,Cloud,11328,Low,Fast,99.99%,Medium,PCI-DSS,<10k,10000,Local,Weekly,NFS,APAC-South,Analytical,10,Co-managed,30-60%,Object
+Medium,Healthcare,Structured,Cloud,2370,Moderate,Moderate,99.90%,Medium,HIPAA,<10k,10000,Regional,Real-time,iSCSI,US-East,Analytical,5,Co-managed,<10%,File
+Medium,Healthcare,Structured,Hybrid,14124,Low,Fast,99.90%,Medium,HIPAA,>100k,10,Global,Weekly,iSCSI,US-East,Transactional,5,Co-managed,10-30%,Block
+Enterprise,Tech,Semi-structured,Hybrid,7854,Low,Moderate,99.00%,Low,HIPAA,>100k,1000,Global,Daily,iSCSI,EU-Central,Transactional,10,Co-managed,<10%,Tiered
+Small,Tech,Semi-structured,Cloud,3205,High,Slow,99.00%,Low,HIPAA,>100k,100,Local,Weekly,iSCSI,APAC-South,Analytical,20,Customer-managed,<10%,Tiered
+Medium,Retail,Semi-structured,On-Premise,663,Moderate,Moderate,99.99%,High,HIPAA,10k-50k,100,Global,Weekly,SMB,US-East,Transactional,10,Co-managed,30-60%,Tiered
+Enterprise,Retail,Unstructured,Hybrid,3831,Low,Slow,99.99%,High,SOX,10k-50k,50000,Regional,Monthly,iSCSI,US-West,Archive,10,Co-managed,10-30%,Tiered
+Small,Tech,Semi-structured,Cloud,18439,High,Slow,99.90%,High,PCI-DSS,>100k,50000,Local,Weekly,iSCSI,APAC-South,Analytical,10,Customer-managed,10-30%,Block
+Enterprise,Education,Structured,Hybrid,3388,Low,Fast,99.00%,Medium,GDPR,10k-50k,10000,Global,Monthly,Fibre Channel,APAC-South,Archive,20,Co-managed,30-60%,Object
+Small,Tech,Semi-structured,Cloud,18822,High,Moderate,99.90%,High,SOX,>100k,50000,Global,Monthly,SMB,EU-Central,Transactional,5,Customer-managed,10-30%,File
+Enterprise,Retail,Semi-structured,Hybrid,14430,Moderate,Fast,99.99%,High,SOX,>100k,1000,Regional,Weekly,Fibre Channel,US-West,Transactional,20,Co-managed,>60%,Object
+Small,Tech,Semi-structured,Hybrid,13482,High,Moderate,99.00%,Low,PCI-DSS,<10k,1000,Regional,Daily,NFS,US-East,Archive,1,Vendor-managed,<10%,File
+Enterprise,Retail,Unstructured,On-Premise,12348,High,Slow,99.99%,Medium,GDPR,<10k,100,Local,Daily,iSCSI,APAC-South,Transactional,10,Co-managed,<10%,Object
+Small,Tech,Structured,On-Premise,11124,Low,Slow,99.00%,Medium,GDPR,50k-100k,100,Global,Real-time,Fibre Channel,APAC-South,Archive,20,Customer-managed,10-30%,Object
+Small,Retail,Unstructured,On-Premise,19750,Moderate,Fast,99.00%,Low,SOX,<10k,10000,Global,Daily,SMB,US-East,Archive,5,Co-managed,30-60%,Tiered
+Medium,Healthcare,Unstructured,Hybrid,16948,Moderate,Moderate,99.90%,Medium,HIPAA,>100k,10,Regional,Real-time,SMB,EU-Central,Archive,5,Vendor-managed,<10%,Block
+Enterprise,Healthcare,Semi-structured,On-Premise,3758,Moderate,Fast,99.90%,Low,SOX,50k-100k,1000,Local,Weekly,Fibre Channel,US-East,Transactional,5,Customer-managed,>60%,File
+Enterprise,Education,Unstructured,Hybrid,1344,Moderate,Slow,99.90%,High,HIPAA,<10k,100,Local,Daily,iSCSI,US-East,Transactional,20,Vendor-managed,>60%,Tiered
+Enterprise,Retail,Semi-structured,On-Premise,5545,Low,Moderate,99.90%,High,HIPAA,50k-100k,1000,Local,Daily,NFS,US-East,Transactional,20,Co-managed,<10%,Tiered
+Enterprise,Education,Unstructured,Hybrid,13398,Moderate,Slow,99.99%,Low,HIPAA,>100k,50000,Local,Monthly,Fibre Channel,US-West,Archive,20,Customer-managed,>60%,Block
+Enterprise,Education,Semi-structured,Hybrid,11083,High,Slow,99.00%,Low,SOX,10k-50k,100,Local,Weekly,Fibre Channel,US-East,Analytical,20,Vendor-managed,10-30%,Block
+Medium,Tech,Unstructured,Cloud,5969,High,Moderate,99.00%,High,PCI-DSS,10k-50k,10,Global,Monthly,Fibre Channel,EU-Central,Transactional,1,Co-managed,<10%,File
+Small,Retail,Semi-structured,Cloud,18359,Low,Slow,99.99%,Medium,PCI-DSS,50k-100k,10,Local,Daily,Fibre Channel,US-East,Archive,1,Vendor-managed,30-60%,File
+Enterprise,Healthcare,Structured,On-Premise,14610,High,Slow,99.99%,Low,PCI-DSS,<10k,1000,Regional,Real-time,iSCSI,US-East,Archive,1,Vendor-managed,>60%,File
+Enterprise,Retail,Structured,Cloud,14158,Moderate,Fast,99.90%,Medium,SOX,10k-50k,10,Global,Weekly,Fibre Channel,US-West,Analytical,5,Co-managed,10-30%,Object
+Medium,Healthcare,Structured,Cloud,8345,Moderate,Slow,99.90%,High,SOX,<10k,1000,Local,Daily,NFS,EU-Central,Analytical,5,Customer-managed,>60%,Block
+Enterprise,Retail,Unstructured,Hybrid,18452,High,Moderate,99.90%,Medium,PCI-DSS,<10k,10,Local,Weekly,iSCSI,US-East,Transactional,20,Customer-managed,30-60%,Tiered
+Medium,Healthcare,Semi-structured,Cloud,5187,Moderate,Fast,99.90%,Low,PCI-DSS,50k-100k,50000,Local,Real-time,NFS,APAC-South,Archive,20,Vendor-managed,>60%,Block
+Medium,Retail,Structured,Hybrid,2269,Moderate,Fast,99.99%,Low,SOX,>100k,1000,Global,Monthly,iSCSI,US-West,Archive,10,Vendor-managed,30-60%,Block
+Enterprise,Education,Unstructured,Cloud,3946,High,Slow,99.99%,High,SOX,10k-50k,10,Global,Daily,NFS,US-East,Transactional,20,Co-managed,30-60%,Block
+Small,Education,Unstructured,Cloud,13669,Low,Moderate,99.00%,High,PCI-DSS,10k-50k,100,Local,Real-time,SMB,US-West,Transactional,10,Co-managed,10-30%,Object
+Medium,Retail,Unstructured,Hybrid,17328,High,Fast,99.90%,Medium,PCI-DSS,10k-50k,100,Global,Weekly,Fibre Channel,US-East,Analytical,10,Vendor-managed,>60%,Object
+Medium,Healthcare,Unstructured,Cloud,18821,Moderate,Fast,99.99%,Low,HIPAA,<10k,1000,Global,Monthly,Fibre Channel,US-East,Archive,5,Customer-managed,10-30%,Block
+Medium,Retail,Semi-structured,Hybrid,17457,High,Moderate,99.00%,Low,GDPR,10k-50k,100,Regional,Real-time,SMB,US-East,Analytical,10,Co-managed,30-60%,Block
+Enterprise,Education,Semi-structured,On-Premise,4843,High,Fast,99.00%,Low,SOX,<10k,10,Regional,Real-time,iSCSI,US-West,Transactional,20,Customer-managed,>60%,Block
+Small,Retail,Unstructured,Cloud,14930,High,Moderate,99.00%,Medium,SOX,50k-100k,10,Local,Real-time,SMB,APAC-South,Analytical,10,Vendor-managed,10-30%,Tiered
+Small,Healthcare,Structured,Hybrid,8003,Low,Slow,99.99%,Medium,PCI-DSS,50k-100k,50000,Local,Monthly,NFS,US-East,Archive,5,Vendor-managed,30-60%,File
+Small,Finance,Unstructured,Cloud,4568,High,Slow,99.90%,Medium,GDPR,<10k,10000,Local,Monthly,NFS,APAC-South,Archive,5,Customer-managed,>60%,Tiered
+Enterprise,Retail,Structured,Cloud,6894,Moderate,Fast,99.90%,Medium,PCI-DSS,>100k,10,Local,Monthly,Fibre Channel,US-East,Archive,5,Co-managed,10-30%,Block
+Enterprise,Finance,Unstructured,Cloud,4086,Low,Moderate,99.00%,Medium,HIPAA,10k-50k,1000,Local,Monthly,NFS,US-West,Transactional,10,Customer-managed,10-30%,Object
+Enterprise,Finance,Unstructured,On-Premise,3810,Moderate,Fast,99.99%,Low,PCI-DSS,50k-100k,100,Global,Weekly,SMB,US-East,Analytical,20,Customer-managed,>60%,Object
+Small,Healthcare,Semi-structured,Hybrid,8003,High,Fast,99.00%,Medium,PCI-DSS,>100k,100,Regional,Daily,NFS,US-East,Transactional,20,Vendor-managed,<10%,Object
+Enterprise,Healthcare,Unstructured,On-Premise,8219,Low,Slow,99.00%,Medium,SOX,>100k,1000,Regional,Weekly,iSCSI,US-West,Transactional,5,Co-managed,>60%,Tiered
+Small,Healthcare,Structured,On-Premise,1412,Low,Fast,99.99%,Low,PCI-DSS,50k-100k,50000,Global,Real-time,iSCSI,US-West,Archive,5,Customer-managed,10-30%,Tiered
+Medium,Education,Semi-structured,Cloud,19734,Moderate,Fast,99.00%,Medium,SOX,>100k,100,Local,Monthly,NFS,US-East,Analytical,1,Vendor-managed,10-30%,Block
+Enterprise,Healthcare,Structured,Hybrid,14338,Moderate,Slow,99.90%,High,GDPR,50k-100k,1000,Regional,Daily,iSCSI,US-East,Analytical,20,Customer-managed,<10%,Tiered
+Medium,Healthcare,Semi-structured,Hybrid,6482,Moderate,Slow,99.99%,Medium,GDPR,10k-50k,100,Regional,Monthly,NFS,US-West,Analytical,10,Customer-managed,<10%,File
+Small,Tech,Structured,Hybrid,3510,Low,Moderate,99.90%,High,SOX,50k-100k,50000,Global,Real-time,Fibre Channel,US-East,Analytical,1,Co-managed,30-60%,File
+Small,Finance,Unstructured,On-Premise,2308,Low,Slow,99.00%,Medium,SOX,>100k,1000,Regional,Real-time,iSCSI,EU-Central,Transactional,1,Vendor-managed,<10%,Tiered
+Enterprise,Healthcare,Semi-structured,Cloud,3821,Low,Fast,99.99%,Medium,SOX,>100k,10000,Regional,Real-time,NFS,US-West,Transactional,1,Customer-managed,>60%,File
+Small,Healthcare,Unstructured,Cloud,12931,Moderate,Slow,99.99%,Medium,HIPAA,>100k,1000,Regional,Daily,SMB,US-East,Analytical,5,Customer-managed,30-60%,File
+Medium,Tech,Structured,Cloud,4873,High,Fast,99.99%,High,GDPR,50k-100k,10,Global,Daily,iSCSI,EU-Central,Archive,10,Vendor-managed,>60%,Tiered
+Enterprise,Education,Unstructured,Hybrid,6931,Moderate,Slow,99.00%,High,HIPAA,<10k,1000,Global,Real-time,iSCSI,US-West,Transactional,10,Vendor-managed,<10%,Tiered
+Small,Healthcare,Unstructured,Hybrid,5266,Moderate,Moderate,99.00%,Medium,PCI-DSS,<10k,10000,Global,Monthly,iSCSI,US-West,Analytical,5,Customer-managed,10-30%,Object
+Small,Finance,Structured,Hybrid,2795,High,Moderate,99.99%,Low,HIPAA,<10k,50000,Local,Weekly,NFS,APAC-South,Analytical,10,Vendor-managed,>60%,Block
+Medium,Education,Unstructured,Cloud,12421,Moderate,Fast,99.99%,Low,GDPR,<10k,50000,Regional,Weekly,NFS,APAC-South,Transactional,20,Vendor-managed,10-30%,Object
+Small,Tech,Unstructured,Cloud,584,Low,Slow,99.00%,Low,GDPR,50k-100k,1000,Global,Monthly,NFS,US-West,Archive,5,Co-managed,30-60%,Object
+Medium,Healthcare,Semi-structured,Cloud,14169,High,Slow,99.90%,Low,PCI-DSS,<10k,50000,Global,Daily,Fibre Channel,EU-Central,Analytical,10,Co-managed,30-60%,Block
+Medium,Education,Structured,Hybrid,2777,Moderate,Moderate,99.99%,Medium,SOX,>100k,10000,Local,Weekly,NFS,EU-Central,Analytical,1,Co-managed,10-30%,File
+Small,Finance,Unstructured,On-Premise,11177,High,Slow,99.99%,Low,HIPAA,<10k,50000,Local,Real-time,iSCSI,US-East,Transactional,10,Co-managed,>60%,Object
+Medium,Healthcare,Semi-structured,Cloud,14590,Moderate,Slow,99.00%,Medium,HIPAA,50k-100k,50000,Regional,Weekly,Fibre Channel,US-East,Analytical,10,Co-managed,<10%,Object
+Enterprise,Finance,Unstructured,Hybrid,1482,Moderate,Fast,99.00%,Medium,GDPR,50k-100k,100,Global,Monthly,Fibre Channel,APAC-South,Transactional,10,Co-managed,<10%,Tiered
+Enterprise,Education,Unstructured,Hybrid,1690,High,Moderate,99.00%,Medium,SOX,10k-50k,1000,Local,Weekly,SMB,EU-Central,Analytical,20,Customer-managed,30-60%,Tiered
+Enterprise,Finance,Semi-structured,Cloud,6122,High,Moderate,99.99%,Low,HIPAA,10k-50k,1000,Global,Weekly,SMB,US-West,Archive,10,Co-managed,10-30%,Object
+Medium,Education,Structured,Cloud,15832,High,Fast,99.99%,Medium,PCI-DSS,10k-50k,10,Global,Daily,iSCSI,US-East,Transactional,10,Customer-managed,30-60%,Object
+Medium,Healthcare,Structured,Hybrid,7943,High,Fast,99.00%,Low,HIPAA,10k-50k,50000,Local,Monthly,iSCSI,US-East,Archive,20,Customer-managed,<10%,Tiered
+Enterprise,Tech,Unstructured,Cloud,1895,High,Moderate,99.99%,High,PCI-DSS,>100k,100,Global,Monthly,NFS,APAC-South,Transactional,5,Vendor-managed,>60%,File
+Enterprise,Education,Semi-structured,On-Premise,3306,Low,Fast,99.00%,Medium,SOX,10k-50k,50000,Global,Real-time,Fibre Channel,US-East,Transactional,5,Vendor-managed,<10%,Object
+Enterprise,Tech,Structured,Cloud,14086,Low,Slow,99.99%,High,SOX,50k-100k,10000,Local,Daily,NFS,US-West,Transactional,10,Customer-managed,>60%,Object
+Medium,Tech,Semi-structured,Cloud,19743,High,Moderate,99.00%,Low,HIPAA,10k-50k,50000,Local,Real-time,Fibre Channel,US-West,Archive,20,Customer-managed,<10%,File
+Medium,Tech,Structured,On-Premise,14651,Moderate,Slow,99.90%,Low,SOX,50k-100k,10000,Global,Daily,iSCSI,EU-Central,Archive,5,Vendor-managed,>60%,Object
+Medium,Finance,Semi-structured,On-Premise,14212,High,Slow,99.90%,Low,SOX,>100k,50000,Local,Daily,Fibre Channel,US-West,Transactional,5,Vendor-managed,10-30%,Tiered
+Enterprise,Finance,Unstructured,Cloud,10470,Low,Moderate,99.90%,Medium,GDPR,50k-100k,10000,Local,Daily,SMB,US-East,Analytical,20,Customer-managed,30-60%,Tiered
+Small,Tech,Semi-structured,Cloud,187,Moderate,Moderate,99.99%,Low,SOX,>100k,50000,Local,Monthly,iSCSI,US-West,Analytical,1,Customer-managed,30-60%,Object
+Small,Retail,Unstructured,Cloud,19085,Moderate,Moderate,99.90%,High,PCI-DSS,10k-50k,10000,Regional,Daily,NFS,APAC-South,Archive,20,Customer-managed,>60%,Object
+Enterprise,Tech,Unstructured,On-Premise,19189,Moderate,Moderate,99.99%,Low,HIPAA,10k-50k,1000,Local,Monthly,iSCSI,APAC-South,Analytical,5,Vendor-managed,>60%,File
+Medium,Healthcare,Unstructured,Cloud,13141,High,Fast,99.99%,Medium,GDPR,50k-100k,10000,Local,Monthly,iSCSI,US-East,Transactional,20,Co-managed,>60%,Tiered
+Small,Tech,Unstructured,Cloud,19846,High,Moderate,99.00%,Medium,HIPAA,10k-50k,1000,Regional,Monthly,Fibre Channel,EU-Central,Archive,5,Co-managed,30-60%,File
+Enterprise,Education,Unstructured,Hybrid,19559,Moderate,Moderate,99.00%,High,HIPAA,<10k,50000,Local,Daily,NFS,EU-Central,Transactional,20,Customer-managed,10-30%,Block
+Medium,Finance,Structured,Cloud,8673,High,Slow,99.00%,High,HIPAA,>100k,50000,Regional,Daily,NFS,US-West,Archive,20,Co-managed,<10%,Tiered
+Enterprise,Tech,Unstructured,Cloud,8005,Low,Moderate,99.00%,Low,PCI-DSS,<10k,50000,Local,Weekly,SMB,US-East,Analytical,10,Co-managed,<10%,Tiered
+Enterprise,Education,Semi-structured,Hybrid,12238,Low,Moderate,99.99%,Low,HIPAA,<10k,10,Regional,Monthly,iSCSI,APAC-South,Archive,10,Vendor-managed,<10%,Tiered
+Enterprise,Tech,Unstructured,On-Premise,9958,High,Fast,99.99%,Low,GDPR,<10k,10,Local,Weekly,iSCSI,US-East,Transactional,1,Vendor-managed,10-30%,Object
+Enterprise,Tech,Structured,Hybrid,512,Moderate,Fast,99.99%,Low,HIPAA,<10k,50000,Local,Daily,iSCSI,US-East,Archive,20,Co-managed,>60%,Block
+Enterprise,Healthcare,Semi-structured,On-Premise,12906,High,Slow,99.99%,High,GDPR,>100k,50000,Regional,Real-time,NFS,US-West,Transactional,10,Vendor-managed,30-60%,Block
+Enterprise,Tech,Structured,Cloud,7744,Low,Moderate,99.00%,Low,SOX,<10k,50000,Regional,Weekly,NFS,APAC-South,Analytical,20,Co-managed,>60%,Block
+Medium,Retail,Semi-structured,On-Premise,9441,Low,Slow,99.99%,Medium,GDPR,>100k,1000,Global,Weekly,SMB,APAC-South,Analytical,10,Customer-managed,10-30%,Object
+Small,Finance,Semi-structured,Cloud,7909,High,Slow,99.99%,High,SOX,>100k,1000,Local,Monthly,NFS,EU-Central,Archive,10,Customer-managed,<10%,Tiered
+Medium,Finance,Semi-structured,Cloud,2204,High,Slow,99.90%,High,GDPR,10k-50k,10000,Regional,Monthly,iSCSI,EU-Central,Archive,20,Customer-managed,30-60%,Object
+Small,Finance,Unstructured,Hybrid,4527,Moderate,Fast,99.99%,Medium,SOX,50k-100k,10,Regional,Daily,iSCSI,US-East,Transactional,5,Customer-managed,>60%,Block
+Small,Tech,Structured,On-Premise,11947,Low,Moderate,99.90%,Low,PCI-DSS,50k-100k,50000,Global,Monthly,iSCSI,US-West,Analytical,1,Co-managed,>60%,Block
+Medium,Education,Semi-structured,On-Premise,11156,Moderate,Slow,99.99%,Medium,HIPAA,50k-100k,50000,Regional,Weekly,NFS,APAC-South,Analytical,5,Customer-managed,30-60%,Tiered
+Medium,Finance,Unstructured,Cloud,13418,Moderate,Slow,99.99%,Low,PCI-DSS,10k-50k,100,Regional,Real-time,SMB,EU-Central,Analytical,10,Vendor-managed,<10%,File
+Medium,Education,Structured,Hybrid,1951,Low,Fast,99.00%,High,SOX,<10k,10000,Regional,Weekly,Fibre Channel,US-East,Analytical,5,Vendor-managed,10-30%,Object
+Medium,Retail,Unstructured,Hybrid,7465,Moderate,Slow,99.00%,Low,SOX,>100k,1000,Regional,Real-time,SMB,EU-Central,Analytical,20,Co-managed,<10%,File
+Enterprise,Education,Semi-structured,On-Premise,10086,Moderate,Slow,99.99%,Medium,SOX,50k-100k,10,Global,Real-time,NFS,US-West,Archive,10,Co-managed,>60%,File
+Small,Finance,Structured,On-Premise,5129,Low,Slow,99.00%,Low,HIPAA,>100k,100,Regional,Weekly,SMB,US-West,Transactional,20,Customer-managed,30-60%,Block
+Medium,Tech,Unstructured,Hybrid,2055,High,Slow,99.99%,Medium,HIPAA,>100k,50000,Local,Daily,NFS,US-West,Analytical,10,Vendor-managed,30-60%,Tiered
+Enterprise,Healthcare,Structured,On-Premise,7972,Low,Moderate,99.90%,Low,PCI-DSS,50k-100k,100,Regional,Monthly,NFS,US-East,Archive,20,Vendor-managed,10-30%,Block
+Small,Finance,Unstructured,Hybrid,10735,Moderate,Fast,99.00%,Medium,PCI-DSS,>100k,100,Local,Monthly,Fibre Channel,US-West,Transactional,5,Co-managed,10-30%,File
+Small,Healthcare,Semi-structured,On-Premise,16082,Low,Moderate,99.90%,Medium,SOX,50k-100k,50000,Global,Weekly,SMB,US-West,Transactional,20,Vendor-managed,<10%,File
+Medium,Education,Structured,Hybrid,18497,Low,Moderate,99.99%,Medium,GDPR,<10k,100,Global,Monthly,Fibre Channel,APAC-South,Transactional,10,Co-managed,<10%,Object
+Small,Tech,Structured,Cloud,14511,Moderate,Slow,99.00%,High,SOX,50k-100k,10,Global,Weekly,SMB,US-East,Transactional,5,Customer-managed,10-30%,Object
+Small,Retail,Unstructured,On-Premise,8102,Low,Slow,99.00%,Low,GDPR,10k-50k,100,Regional,Monthly,Fibre Channel,EU-Central,Transactional,5,Customer-managed,>60%,File
+Medium,Tech,Unstructured,Hybrid,17866,High,Fast,99.99%,High,PCI-DSS,50k-100k,10,Regional,Daily,iSCSI,EU-Central,Transactional,5,Co-managed,>60%,Block
+Enterprise,Healthcare,Structured,On-Premise,1080,High,Slow,99.00%,Low,SOX,<10k,1000,Regional,Daily,Fibre Channel,US-West,Analytical,5,Customer-managed,>60%,Tiered
+Small,Education,Unstructured,Cloud,14176,Low,Slow,99.00%,Low,PCI-DSS,<10k,1000,Regional,Real-time,iSCSI,US-East,Transactional,20,Co-managed,10-30%,Block
+Medium,Education,Unstructured,Hybrid,16070,High,Fast,99.90%,Low,HIPAA,50k-100k,10000,Global,Daily,SMB,EU-Central,Analytical,1,Vendor-managed,>60%,Object
+Small,Tech,Semi-structured,Cloud,4800,High,Moderate,99.99%,High,GDPR,10k-50k,50000,Local,Real-time,Fibre Channel,EU-Central,Archive,5,Vendor-managed,>60%,File
+Enterprise,Tech,Unstructured,On-Premise,14580,High,Fast,99.00%,High,PCI-DSS,>100k,50000,Regional,Weekly,SMB,APAC-South,Analytical,20,Vendor-managed,>60%,Tiered
+Medium,Healthcare,Structured,Hybrid,402,Low,Fast,99.99%,High,HIPAA,<10k,10,Regional,Daily,iSCSI,EU-Central,Archive,1,Vendor-managed,<10%,File
+Medium,Retail,Structured,Hybrid,18405,Low,Moderate,99.99%,Low,HIPAA,10k-50k,1000,Local,Monthly,NFS,EU-Central,Transactional,10,Co-managed,30-60%,File
+Small,Retail,Semi-structured,On-Premise,1710,Low,Slow,99.00%,Medium,SOX,>100k,10000,Regional,Weekly,Fibre Channel,US-East,Analytical,5,Co-managed,30-60%,Tiered
+Small,Finance,Unstructured,On-Premise,14073,High,Slow,99.00%,Medium,HIPAA,50k-100k,50000,Global,Real-time,iSCSI,APAC-South,Archive,1,Customer-managed,<10%,Tiered
+Small,Finance,Semi-structured,Hybrid,16930,Moderate,Slow,99.99%,Medium,SOX,50k-100k,10,Local,Real-time,SMB,US-West,Transactional,5,Vendor-managed,10-30%,Tiered
+Medium,Education,Unstructured,Hybrid,965,Low,Fast,99.90%,Medium,HIPAA,10k-50k,10,Regional,Monthly,NFS,EU-Central,Archive,5,Co-managed,10-30%,File
+Enterprise,Retail,Unstructured,Cloud,16747,Moderate,Slow,99.99%,High,HIPAA,<10k,50000,Regional,Real-time,Fibre Channel,APAC-South,Transactional,10,Customer-managed,10-30%,Block
+Medium,Healthcare,Unstructured,On-Premise,1341,Low,Slow,99.99%,High,SOX,<10k,10,Regional,Weekly,iSCSI,US-East,Transactional,1,Customer-managed,10-30%,Block
+Medium,Tech,Semi-structured,Cloud,16125,High,Moderate,99.00%,High,PCI-DSS,10k-50k,10000,Global,Weekly,iSCSI,US-East,Transactional,5,Vendor-managed,10-30%,Block
+Small,Tech,Structured,On-Premise,11081,High,Moderate,99.99%,Medium,GDPR,50k-100k,10000,Regional,Daily,Fibre Channel,US-East,Analytical,10,Customer-managed,30-60%,Object
+Medium,Education,Unstructured,Cloud,14815,Moderate,Fast,99.00%,Medium,HIPAA,50k-100k,100,Local,Daily,iSCSI,US-West,Archive,1,Co-managed,10-30%,File
+Small,Tech,Structured,Cloud,12269,Low,Fast,99.90%,Low,PCI-DSS,<10k,1000,Global,Weekly,iSCSI,US-West,Transactional,1,Vendor-managed,10-30%,Tiered
+Small,Education,Structured,Hybrid,3164,Low,Fast,99.00%,Medium,HIPAA,>100k,50000,Regional,Daily,iSCSI,EU-Central,Archive,10,Co-managed,>60%,Object
+Enterprise,Healthcare,Unstructured,Hybrid,13340,Low,Slow,99.00%,High,SOX,>100k,10,Global,Daily,SMB,APAC-South,Analytical,20,Customer-managed,30-60%,Block
+Medium,Retail,Structured,On-Premise,15784,Low,Slow,99.00%,High,HIPAA,10k-50k,10,Regional,Daily,Fibre Channel,EU-Central,Archive,1,Vendor-managed,10-30%,File
+Enterprise,Healthcare,Structured,On-Premise,9968,High,Slow,99.90%,High,HIPAA,10k-50k,10000,Regional,Weekly,iSCSI,US-West,Transactional,5,Co-managed,10-30%,Block
+Medium,Healthcare,Structured,Hybrid,9859,Moderate,Slow,99.99%,High,GDPR,10k-50k,10,Local,Real-time,SMB,EU-Central,Transactional,20,Co-managed,>60%,Block
+Small,Retail,Semi-structured,Hybrid,9303,Low,Fast,99.00%,High,GDPR,10k-50k,100,Regional,Weekly,Fibre Channel,US-West,Archive,10,Co-managed,>60%,Block
+Enterprise,Healthcare,Unstructured,Hybrid,11651,High,Moderate,99.90%,High,GDPR,50k-100k,10,Local,Weekly,Fibre Channel,APAC-South,Archive,1,Co-managed,>60%,File
+Small,Finance,Structured,On-Premise,13558,High,Fast,99.90%,High,GDPR,10k-50k,50000,Regional,Weekly,iSCSI,US-West,Archive,20,Vendor-managed,10-30%,Object
+Enterprise,Healthcare,Semi-structured,On-Premise,18136,High,Slow,99.90%,High,SOX,>100k,10,Regional,Real-time,NFS,APAC-South,Archive,20,Co-managed,<10%,File
+Enterprise,Retail,Unstructured,Hybrid,732,Moderate,Slow,99.00%,High,PCI-DSS,50k-100k,10000,Regional,Monthly,Fibre Channel,US-East,Analytical,5,Vendor-managed,<10%,File
+Small,Healthcare,Unstructured,On-Premise,14460,Low,Moderate,99.99%,Medium,SOX,<10k,50000,Global,Monthly,SMB,US-West,Transactional,5,Co-managed,<10%,Tiered
+Small,Retail,Semi-structured,On-Premise,11922,Moderate,Moderate,99.99%,Low,SOX,>100k,50000,Global,Monthly,SMB,APAC-South,Analytical,1,Co-managed,>60%,File
+Small,Retail,Unstructured,On-Premise,13457,Low,Fast,99.99%,Low,PCI-DSS,>100k,10000,Local,Real-time,SMB,EU-Central,Analytical,1,Co-managed,10-30%,Block
+Enterprise,Retail,Unstructured,On-Premise,1600,High,Moderate,99.90%,High,HIPAA,<10k,100,Global,Daily,SMB,APAC-South,Archive,1,Vendor-managed,<10%,File
+Enterprise,Retail,Unstructured,On-Premise,15920,High,Moderate,99.99%,High,GDPR,50k-100k,1000,Regional,Daily,NFS,US-East,Archive,1,Vendor-managed,<10%,File
+Small,Healthcare,Unstructured,Cloud,16785,Moderate,Fast,99.90%,Low,SOX,<10k,10,Regional,Real-time,NFS,US-West,Archive,10,Customer-managed,<10%,Tiered
+Enterprise,Finance,Structured,On-Premise,19077,Moderate,Slow,99.99%,Low,SOX,50k-100k,100,Regional,Real-time,iSCSI,US-East,Analytical,10,Co-managed,10-30%,Block
+Medium,Tech,Structured,On-Premise,281,Low,Moderate,99.99%,High,PCI-DSS,10k-50k,10000,Regional,Weekly,Fibre Channel,US-West,Analytical,10,Customer-managed,>60%,File
+Medium,Retail,Semi-structured,On-Premise,4880,Low,Moderate,99.99%,Low,PCI-DSS,>100k,10000,Global,Weekly,Fibre Channel,US-West,Transactional,5,Vendor-managed,30-60%,Tiered
+Small,Finance,Unstructured,On-Premise,6181,Moderate,Fast,99.99%,High,GDPR,<10k,100,Global,Real-time,NFS,APAC-South,Archive,10,Co-managed,30-60%,Object
+Enterprise,Healthcare,Structured,Hybrid,16750,High,Fast,99.99%,High,PCI-DSS,10k-50k,1000,Regional,Monthly,SMB,US-West,Analytical,20,Customer-managed,<10%,Block
+Medium,Retail,Unstructured,Cloud,12679,High,Moderate,99.99%,Medium,PCI-DSS,50k-100k,10000,Global,Daily,NFS,APAC-South,Archive,20,Customer-managed,>60%,File
+Medium,Retail,Unstructured,On-Premise,3796,Low,Moderate,99.99%,Low,GDPR,<10k,10,Global,Monthly,SMB,APAC-South,Analytical,1,Co-managed,>60%,Block
+Medium,Tech,Unstructured,On-Premise,15833,Low,Fast,99.00%,Low,PCI-DSS,>100k,1000,Global,Daily,NFS,US-West,Archive,1,Customer-managed,10-30%,Block
+Small,Healthcare,Semi-structured,On-Premise,6657,High,Fast,99.00%,Medium,HIPAA,<10k,1000,Regional,Daily,iSCSI,APAC-South,Analytical,20,Customer-managed,<10%,Object
+Enterprise,Tech,Structured,Cloud,12862,Low,Moderate,99.00%,High,GDPR,50k-100k,50000,Local,Daily,NFS,EU-Central,Analytical,20,Co-managed,10-30%,Block
+Small,Finance,Semi-structured,On-Premise,16503,Low,Moderate,99.99%,Medium,SOX,>100k,10,Local,Daily,SMB,APAC-South,Transactional,20,Vendor-managed,>60%,Object
+Small,Education,Unstructured,On-Premise,588,Low,Slow,99.90%,Medium,HIPAA,50k-100k,100,Global,Real-time,SMB,APAC-South,Transactional,5,Vendor-managed,10-30%,Block
+Medium,Healthcare,Semi-structured,Hybrid,10330,High,Fast,99.90%,Medium,HIPAA,>100k,1000,Local,Daily,iSCSI,US-West,Archive,5,Vendor-managed,>60%,Block
+Medium,Finance,Unstructured,Hybrid,18502,High,Fast,99.90%,Low,PCI-DSS,>100k,10000,Local,Monthly,iSCSI,APAC-South,Transactional,1,Co-managed,30-60%,Object
+Medium,Healthcare,Unstructured,Cloud,11774,Low,Fast,99.90%,Medium,PCI-DSS,10k-50k,50000,Global,Monthly,SMB,EU-Central,Analytical,10,Co-managed,10-30%,Object
+Medium,Tech,Unstructured,Cloud,11160,Low,Fast,99.90%,Low,PCI-DSS,50k-100k,10,Regional,Daily,iSCSI,US-West,Analytical,5,Co-managed,10-30%,File
+Enterprise,Tech,Unstructured,Hybrid,336,High,Slow,99.99%,Low,GDPR,<10k,1000,Global,Real-time,SMB,US-West,Analytical,20,Customer-managed,30-60%,Tiered
+Medium,Finance,Unstructured,Cloud,17046,Low,Slow,99.99%,Medium,HIPAA,>100k,10000,Local,Weekly,SMB,US-West,Transactional,5,Vendor-managed,<10%,Tiered
+Medium,Education,Semi-structured,On-Premise,19252,Low,Slow,99.99%,High,GDPR,10k-50k,10000,Regional,Monthly,NFS,EU-Central,Analytical,20,Customer-managed,>60%,Block
+Small,Finance,Semi-structured,On-Premise,12337,High,Moderate,99.90%,High,PCI-DSS,>100k,10000,Global,Daily,iSCSI,APAC-South,Archive,10,Co-managed,10-30%,Object
+Medium,Healthcare,Structured,On-Premise,10203,Moderate,Slow,99.00%,Low,PCI-DSS,10k-50k,10000,Regional,Monthly,SMB,EU-Central,Archive,20,Vendor-managed,>60%,Tiered
+Small,Finance,Unstructured,Hybrid,14427,High,Slow,99.99%,High,PCI-DSS,10k-50k,50000,Local,Weekly,Fibre Channel,US-West,Analytical,5,Customer-managed,30-60%,Tiered
+Small,Finance,Structured,On-Premise,11419,Moderate,Slow,99.90%,Medium,PCI-DSS,>100k,1000,Regional,Weekly,Fibre Channel,EU-Central,Analytical,20,Customer-managed,<10%,File
+Medium,Finance,Structured,Hybrid,7267,High,Slow,99.00%,Medium,PCI-DSS,<10k,10000,Regional,Monthly,Fibre Channel,US-East,Transactional,20,Co-managed,10-30%,Tiered
+Enterprise,Education,Structured,On-Premise,7842,Low,Slow,99.99%,Medium,PCI-DSS,>100k,1000,Local,Monthly,Fibre Channel,US-East,Archive,20,Co-managed,30-60%,Object
+Small,Education,Structured,Hybrid,9182,Moderate,Fast,99.99%,Medium,GDPR,10k-50k,100,Global,Daily,Fibre Channel,EU-Central,Transactional,5,Vendor-managed,>60%,Tiered
+Medium,Healthcare,Semi-structured,Cloud,9609,High,Slow,99.99%,High,GDPR,10k-50k,100,Global,Monthly,Fibre Channel,US-East,Archive,1,Customer-managed,10-30%,Object
+Enterprise,Education,Unstructured,On-Premise,149,Low,Slow,99.99%,High,GDPR,<10k,10,Regional,Monthly,SMB,EU-Central,Archive,20,Customer-managed,>60%,Tiered
+Enterprise,Finance,Semi-structured,On-Premise,10814,Low,Moderate,99.90%,High,GDPR,>100k,10000,Local,Monthly,NFS,US-West,Analytical,10,Customer-managed,>60%,Object
+Enterprise,Retail,Structured,Cloud,2238,Moderate,Slow,99.99%,Medium,SOX,>100k,1000,Local,Daily,iSCSI,US-East,Archive,20,Customer-managed,<10%,Object
+Medium,Retail,Unstructured,On-Premise,3264,Moderate,Fast,99.00%,Low,PCI-DSS,<10k,50000,Regional,Weekly,Fibre Channel,US-West,Transactional,5,Co-managed,>60%,Object
+Medium,Retail,Structured,On-Premise,8111,Low,Moderate,99.99%,Medium,PCI-DSS,<10k,10000,Global,Weekly,SMB,US-West,Archive,5,Customer-managed,30-60%,File
+Small,Education,Unstructured,On-Premise,8035,Moderate,Moderate,99.99%,Low,PCI-DSS,<10k,50000,Global,Real-time,Fibre Channel,US-East,Transactional,10,Customer-managed,<10%,Object
+Small,Healthcare,Structured,Cloud,12062,Low,Fast,99.99%,Medium,GDPR,>100k,100,Regional,Monthly,Fibre Channel,US-East,Analytical,5,Customer-managed,<10%,Object
+Small,Tech,Semi-structured,On-Premise,9656,Moderate,Fast,99.00%,High,HIPAA,>100k,100,Global,Weekly,NFS,US-West,Archive,5,Co-managed,10-30%,File
+Medium,Retail,Semi-structured,Cloud,1973,Moderate,Slow,99.99%,Low,HIPAA,<10k,1000,Global,Daily,SMB,APAC-South,Analytical,20,Customer-managed,30-60%,Object
+Medium,Healthcare,Unstructured,Cloud,11915,Low,Fast,99.90%,Low,PCI-DSS,50k-100k,100,Regional,Weekly,iSCSI,APAC-South,Transactional,5,Vendor-managed,<10%,Block
+Medium,Retail,Structured,On-Premise,17914,Low,Slow,99.90%,High,HIPAA,50k-100k,50000,Regional,Monthly,iSCSI,US-West,Transactional,1,Vendor-managed,>60%,File
+Enterprise,Healthcare,Structured,On-Premise,13000,High,Fast,99.99%,Low,SOX,50k-100k,100,Global,Daily,SMB,US-East,Archive,10,Co-managed,>60%,Object
+Enterprise,Healthcare,Semi-structured,Hybrid,15373,Low,Slow,99.90%,Low,SOX,<10k,10000,Local,Monthly,SMB,US-East,Analytical,1,Vendor-managed,<10%,File
+Enterprise,Education,Structured,Hybrid,5896,Low,Fast,99.90%,Medium,SOX,50k-100k,10000,Regional,Monthly,iSCSI,US-East,Analytical,5,Customer-managed,10-30%,Block
+Small,Retail,Semi-structured,Cloud,8101,Moderate,Fast,99.90%,High,GDPR,>100k,50000,Local,Monthly,iSCSI,US-East,Analytical,1,Co-managed,10-30%,Block
+Medium,Tech,Structured,Hybrid,8420,High,Slow,99.90%,Medium,GDPR,>100k,1000,Regional,Daily,iSCSI,US-East,Transactional,1,Customer-managed,30-60%,Object
+Enterprise,Retail,Structured,Cloud,15817,High,Fast,99.90%,High,PCI-DSS,50k-100k,10,Regional,Monthly,SMB,APAC-South,Archive,20,Customer-managed,<10%,Block
+Small,Tech,Unstructured,Cloud,2090,Moderate,Slow,99.00%,Medium,SOX,10k-50k,10000,Local,Weekly,iSCSI,US-East,Analytical,20,Vendor-managed,10-30%,Object
+Medium,Retail,Structured,Hybrid,18966,Low,Fast,99.90%,Low,HIPAA,50k-100k,10000,Global,Weekly,Fibre Channel,US-East,Analytical,1,Customer-managed,<10%,Tiered
+Small,Healthcare,Unstructured,Cloud,3289,High,Slow,99.00%,Low,PCI-DSS,50k-100k,10,Local,Real-time,NFS,EU-Central,Transactional,5,Vendor-managed,10-30%,Object
+Enterprise,Healthcare,Semi-structured,On-Premise,4033,High,Moderate,99.90%,Medium,HIPAA,>100k,1000,Global,Real-time,SMB,US-East,Analytical,5,Vendor-managed,<10%,Tiered
+Enterprise,Education,Unstructured,On-Premise,4449,High,Moderate,99.99%,High,HIPAA,10k-50k,10000,Local,Real-time,SMB,US-West,Archive,1,Customer-managed,30-60%,Block
+Enterprise,Tech,Semi-structured,Hybrid,17198,High,Fast,99.90%,High,PCI-DSS,>100k,1000,Global,Daily,NFS,US-West,Analytical,20,Vendor-managed,<10%,File
+Medium,Retail,Unstructured,Hybrid,10357,Moderate,Moderate,99.99%,Medium,GDPR,50k-100k,1000,Global,Daily,NFS,EU-Central,Analytical,10,Customer-managed,>60%,Block
+Small,Tech,Semi-structured,Hybrid,13804,Moderate,Fast,99.99%,Medium,PCI-DSS,10k-50k,100,Regional,Monthly,SMB,US-West,Transactional,20,Customer-managed,30-60%,Object
+Medium,Tech,Unstructured,Hybrid,531,Low,Fast,99.90%,Medium,SOX,10k-50k,1000,Local,Real-time,NFS,APAC-South,Archive,20,Customer-managed,<10%,Tiered
+Small,Finance,Unstructured,Cloud,15683,High,Moderate,99.90%,Low,HIPAA,10k-50k,100,Regional,Daily,Fibre Channel,US-East,Analytical,5,Co-managed,10-30%,File
+Small,Finance,Semi-structured,On-Premise,11056,High,Slow,99.90%,High,PCI-DSS,10k-50k,50000,Global,Monthly,Fibre Channel,APAC-South,Transactional,10,Customer-managed,>60%,File
+Small,Education,Structured,Cloud,19566,Low,Fast,99.00%,Medium,SOX,10k-50k,50000,Regional,Real-time,iSCSI,EU-Central,Archive,20,Vendor-managed,30-60%,Block
+Small,Healthcare,Semi-structured,On-Premise,1837,Moderate,Slow,99.00%,High,PCI-DSS,50k-100k,100,Global,Real-time,iSCSI,US-East,Archive,10,Customer-managed,>60%,Block
+Enterprise,Finance,Unstructured,Cloud,2315,High,Fast,99.00%,Low,SOX,>100k,1000,Global,Real-time,NFS,US-West,Transactional,10,Co-managed,30-60%,Block
+Medium,Education,Unstructured,Hybrid,18108,High,Moderate,99.99%,High,GDPR,<10k,10000,Global,Monthly,Fibre Channel,US-East,Analytical,20,Vendor-managed,30-60%,File
+Medium,Tech,Unstructured,Cloud,10073,Moderate,Moderate,99.99%,Low,HIPAA,<10k,1000,Local,Weekly,iSCSI,APAC-South,Analytical,10,Customer-managed,<10%,Tiered
+Small,Healthcare,Structured,Hybrid,7832,Low,Moderate,99.99%,Medium,SOX,>100k,10,Regional,Weekly,Fibre Channel,US-East,Archive,20,Customer-managed,10-30%,Object
+Medium,Tech,Structured,On-Premise,18131,Moderate,Moderate,99.99%,Medium,PCI-DSS,10k-50k,100,Regional,Monthly,iSCSI,APAC-South,Analytical,10,Customer-managed,<10%,Tiered
+Enterprise,Finance,Semi-structured,Cloud,15162,Low,Fast,99.99%,Medium,HIPAA,50k-100k,1000,Regional,Real-time,NFS,APAC-South,Analytical,10,Customer-managed,10-30%,Object
+Enterprise,Finance,Structured,Cloud,16147,Low,Slow,99.90%,Medium,PCI-DSS,10k-50k,100,Local,Monthly,NFS,APAC-South,Archive,1,Customer-managed,10-30%,File
+Medium,Retail,Structured,Cloud,9041,Moderate,Fast,99.99%,High,GDPR,10k-50k,10,Local,Weekly,NFS,EU-Central,Transactional,1,Vendor-managed,<10%,Tiered
+Small,Finance,Unstructured,Hybrid,12777,Low,Moderate,99.00%,Low,HIPAA,>100k,10,Local,Weekly,iSCSI,US-West,Transactional,10,Co-managed,10-30%,Block
+Enterprise,Finance,Structured,On-Premise,14846,Moderate,Moderate,99.99%,Low,SOX,10k-50k,1000,Local,Weekly,NFS,US-East,Analytical,10,Customer-managed,>60%,Object
+Enterprise,Tech,Unstructured,On-Premise,13603,High,Moderate,99.99%,Medium,SOX,10k-50k,50000,Local,Monthly,iSCSI,APAC-South,Analytical,20,Vendor-managed,<10%,Object
+Enterprise,Finance,Structured,Hybrid,2508,High,Slow,99.99%,Low,SOX,>100k,100,Global,Monthly,Fibre Channel,EU-Central,Transactional,1,Co-managed,10-30%,File
+Medium,Finance,Structured,On-Premise,13973,High,Slow,99.99%,Medium,GDPR,50k-100k,100,Regional,Weekly,Fibre Channel,US-West,Analytical,1,Co-managed,<10%,Object
+Enterprise,Education,Unstructured,Cloud,5912,Moderate,Moderate,99.90%,Low,HIPAA,50k-100k,100,Global,Real-time,SMB,US-West,Analytical,10,Co-managed,>60%,File
+Medium,Healthcare,Unstructured,Hybrid,10477,Moderate,Slow,99.90%,High,SOX,10k-50k,1000,Local,Real-time,NFS,US-East,Analytical,1,Co-managed,>60%,Block
+Medium,Healthcare,Unstructured,On-Premise,12939,High,Moderate,99.00%,Low,GDPR,<10k,100,Global,Weekly,SMB,US-East,Analytical,10,Vendor-managed,30-60%,Object
+Enterprise,Education,Semi-structured,Cloud,15318,High,Slow,99.99%,High,HIPAA,50k-100k,100,Global,Monthly,SMB,US-West,Analytical,1,Vendor-managed,<10%,Tiered
+Medium,Retail,Unstructured,On-Premise,15558,Moderate,Moderate,99.99%,Medium,GDPR,10k-50k,50000,Regional,Weekly,Fibre Channel,APAC-South,Transactional,20,Co-managed,10-30%,Object
+Medium,Tech,Structured,Hybrid,4777,Moderate,Slow,99.90%,High,GDPR,50k-100k,1000,Local,Monthly,NFS,US-West,Archive,5,Customer-managed,>60%,Tiered
+Small,Retail,Structured,On-Premise,9435,High,Slow,99.00%,Medium,GDPR,>100k,50000,Regional,Monthly,SMB,EU-Central,Analytical,10,Vendor-managed,<10%,Block
+Enterprise,Tech,Unstructured,On-Premise,15598,Moderate,Slow,99.90%,Low,SOX,<10k,50000,Regional,Weekly,NFS,EU-Central,Transactional,10,Vendor-managed,>60%,Tiered
+Medium,Healthcare,Semi-structured,Cloud,7649,Low,Fast,99.99%,Medium,PCI-DSS,>100k,10000,Regional,Monthly,NFS,EU-Central,Analytical,10,Vendor-managed,>60%,Object
+Small,Finance,Structured,On-Premise,7796,Moderate,Moderate,99.00%,Medium,GDPR,50k-100k,1000,Local,Real-time,NFS,US-West,Archive,20,Vendor-managed,<10%,Tiered
+Small,Education,Unstructured,On-Premise,17446,High,Slow,99.99%,High,SOX,50k-100k,10000,Local,Daily,SMB,US-East,Analytical,1,Co-managed,>60%,Block
+Medium,Retail,Structured,Hybrid,17617,Low,Moderate,99.90%,Medium,HIPAA,10k-50k,100,Global,Weekly,NFS,APAC-South,Analytical,1,Vendor-managed,<10%,File
+Medium,Retail,Structured,Hybrid,12952,Moderate,Moderate,99.00%,Medium,HIPAA,<10k,50000,Regional,Daily,Fibre Channel,US-East,Analytical,1,Vendor-managed,30-60%,Block
+Medium,Finance,Semi-structured,Hybrid,13117,High,Fast,99.99%,Medium,HIPAA,50k-100k,100,Regional,Monthly,NFS,EU-Central,Transactional,1,Customer-managed,10-30%,Block
+Medium,Education,Semi-structured,Cloud,13061,Moderate,Slow,99.90%,High,SOX,50k-100k,10000,Local,Weekly,Fibre Channel,US-East,Transactional,5,Vendor-managed,30-60%,Tiered
+Enterprise,Tech,Structured,Cloud,18900,Low,Fast,99.90%,Medium,HIPAA,10k-50k,100,Regional,Real-time,Fibre Channel,US-East,Archive,20,Co-managed,<10%,File
+Small,Education,Unstructured,On-Premise,10574,Low,Moderate,99.00%,High,HIPAA,50k-100k,50000,Global,Monthly,Fibre Channel,US-West,Analytical,5,Vendor-managed,<10%,Tiered
+Enterprise,Retail,Structured,Cloud,12759,Moderate,Fast,99.00%,Medium,SOX,10k-50k,1000,Global,Daily,iSCSI,US-East,Analytical,20,Co-managed,10-30%,Object
+Small,Tech,Structured,Hybrid,16635,Low,Slow,99.00%,Medium,HIPAA,10k-50k,1000,Local,Daily,NFS,EU-Central,Archive,10,Co-managed,<10%,File
+Small,Education,Semi-structured,Hybrid,13955,Low,Slow,99.99%,High,HIPAA,50k-100k,10,Global,Weekly,NFS,APAC-South,Analytical,20,Vendor-managed,<10%,Object
+Medium,Retail,Unstructured,On-Premise,3739,Moderate,Slow,99.00%,High,GDPR,>100k,100,Global,Weekly,iSCSI,EU-Central,Analytical,1,Co-managed,10-30%,Object
+Medium,Education,Structured,On-Premise,4550,High,Moderate,99.90%,Medium,PCI-DSS,>100k,1000,Regional,Weekly,iSCSI,EU-Central,Transactional,10,Co-managed,>60%,File
+Small,Finance,Structured,On-Premise,17097,Low,Slow,99.90%,High,GDPR,10k-50k,100,Global,Weekly,SMB,EU-Central,Archive,10,Vendor-managed,30-60%,Object
+Medium,Education,Unstructured,Hybrid,2173,Low,Moderate,99.00%,Low,SOX,10k-50k,100,Global,Weekly,NFS,US-East,Analytical,5,Co-managed,10-30%,Object
+Medium,Education,Structured,On-Premise,3347,Low,Slow,99.99%,Low,GDPR,<10k,100,Regional,Daily,SMB,EU-Central,Transactional,20,Customer-managed,<10%,Block
+Enterprise,Retail,Structured,Hybrid,1012,Moderate,Slow,99.90%,Medium,HIPAA,10k-50k,10000,Local,Monthly,iSCSI,US-East,Transactional,1,Customer-managed,<10%,Block
+Enterprise,Healthcare,Unstructured,Cloud,1925,High,Moderate,99.99%,High,PCI-DSS,>100k,10000,Regional,Weekly,NFS,APAC-South,Archive,20,Vendor-managed,30-60%,Object
+Medium,Finance,Structured,Cloud,7120,High,Slow,99.90%,High,GDPR,>100k,100,Local,Monthly,SMB,US-East,Archive,1,Vendor-managed,<10%,Block
+Medium,Tech,Semi-structured,On-Premise,14362,Moderate,Slow,99.99%,Medium,PCI-DSS,<10k,10,Global,Monthly,SMB,EU-Central,Archive,5,Co-managed,<10%,Tiered
+Medium,Tech,Semi-structured,Cloud,10363,Low,Slow,99.00%,Medium,PCI-DSS,>100k,10000,Regional,Weekly,iSCSI,US-West,Transactional,1,Vendor-managed,30-60%,Tiered
+Medium,Finance,Structured,On-Premise,12044,Moderate,Fast,99.90%,Low,PCI-DSS,>100k,1000,Local,Real-time,Fibre Channel,US-East,Transactional,1,Customer-managed,10-30%,Object
+Medium,Tech,Semi-structured,Hybrid,6806,Low,Moderate,99.99%,Medium,GDPR,<10k,10000,Regional,Weekly,SMB,APAC-South,Archive,10,Customer-managed,30-60%,Tiered
+Medium,Healthcare,Structured,Cloud,10208,High,Slow,99.00%,Low,PCI-DSS,10k-50k,50000,Global,Monthly,Fibre Channel,US-East,Analytical,10,Vendor-managed,30-60%,Tiered
+Enterprise,Retail,Unstructured,On-Premise,761,Low,Slow,99.00%,Low,SOX,<10k,100,Global,Weekly,NFS,EU-Central,Archive,20,Customer-managed,<10%,File
+Small,Education,Unstructured,Hybrid,14592,High,Fast,99.99%,High,SOX,>100k,1000,Local,Monthly,NFS,US-East,Transactional,20,Customer-managed,>60%,Block
+Enterprise,Healthcare,Structured,On-Premise,12825,Moderate,Fast,99.00%,Low,SOX,<10k,1000,Global,Real-time,SMB,EU-Central,Transactional,5,Vendor-managed,<10%,Tiered
+Enterprise,Tech,Semi-structured,Cloud,11000,Low,Moderate,99.99%,Medium,PCI-DSS,10k-50k,100,Local,Daily,Fibre Channel,APAC-South,Archive,5,Co-managed,>60%,Block
+Medium,Education,Semi-structured,Hybrid,9707,Low,Moderate,99.90%,High,PCI-DSS,10k-50k,100,Local,Daily,NFS,EU-Central,Analytical,5,Vendor-managed,10-30%,Object
+Small,Finance,Structured,On-Premise,979,High,Fast,99.00%,High,SOX,<10k,1000,Regional,Daily,NFS,US-East,Transactional,20,Customer-managed,30-60%,File
+Medium,Tech,Semi-structured,Hybrid,18654,Low,Slow,99.90%,Low,HIPAA,10k-50k,50000,Local,Weekly,SMB,US-East,Transactional,1,Vendor-managed,30-60%,File
+Medium,Finance,Structured,Cloud,806,Low,Fast,99.00%,Medium,HIPAA,50k-100k,100,Global,Daily,SMB,EU-Central,Analytical,5,Customer-managed,<10%,File
+Medium,Tech,Structured,Cloud,4343,Moderate,Moderate,99.00%,High,HIPAA,>100k,10000,Global,Monthly,NFS,APAC-South,Archive,5,Customer-managed,30-60%,Object
+Enterprise,Healthcare,Unstructured,On-Premise,6609,Moderate,Fast,99.00%,High,SOX,<10k,1000,Local,Daily,NFS,EU-Central,Transactional,10,Co-managed,<10%,Block
+Small,Healthcare,Structured,On-Premise,3014,Low,Fast,99.90%,High,HIPAA,50k-100k,1000,Regional,Daily,NFS,EU-Central,Archive,5,Co-managed,>60%,File
+Medium,Healthcare,Structured,Cloud,15958,Moderate,Moderate,99.99%,Low,PCI-DSS,50k-100k,50000,Global,Daily,NFS,US-West,Archive,20,Vendor-managed,10-30%,Block
+Enterprise,Education,Semi-structured,Cloud,5437,Moderate,Moderate,99.00%,Low,HIPAA,50k-100k,10,Local,Real-time,SMB,EU-Central,Analytical,10,Customer-managed,10-30%,Tiered
+Enterprise,Healthcare,Unstructured,Hybrid,1161,Low,Moderate,99.00%,Medium,SOX,10k-50k,10,Regional,Real-time,Fibre Channel,EU-Central,Archive,20,Vendor-managed,10-30%,File
+Small,Retail,Unstructured,On-Premise,8739,Moderate,Slow,99.99%,High,HIPAA,50k-100k,50000,Regional,Daily,SMB,US-East,Analytical,1,Vendor-managed,>60%,Block
+Medium,Tech,Unstructured,Hybrid,15960,High,Slow,99.00%,Medium,GDPR,50k-100k,50000,Global,Daily,Fibre Channel,APAC-South,Transactional,5,Co-managed,>60%,Block
+Small,Education,Unstructured,On-Premise,16420,High,Slow,99.00%,Medium,PCI-DSS,<10k,10,Local,Real-time,NFS,US-East,Archive,1,Customer-managed,>60%,Object
+Small,Tech,Structured,On-Premise,14896,Low,Slow,99.00%,Low,PCI-DSS,10k-50k,100,Regional,Real-time,NFS,EU-Central,Transactional,1,Vendor-managed,<10%,Object
+Small,Healthcare,Semi-structured,Hybrid,1018,Low,Fast,99.90%,Low,PCI-DSS,<10k,50000,Global,Weekly,iSCSI,EU-Central,Archive,5,Customer-managed,<10%,Tiered
+Enterprise,Education,Unstructured,Hybrid,8916,Moderate,Moderate,99.90%,Low,PCI-DSS,>100k,10000,Regional,Monthly,NFS,US-West,Transactional,1,Customer-managed,10-30%,Tiered
+Medium,Tech,Structured,Hybrid,16075,Low,Fast,99.99%,Low,HIPAA,10k-50k,1000,Global,Monthly,iSCSI,APAC-South,Transactional,1,Co-managed,<10%,Tiered
+Enterprise,Tech,Unstructured,Hybrid,1433,Moderate,Slow,99.99%,High,PCI-DSS,50k-100k,1000,Local,Daily,SMB,US-East,Analytical,5,Co-managed,10-30%,Block
+Enterprise,Retail,Unstructured,Hybrid,13344,Moderate,Slow,99.00%,Medium,SOX,>100k,10000,Regional,Weekly,Fibre Channel,US-West,Analytical,20,Co-managed,>60%,File
+Enterprise,Tech,Unstructured,On-Premise,13863,Low,Fast,99.99%,Medium,SOX,50k-100k,100,Global,Weekly,Fibre Channel,APAC-South,Analytical,10,Vendor-managed,30-60%,Object
+Medium,Retail,Semi-structured,On-Premise,4537,Low,Moderate,99.90%,Low,PCI-DSS,<10k,1000,Global,Weekly,Fibre Channel,US-West,Archive,10,Co-managed,10-30%,Tiered
+Medium,Education,Unstructured,Cloud,19144,Low,Slow,99.99%,High,PCI-DSS,10k-50k,10,Local,Weekly,SMB,US-East,Analytical,1,Co-managed,10-30%,Object
+Small,Retail,Structured,Cloud,12027,Moderate,Moderate,99.99%,High,PCI-DSS,50k-100k,10000,Local,Weekly,iSCSI,US-West,Analytical,1,Customer-managed,>60%,Block
+Medium,Education,Structured,Cloud,10310,Low,Slow,99.00%,High,SOX,50k-100k,10,Regional,Daily,Fibre Channel,APAC-South,Archive,1,Vendor-managed,30-60%,File
+Small,Tech,Structured,Cloud,17362,Low,Slow,99.00%,High,SOX,10k-50k,100,Local,Monthly,iSCSI,APAC-South,Analytical,20,Vendor-managed,30-60%,Object
+Enterprise,Healthcare,Structured,On-Premise,4276,Low,Fast,99.00%,High,HIPAA,50k-100k,10,Regional,Weekly,SMB,US-East,Archive,10,Vendor-managed,10-30%,Object
+Enterprise,Education,Structured,On-Premise,14760,Moderate,Fast,99.90%,Low,PCI-DSS,<10k,10,Regional,Monthly,SMB,US-East,Archive,5,Co-managed,>60%,Block
+Small,Education,Unstructured,Cloud,16880,Moderate,Moderate,99.99%,Medium,PCI-DSS,50k-100k,100,Regional,Daily,Fibre Channel,APAC-South,Archive,10,Co-managed,10-30%,Object
+Enterprise,Finance,Unstructured,Cloud,14321,Moderate,Fast,99.99%,Medium,HIPAA,<10k,1000,Global,Real-time,SMB,US-West,Transactional,1,Customer-managed,<10%,Tiered
+Small,Healthcare,Unstructured,Cloud,11199,Low,Fast,99.99%,Low,PCI-DSS,<10k,1000,Local,Daily,NFS,APAC-South,Transactional,10,Customer-managed,30-60%,Tiered
+Enterprise,Retail,Unstructured,On-Premise,11304,Low,Fast,99.00%,High,GDPR,10k-50k,1000,Global,Monthly,NFS,APAC-South,Transactional,10,Co-managed,>60%,Object
+Enterprise,Education,Structured,Hybrid,11745,Moderate,Slow,99.99%,Medium,HIPAA,10k-50k,10000,Regional,Monthly,NFS,US-West,Analytical,5,Vendor-managed,<10%,Object
+Enterprise,Retail,Semi-structured,Cloud,10646,Low,Fast,99.99%,Medium,SOX,<10k,1000,Global,Monthly,Fibre Channel,EU-Central,Transactional,5,Vendor-managed,<10%,Block
+Small,Healthcare,Semi-structured,Hybrid,4870,Low,Slow,99.99%,High,SOX,10k-50k,10000,Global,Monthly,Fibre Channel,APAC-South,Transactional,5,Customer-managed,>60%,File
+Small,Finance,Structured,Hybrid,6010,High,Fast,99.00%,High,SOX,<10k,100,Local,Monthly,SMB,EU-Central,Archive,10,Vendor-managed,10-30%,File
+Enterprise,Education,Structured,Hybrid,7080,Moderate,Moderate,99.90%,Medium,GDPR,50k-100k,1000,Local,Real-time,iSCSI,US-East,Transactional,20,Vendor-managed,30-60%,Object
+Enterprise,Retail,Semi-structured,Cloud,11049,Moderate,Fast,99.90%,Medium,HIPAA,>100k,10000,Global,Daily,NFS,US-East,Analytical,1,Customer-managed,30-60%,Object
+Enterprise,Finance,Semi-structured,On-Premise,13214,High,Fast,99.00%,Medium,GDPR,10k-50k,50000,Local,Real-time,SMB,APAC-South,Archive,5,Customer-managed,<10%,Tiered
+Small,Retail,Unstructured,On-Premise,10137,Moderate,Fast,99.99%,Low,PCI-DSS,50k-100k,10000,Local,Monthly,SMB,US-West,Analytical,1,Customer-managed,10-30%,Tiered
+Enterprise,Healthcare,Unstructured,On-Premise,2057,Moderate,Slow,99.00%,Low,PCI-DSS,<10k,10000,Local,Monthly,Fibre Channel,APAC-South,Analytical,10,Vendor-managed,<10%,File
+Medium,Finance,Semi-structured,Cloud,14380,Low,Moderate,99.00%,Low,SOX,>100k,50000,Regional,Weekly,iSCSI,US-West,Transactional,10,Vendor-managed,>60%,Block
+Enterprise,Healthcare,Unstructured,On-Premise,15892,Moderate,Fast,99.99%,Medium,GDPR,10k-50k,10000,Global,Weekly,iSCSI,US-West,Analytical,1,Co-managed,30-60%,File
+Small,Retail,Unstructured,Hybrid,15074,Low,Slow,99.99%,Medium,SOX,10k-50k,100,Global,Monthly,SMB,EU-Central,Archive,10,Customer-managed,30-60%,Tiered
+Enterprise,Healthcare,Semi-structured,Cloud,17078,High,Fast,99.00%,Medium,GDPR,>100k,1000,Regional,Weekly,Fibre Channel,APAC-South,Analytical,10,Customer-managed,10-30%,Tiered
+Enterprise,Healthcare,Semi-structured,Cloud,16090,High,Fast,99.99%,Low,HIPAA,<10k,10000,Global,Monthly,NFS,US-East,Transactional,10,Co-managed,30-60%,Tiered
+Enterprise,Tech,Structured,Cloud,5775,Moderate,Slow,99.00%,High,PCI-DSS,10k-50k,10000,Regional,Daily,NFS,APAC-South,Analytical,5,Co-managed,<10%,Object
+Enterprise,Healthcare,Structured,On-Premise,4101,High,Moderate,99.99%,Low,SOX,10k-50k,10,Regional,Weekly,iSCSI,EU-Central,Analytical,1,Customer-managed,>60%,Object
+Small,Finance,Unstructured,Hybrid,2906,Low,Moderate,99.00%,Medium,GDPR,10k-50k,100,Local,Daily,Fibre Channel,APAC-South,Transactional,1,Co-managed,30-60%,Tiered
+Enterprise,Tech,Semi-structured,On-Premise,605,High,Moderate,99.00%,Low,SOX,50k-100k,50000,Global,Monthly,SMB,EU-Central,Transactional,20,Vendor-managed,30-60%,Object
+Medium,Finance,Semi-structured,Hybrid,18483,Low,Moderate,99.00%,Medium,GDPR,10k-50k,50000,Local,Weekly,Fibre Channel,EU-Central,Archive,20,Vendor-managed,<10%,Tiered
+Medium,Healthcare,Semi-structured,Hybrid,18562,Moderate,Fast,99.90%,Low,GDPR,<10k,50000,Local,Weekly,SMB,US-West,Transactional,10,Vendor-managed,30-60%,Tiered
+Enterprise,Finance,Structured,On-Premise,1031,Low,Moderate,99.00%,High,PCI-DSS,>100k,10,Local,Weekly,iSCSI,US-West,Transactional,5,Vendor-managed,30-60%,Tiered
+Medium,Tech,Semi-structured,Cloud,17609,Low,Fast,99.90%,High,GDPR,<10k,50000,Regional,Real-time,iSCSI,EU-Central,Archive,1,Vendor-managed,10-30%,Block
+Medium,Finance,Unstructured,On-Premise,13724,High,Moderate,99.99%,Medium,GDPR,>100k,10,Regional,Weekly,NFS,US-West,Archive,10,Vendor-managed,10-30%,Object
+Small,Finance,Structured,Cloud,15068,Moderate,Slow,99.90%,Low,GDPR,<10k,50000,Global,Real-time,Fibre Channel,US-West,Analytical,5,Customer-managed,>60%,Block
+Small,Healthcare,Semi-structured,Cloud,11135,High,Fast,99.00%,Low,HIPAA,10k-50k,10,Global,Monthly,NFS,US-East,Archive,5,Customer-managed,>60%,Object
+Medium,Retail,Structured,Hybrid,1650,Moderate,Slow,99.99%,Medium,SOX,50k-100k,1000,Local,Real-time,Fibre Channel,US-East,Transactional,1,Customer-managed,<10%,Object
+Enterprise,Healthcare,Structured,On-Premise,15365,High,Moderate,99.99%,High,PCI-DSS,<10k,1000,Global,Monthly,SMB,US-West,Analytical,10,Co-managed,30-60%,Object
+Small,Tech,Semi-structured,Hybrid,15125,High,Slow,99.99%,Medium,GDPR,>100k,100,Regional,Monthly,Fibre Channel,APAC-South,Archive,10,Vendor-managed,30-60%,Object
+Small,Healthcare,Semi-structured,Cloud,6854,Moderate,Fast,99.99%,High,SOX,>100k,100,Local,Monthly,NFS,APAC-South,Analytical,1,Customer-managed,30-60%,Block
+Small,Tech,Structured,On-Premise,10465,Low,Fast,99.99%,Low,GDPR,50k-100k,10,Global,Real-time,SMB,US-West,Analytical,1,Customer-managed,>60%,Object
+Enterprise,Healthcare,Structured,On-Premise,18381,Low,Fast,99.99%,Medium,HIPAA,<10k,10000,Local,Monthly,Fibre Channel,EU-Central,Analytical,10,Co-managed,10-30%,Block
+Medium,Education,Semi-structured,On-Premise,19957,Low,Slow,99.00%,Medium,GDPR,50k-100k,10000,Local,Daily,NFS,APAC-South,Transactional,5,Vendor-managed,<10%,Object
+Small,Tech,Structured,Cloud,4992,High,Slow,99.99%,High,SOX,<10k,10000,Local,Daily,Fibre Channel,EU-Central,Transactional,10,Customer-managed,10-30%,Block
+Small,Finance,Structured,On-Premise,7516,High,Slow,99.90%,Low,GDPR,<10k,100,Regional,Weekly,iSCSI,EU-Central,Archive,20,Customer-managed,>60%,Object
+Small,Finance,Semi-structured,On-Premise,3937,Low,Moderate,99.90%,High,GDPR,10k-50k,50000,Local,Monthly,NFS,APAC-South,Transactional,10,Customer-managed,<10%,Object
+Small,Finance,Semi-structured,On-Premise,16284,High,Slow,99.90%,Low,SOX,<10k,50000,Regional,Monthly,SMB,EU-Central,Archive,1,Co-managed,10-30%,Block
+Enterprise,Education,Semi-structured,Hybrid,19729,High,Fast,99.99%,Low,SOX,>100k,10,Regional,Weekly,NFS,EU-Central,Archive,5,Vendor-managed,<10%,Block
+Small,Retail,Semi-structured,Cloud,14248,High,Slow,99.99%,High,GDPR,>100k,10,Local,Monthly,SMB,APAC-South,Archive,1,Customer-managed,<10%,Object
+Small,Finance,Semi-structured,Cloud,12000,Moderate,Slow,99.99%,Medium,PCI-DSS,10k-50k,10000,Local,Monthly,NFS,APAC-South,Analytical,1,Vendor-managed,<10%,Tiered
+Small,Education,Unstructured,On-Premise,5520,High,Fast,99.00%,Low,PCI-DSS,<10k,10,Local,Weekly,Fibre Channel,EU-Central,Analytical,5,Customer-managed,>60%,Object
+Medium,Education,Structured,Cloud,10022,High,Moderate,99.90%,Medium,GDPR,10k-50k,50000,Local,Weekly,Fibre Channel,US-West,Analytical,1,Customer-managed,10-30%,Block
+Medium,Healthcare,Semi-structured,On-Premise,11364,Low,Fast,99.90%,Low,SOX,>100k,100,Local,Monthly,NFS,APAC-South,Transactional,20,Co-managed,30-60%,Block
+Medium,Retail,Unstructured,Cloud,8526,High,Slow,99.00%,Low,GDPR,50k-100k,10,Local,Weekly,iSCSI,US-East,Transactional,20,Customer-managed,30-60%,Object
+Enterprise,Finance,Structured,Hybrid,2842,High,Moderate,99.00%,Medium,PCI-DSS,>100k,10000,Local,Real-time,NFS,APAC-South,Archive,1,Co-managed,>60%,Tiered
+Enterprise,Tech,Semi-structured,Cloud,9247,Moderate,Moderate,99.90%,High,SOX,10k-50k,10,Global,Real-time,SMB,APAC-South,Analytical,1,Customer-managed,30-60%,Block
+Medium,Healthcare,Structured,Cloud,4495,Moderate,Slow,99.99%,High,GDPR,10k-50k,1000,Regional,Monthly,NFS,US-West,Archive,1,Vendor-managed,>60%,File
+Medium,Retail,Unstructured,On-Premise,13285,Low,Slow,99.90%,High,GDPR,50k-100k,1000,Global,Weekly,SMB,EU-Central,Transactional,10,Vendor-managed,30-60%,File
+Medium,Retail,Unstructured,Cloud,19934,High,Slow,99.90%,High,PCI-DSS,50k-100k,100,Local,Monthly,SMB,APAC-South,Analytical,20,Co-managed,30-60%,File
+Medium,Education,Semi-structured,On-Premise,13105,High,Moderate,99.90%,High,SOX,>100k,100,Regional,Monthly,NFS,US-West,Archive,5,Customer-managed,>60%,Block

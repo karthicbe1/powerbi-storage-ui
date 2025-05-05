@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Predictions Dashboard</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+
+  <!-- CSS Libraries -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css" rel="stylesheet">
+  <link href="https://cdn.datatables.net/responsive/2.5.0/css/responsive.dataTables.min.css" rel="stylesheet">
+
+  <style>
+    body {
+      font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
+      padding: 30px;
+      background: linear-gradient(to right, #e9eff5, #f8f9fa);
+      transition: background 0.3s ease, color 0.3s ease;
+    }
+
+    .container {
+      background: #ffffff;
+      padding: 25px;
+      border-radius: 12px;
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+      transition: background 0.3s ease, color 0.3s ease;
+    }
+
+    h2 {
+      font-weight: 600;
+      margin-bottom: 30px;
+    }
+
+    body.dark-mode {
+      background: #1e1e2f;
+      color: #f0f0f0;
+    }
+
+    body.dark-mode .container {
+      background: #2c2c3e;
+      color: #f0f0f0;
+    }
+
+    body.dark-mode .btn-outline-secondary {
+      color: #f0f0f0;
+      border-color: #aaa;
+    }
+
+    table.dataTable {
+      width: 100% !important;
+      border-collapse: collapse;
+      table-layout: auto;
+      white-space: nowrap;
+    }
+
+    .dataTables_wrapper {
+      overflow-x: auto;
+    }
+
+    table.dataTable th,
+    table.dataTable td {
+      padding: 12px 8px;
+      vertical-align: middle;
+    }
+
+    table.dataTable tbody tr:nth-child(even) {
+      background-color: #f2f2f2;
+    }
+
+    table.dataTable th {
+      background-color: #e1e1e1;
+    }
+
+    body.dark-mode table.dataTable tbody tr:nth-child(even) {
+      background-color: #3a3a50;
+    }
+
+    body.dark-mode table.dataTable tbody tr:nth-child(odd) {
+      background-color: #2e2e45;
+    }
+
+    body.dark-mode table.dataTable {
+      border-color: #444;
+    }
+
+    body.dark-mode table.dataTable th {
+      background-color: #44445e;
+      color: #ffffff;
+    }
+    th.highlight-prediction {
+    background-color: #14532d !important;
+  }
+
+  td.predicted-storage {
+    background-color: #fff2cc !important;
+    font-weight: bold;
+  }
+
+  table.dataTable tbody td.predicted-storage {
+    background-color: #fff2cc !important;
+  }
+  
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2 class="text-center">Predicted Recommended Storage Viewer</h2>
+
+    <div class="d-flex justify-content-end mb-3">
+      <button id="modeToggle" class="btn btn-outline-secondary btn-sm">Toggle Dark Mode</button>
+    </div>
+
+    <div class="mb-4">
+      <label class="form-label">Upload your <code>Storage_Template.csv</code> file:</label>
+      <input type="file" id="newDataInput" accept=".csv" class="form-control">
+    </div>
+
+    <table id="resultTable" class="table table-bordered display nowrap" style="width:100%">
+      <thead></thead>
+      <tbody></tbody>
+    </table>
+  </div>
+
+  <!-- JS Libraries -->
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
+  <script src="https://cdn.datatables.net/responsive/2.5.0/js/dataTables.responsive.min.js"></script>
+
+  <script>
+    let predictionColumn = [];
+
+    async function loadPredictions() {
+      try {
+        const response = await fetch('scored_predictions_RandomForest.csv');
+        const text = await response.text();
+        const rows = text.trim().split('\n').map(row => row.split(','));
+
+        const header = rows[0];
+        const predIdx = header.indexOf("Predicted_Recommended_Storage");
+
+        if (predIdx === -1) {
+          alert("Column 'Predicted_Recommended_Storage' not found in predictions.");
+          return;
+        }
+
+        predictionColumn = rows.slice(1).map(row => row[predIdx]);
+        console.log("Loaded predictions:", predictionColumn.length, "rows");
+      } catch (err) {
+        alert("Failed to load prediction file.");
+        console.error(err);
+      }
+    }
+
+    function parseCSV(file, callback) {
+      const reader = new FileReader();
+      reader.onload = function (e) {
+        const text = e.target.result.trim();
+        const rows = text.split('\n').map(row => row.split(','));
+        callback(rows);
+      };
+      reader.readAsText(file);
+    }
+
+    function displayTable(newDataRows) {
+  if (!Array.isArray(newDataRows) || newDataRows.length === 0) {
+    alert("Uploaded file appears to be empty or invalid.");
+    return;
+  }
+
+  const headers = [...newDataRows[0], "Predicted_Recommended_Storage"];
+  const data = newDataRows.slice(1).map((row, i) => {
+    const paddedRow = [...row];
+    while (paddedRow.length < newDataRows[0].length) paddedRow.push(""); // Ensure full row
+    return [...paddedRow, predictionColumn[i] || ""];
+  });
+
+  if ($.fn.DataTable.isDataTable("#resultTable")) {
+    $("#resultTable").DataTable().clear().destroy();
+  }
+
+  $("#resultTable thead").empty().append("<tr>" +
+  headers.map(h => {
+    if (h === "Predicted_Recommended_Storage") {
+      return `<th class="highlight-prediction">${h}</th>`;
+    }
+    return `<th>${h}</th>`;
+  }).join('') + "</tr>");
+
+ $("#resultTable tbody").empty().append(
+  data.map(row => {
+    return "<tr>" + row.map((cell, colIndex) => {
+      const isPredictionCol = headers[colIndex] === "Predicted_Recommended_Storage";
+      const tdClass = isPredictionCol ? ' class="predicted-storage"' : "";
+      return `<td${tdClass}>${cell}</td>`;
+    }).join('') + "</tr>";
+  }).join('')
+);
+
+  $("#resultTable").DataTable({
+  responsive: {
+    details: {
+      type: 'column',
+      target: 'tr'
+    }
+  },
+  scrollX: true,
+  columnDefs: [
+    {
+      targets: -1, // The last column is the prediction
+      className: 'predicted-storage',
+      responsivePriority: 1 // Ensure it stays visible
+    }
+  ],
+  createdRow: function(row, data, dataIndex) {
+    const colIndex = data.length - 1;
+    $('td', row).eq(colIndex).addClass('predicted-storage');
+  }
+});
+
+  console.log("New data loaded:", data.length, "rows");
+}
+
+    $("#newDataInput").on("change", function () {
+      const file = this.files[0];
+      if (!file) {
+        alert("No file selected.");
+        return;
+      }
+
+      parseCSV(file, newData => {
+        if (!predictionColumn.length) {
+          alert("Prediction data is not yet loaded.");
+          return;
+        }
+        console.log("Parsed uploaded CSV:", newData);
+        displayTable(newData);
+      });
+    });
+
+    loadPredictions();
+
+    // Dark mode toggle logic
+    function applyTheme(mode) {
+      document.body.classList.toggle('dark-mode', mode === 'dark');
+      localStorage.setItem('theme', mode);
+    }
+
+    document.getElementById('modeToggle').addEventListener('click', () => {
+      const currentMode = document.body.classList.contains('dark-mode') ? 'light' : 'dark';
+      applyTheme(currentMode);
+    });
+
+    window.addEventListener('DOMContentLoaded', () => {
+      const savedTheme = localStorage.getItem('theme') || 'light';
+      applyTheme(savedTheme);
+    });
+  </script>
+</body>
+</html>
